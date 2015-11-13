@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+<title>Parkoo</title>
+</head>
+<body ng-app="parkoo" ng-controller="NavController as navi">
+
+<div>
+	<a href ng-click="toggle = !toggle"><h1>=</h1></a>
+	<ul ng-show="toggle">
+		<li><a id="Home" ng-click="navi.selectTab(1)">Home</a></li>
+		<li><a id="About" ng-click="navi.selectTab(2)">About</a></li>
+		<li><a id="Contact" ng-click="navi.selectTab(3)">Contact</a></li>
+	</ul>
+</div>
+<section ng-controller="ListController as list">
+	<div ng-show="navi.isSelected(1)" >
+	  I found {{park.detail.length}} parks. Narrow the search:
+	  <input style="width:80%;" class="form-control" type="search" ng-model="q" placeholder="filter parks..." />
+	  <ul>
+		<li ng-repeat="item in park.detail | filter:q as results">
+		  <a ng-click="navi.selectTab(4)" <span style="font-size:1.5em;" >{{item.parkName}}</span></a><br> Located at {{item.streetAddress}} in {{item.city}}, {{item.zipCode}}. <hr/>
+		</li>
+		<li ng-if="results.length == 0">
+		  <h3>No results found...</h3>
+		</li>
+	  </ul>
+	  
+	</div>
+    <div ng-show="navi.isSelected(4)"> 
+	  <!--Needs to collect the information from the parkId being passed in order to display it on the screen.-->
+	  <h1>{{park.detail.parkName}}</h1>
+	  
+	  <a ng-click="navi.selectTab(1)">Back to Search</a>
+    </div>
+</section>
+
+<div ng-show="navi.isSelected(2)">
+<!--MUST SET PROPERTY VALUE TO TAB2-->
+<h1>ABOUT</h1>
+<p>THIS needs to be hidden initially because we don't want to see it until we click the nav menu which hides the other two tabs</p>
+<h1>ABOUT</h1>
+</div>
+<div ng-show="navi.isSelected(3)">
+<h1>CONTAACT</h1>
+<p>THIS needs to be hidden initially because we don't want to see it until we click the nav menu which hides the other two tabs</p>
+<h1>CONTAACT</h1>
+<!--MUST SET PROPERTY VALUE TO TAB3-->
+</div>
+
+</body>
+</html>
+
