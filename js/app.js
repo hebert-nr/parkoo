@@ -1,8 +1,9 @@
 (function(){
 	var app = angular.module('parkoo', [ ]);
 	
-	app.controller('ListController', ['$scope', function($scope) {
+	app.controller('ListController', ['$scope', '$http', function($scope) {
 		//this is where we will populate our list for search functionality using data.json
+		
 		$scope.park = {};
 		$scope.park.detail =[
 		
@@ -1889,16 +1890,19 @@
 }
 ];
 
-	
-
+		$scope.parkIndex = function(i){
+			$scope.parkDetail=$scope.park.detail[i];
+		};
 
 	$scope.save = function () { sessionStorage['SearchItem'] = JSON.stringify($scope.query); };
             $scope.getSettings = function () {
                 if (sessionStorage['SearchItem'] != null) { $scope.query = JSON.parse(sessionStorage['SearchItem']); }
                 if (sessionStorage['SearchItem'] == null) { $scope.query = {  "SearchItem": Park }; $scope.save(); }
                 
-            };
+            };	
 	}]);
+		
+		
 		
 		
 	app.controller('NavController', function(){
@@ -1911,6 +1915,7 @@
 		this.isSelected= function(checkTab){
 			return this.tab === checkTab;
 		};
-	});
 		
+
+	});		
 })();

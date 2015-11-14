@@ -9,7 +9,6 @@
 <title>Parkoo</title>
 </head>
 <body ng-app="parkoo" ng-controller="NavController as navi">
-
 <div>
 	<a href ng-click="toggle = !toggle"><h1>=</h1></a>
 	<ul ng-show="toggle">
@@ -18,13 +17,15 @@
 		<li><a id="Contact" ng-click="navi.selectTab(3)">Contact</a></li>
 	</ul>
 </div>
+
+
 <section ng-controller="ListController as list">
 	<div ng-show="navi.isSelected(1)" >
 	  I found {{park.detail.length}} parks. Narrow the search:
-	  <input style="width:80%;" class="form-control" type="search" ng-model="q" placeholder="filter parks..." />
+	  <input class="form-control" type="search" ng-model="q" placeholder="filter parks..." />
 	  <ul>
 		<li ng-repeat="item in park.detail | filter:q as results">
-		  <a ng-click="navi.selectTab(4)" <span style="font-size:1.5em;" >{{item.parkName}}</span></a><br> Located at {{item.streetAddress}} in {{item.city}}, {{item.zipCode}}. <hr/>
+		  <a ng-click="parkIndex($index); navi.selectTab(4)" <span style="font-size:1.5em;" >{{item.parkName}}</span></a><br> Located at {{item.streetAddress}} in {{item.city}}, {{item.zipCode}}. <hr/>
 		</li>
 		<li ng-if="results.length == 0">
 		  <h3>No results found...</h3>
@@ -32,16 +33,16 @@
 	  </ul>
 	  
 	</div>
-    <div ng-show="navi.isSelected(4)"> 
-	  <!--Needs to collect the information from the parkId being passed in order to display it on the screen.-->
-	  <h1>{{park.detail.parkName}}</h1>
+    <div ng-show="navi.isSelected(4)" > 
 	  
-	  <a ng-click="navi.selectTab(1)">Back to Search</a>
+	  <h2>{{parkDetail.parkName}}</h2>
+	  <span> {{parkDetail.streetAddress}}, {{parkDetail.city}} <br/><h4> This park includes: {{parkDetail.feature}}.</h4></span>
+	  <p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
     </div>
 </section>
 
 <div ng-show="navi.isSelected(2)">
-<!--MUST SET PROPERTY VALUE TO TAB2-->
+
 <h1>ABOUT</h1>
 <p>THIS needs to be hidden initially because we don't want to see it until we click the nav menu which hides the other two tabs</p>
 <h1>ABOUT</h1>
@@ -50,7 +51,7 @@
 <h1>CONTAACT</h1>
 <p>THIS needs to be hidden initially because we don't want to see it until we click the nav menu which hides the other two tabs</p>
 <h1>CONTAACT</h1>
-<!--MUST SET PROPERTY VALUE TO TAB3-->
+
 </div>
 
 </body>
