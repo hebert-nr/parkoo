@@ -14,7 +14,7 @@
 
    
 	<name>Parkoo</name>
-	<content src="parkoo.html"/>  
+	<content src="index.html"/>  
 	<!-- <icon src="images/Parkolo_icon.png" gap:platform="winphone" />
 	<icon src="images/Parkolo_icon.png" gap:platform="winphone" gap:role="background" />
 	<icon src="images/Parkolo_icon.png" gap:platform="android" gap:qualifier="ldpi" />
