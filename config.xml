@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+
+	xmlns:gap   = "http://phonegap.com/ns/1.0"
+	id          = "com.phonegap.parkoo"
+	version     = "0.8"
+	versionCode = "10" >
+
+	<preference name="phonegap-version" value="cli-5.2.0" />
+
+	<preference name="AutoHideSplashScreen" value="true" />
+	<preference name="SplashScreenDelay" value="3000" />
+	<preference name="Orientation" value="portrait" />	
+
+   
+	<name>Parkoo</name>
+	<content src="parkoo.html"/>  
+	<!-- <icon src="images/Parkolo_icon.png" gap:platform="winphone" />
+	<icon src="images/Parkolo_icon.png" gap:platform="winphone" gap:role="background" />
+	<icon src="images/Parkolo_icon.png" gap:platform="android" gap:qualifier="ldpi" />
+	<icon src="images/Parkolo_icon.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="images/Parkolo_icon.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="images/Parkolo_icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="images/Parkolo_icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<icon src="images/Parkolo_icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
+	<gap:splash src="images/parkolo_splash.jpg" gap:platform="winphone" />
+	<gap:splash src="images/parkolo_splash.png" gap:platform="android" gap:qualifier="ldpi" />
+	<gap:splash src="images/parkolo_splash.png" gap:platform="android" gap:qualifier="mdpi" />
+	<gap:splash src="images/parkolo_splash.png" gap:platform="android" gap:qualifier="hdpi" />
+	<gap:splash src="images/parkolo_splash.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<gap:splash src="images/parkolo_splash.png" gap:platform="android" gap:qualifier="fr-xhdpi" />
+	<gap:splash src="images/parkolo_splash.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
+	<gap:splash src="parkolo_landscape.png" gap:platform="android" gap:qualifier="land-xxhdpi" /> -->
+
+	<description>
+		A way to search for new parks to take your kids, your dog or your own inner child to.  Database expansion to come. 
+	</description>
+
+	<author email="sodajrrk@gmail.com">
+		Noah Hebert
+	</author>
+	<gap:plugin name="org.apache.cordova.device" />
+	
+
+</widget>
