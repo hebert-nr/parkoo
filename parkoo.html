@@ -21,11 +21,12 @@
 
 <section ng-controller="ListController as list">
 	<div ng-show="navi.isSelected(1)" >
-	  I found {{park.detail.length}} parks. Narrow the search:
+	  I found {{results.length}} parks. Narrow the search:
 	  <input class="form-control" type="search" ng-model="q" placeholder="filter parks..." />
 	  <ul>
-		<li ng-repeat="item in park.detail | filter:q as results">
-		  <a ng-click="parkIndex($index); navi.selectTab(4)" <span style="font-size:1.5em;" >{{item.parkName}}</span></a><br> Located at {{item.streetAddress}} in {{item.city}}, {{item.zipCode}}. <hr/>
+		<li ng-repeat="item in data | filter:q as results ">
+		  <a ng-click="parkIndex(item); navi.selectTab(4)" <span style="font-size:1.5em;" >{{item.parkName}}</span></a>
+		  <br> Located at {{item.streetAddress}} in {{item.city}}, {{item.zipCode}}. <hr/>
 		</li>
 		<li ng-if="results.length == 0">
 		  <h3>No results found...</h3>
