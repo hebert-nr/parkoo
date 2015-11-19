@@ -3,7 +3,7 @@
 
 	xmlns:gap   = "http://phonegap.com/ns/1.0"
 	id          = "com.phonegap.parkoo"
-	version     = "0.8"
+	version     = "0.8.4"
 	versionCode = "10" >
 
 	<preference name="phonegap-version" value="cli-5.2.0" />

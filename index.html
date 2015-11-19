@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="shortcut icon" href="favIcon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 <script type="text/javascript" src="js/angular.min.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 
@@ -12,7 +13,7 @@
 
 <!--STEP 1: ASK WHAT STATE AND SORT BY STATE, STEP 2: ASK COUNTY AND SORT BY COUNTY THEN ENABLE FREEDOM TO SEARCH -->
 
-<div class="navbar">
+<div id="ham">
 	<a href ng-click="toggle = !toggle"><img src="images/hamenu.png" /></a>
 	<ul ng-show="toggle">
 		<li><a id="Home" ng-click="navi.selectTab(1)">Home</a></li>
@@ -21,29 +22,46 @@
 	</ul>
 </div>
 
-
-<section ng-controller="ListController as list">
-	<div ng-show="navi.isSelected(1)" >
-	  I found {{results.length}} parks. Narrow the search:
-	  <input class="form-control" type="search" ng-model="q" placeholder="filter parks..." />
-	  <ul>
-		<li ng-repeat="item in data | filter:q as results ">
-		  <a ng-click="parkIndex(item); navi.selectTab(4)" <span style="font-size:1.5em;" >{{item.parkName}}</span></a>
-		  <br> Located at {{item.streetAddress}} in {{item.city}}, {{item.zipCode}}.<hr/>
-		</li>
-		<li ng-if="results.length == 0">
-		  <h3>No results found...</h3>
-		</li>
-	  </ul>
-	  
+<div id="wrapper">
+	<div id="head">
+		<img src="images/Parkolo_logo2.png" alt="Park Finder" title="Parkolo!"></img>
 	</div>
-    <div ng-show="navi.isSelected(4)" > 
-	  
-	  <h2>{{parkDetail.parkName}}</h2>
-	  <span> {{parkDetail.streetAddress}}, {{parkDetail.city}} <br/><h4> This park includes: {{parkDetail.feature}}.</h4></span>
-	  <p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
-    </div>
-</section>
+
+	<div class="banner">
+			<img src="images/lake_Rainbow.jpg" alt="Park Finder" title="Parkolo!"> </img>
+	</div>
+	
+	<h1 class="centerSay">... find something new and beautiful...</h1>
+
+	<div class="searching">
+		<section ng-controller="ListController as list">
+			<div ng-show="navi.isSelected(1)">
+				<div id="search">
+					<label>I found <b>{{results.length}}</b> parks. Narrow the search: </label>
+					<input class="form-control" ng-model="q" placeholder="filter parks..." />
+				</div>
+				  
+				  
+				<ul class="parksList">
+					<li ng-repeat="item in data | filter:q as results" >
+						<a id="paLi" ng-click="parkIndex(item); navi.selectTab(4)" />
+							<div>
+								<h2>{{item.parkName}}</h2>
+								<span> Located at {{item.streetAddress}} in {{item.city}}, {{item.zipCode}}.</span>
+								<hr />
+							</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div ng-show="navi.isSelected(4)" class="parkinfo"> 
+			  
+			  <h2>{{parkDetail.parkName}}</h2>
+			  <span> {{parkDetail.streetAddress}}, {{parkDetail.city}} <br/><h4> This park includes: {{parkDetail.feature}}.</h4></span>
+			  <p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
+			</div>
+		</section>
+	</div>
 
 <div ng-show="navi.isSelected(2)">
 
@@ -62,8 +80,26 @@
 
 </div>
 
+	<footer>
+		<div class="section">
+			<img class="swing" src="images/treeswing.png"></img> 
+		</div>
+		<div class="section">
+		<br />
+		<h3>&#169; 2015 Parkolo</h3>
+		</div>
+		<div class="section">
+			<p>Connect with us</p>
+			<ul>
+				<li><a href="#"><img src="images/fbtap.png"</img></a></li>
+				<li><a href="#"><img src="images/instatap.png"</img></a></li>
+				<li><a href="#"><img src="images/pintap.png"</img></a></li>
+			</ul>
+		</div>
+		
+	</footer>
 
-
+</div>
 </body>
 </html>
 

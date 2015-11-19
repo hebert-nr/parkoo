@@ -4,7 +4,8 @@
 	app.controller('ListController', ['$scope', '$http', function($scope, $http) {
 		//this is where we will populate our list for search functionality using data.json
 		$http.get('js/data1.json').success(function(park){
-		 $scope.data = park;		
+		 $scope.data = park;
+		 $scope.parkOrder = 'parkName';
 		});
 
 		//transfers ALL data onto detail page (needs to be modified to return FILTERED data.)

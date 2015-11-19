@@ -187,6 +187,67 @@ td,
 th {
   padding: 0;
 }
+
+.parksList {
+  
+  background:#d3e1cf;
+  color: #005406;
+  width: 100%;
+  opacity: .95;
+  z-index: 20;
+}
+
+.parksList ul {
+  margin: 1px;
+  padding: 0;
+  background: #d0e1cf;
+}
+
+.parksList h2, h3, h4{
+ padding:4px;
+ margin:0;
+}
+
+.parksList li {
+  color:#333;
+  font-family: Verdana;
+  text-align:center;
+  margin: 0;
+  padding: 6px 0 15px 0; 
+  opacity: .9;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.parksList #paLi {
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	color: #005406;
+}
+
+.parksList a {
+  padding: 3px;
+  text-decoration: none;
+
+}
+
+.parksList a:hover {
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+}
+
+
+.park:last-child {
+  border-bottom: 2px solid lime;
+  border-radius:0 0 20px 20px;
+  padding-bottom: 25px;
+}
+
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -4541,7 +4602,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: #;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
@@ -4555,8 +4616,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-text {
   color: #777;
 }
-.navbar-default .navbar-nav > li > a {
-  color: #777;
+.navbar-default > li > a {
+  color: white;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
