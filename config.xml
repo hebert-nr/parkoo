@@ -14,7 +14,7 @@
 
    
 	<name>Parkoo</name>
-	<content src="index.html"/>  
+	<content src="parkoo.html"/>  
 	<!-- <icon src="images/Parkolo_icon.png" gap:platform="winphone" />
 	<icon src="images/Parkolo_icon.png" gap:platform="winphone" gap:role="background" />
 	<icon src="images/Parkolo_icon.png" gap:platform="android" gap:qualifier="ldpi" />
@@ -32,6 +32,8 @@
 	<gap:splash src="images/parkolo_splash.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
 	<gap:splash src="parkolo_landscape.png" gap:platform="android" gap:qualifier="land-xxhdpi" /> -->
 
+	<!-- Credit for the treeswing silhouette: http://www.tenstickers.co.uk/wall-stickers/img/preview/tree-swing-mac-sticker-2576.png -->
+	
 	<description>
 		A way to search for new parks to take your kids, your dog or your own inner child to.  Database expansion to come. 
 	</description>
