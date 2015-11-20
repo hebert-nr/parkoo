@@ -3,18 +3,17 @@
 
 	xmlns:gap   = "http://phonegap.com/ns/1.0"
 	id          = "com.phonegap.parkoo"
-	version     = "0.8.4"
+	version     = "0.8.5"
 	versionCode = "10" >
 
 	<preference name="phonegap-version" value="cli-5.2.0" />
 
-	<preference name="AutoHideSplashScreen" value="true" />
-	<preference name="SplashScreenDelay" value="3000" />
 	<preference name="Orientation" value="portrait" />	
 
    
 	<name>Parkoo</name>
 	<content src="parkoo.html"/>  
+	<platform name="ios|winphone|wp8|android" />
 	<!-- <icon src="images/Parkolo_icon.png" gap:platform="winphone" />
 	<icon src="images/Parkolo_icon.png" gap:platform="winphone" gap:role="background" />
 	<icon src="images/Parkolo_icon.png" gap:platform="android" gap:qualifier="ldpi" />
