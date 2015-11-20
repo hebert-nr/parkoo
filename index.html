@@ -56,9 +56,9 @@
 			
 			<div ng-show="navi.isSelected(4)" class="parkinfo"> 
 			  
-			  <h2>{{parkDetail.parkName}}</h2>
-			  <span> {{parkDetail.streetAddress}}, {{parkDetail.city}} <br/><h4> This park includes: {{parkDetail.feature}}.</h4></span>
-			  <p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
+				<h2><a ng-click="navi.selectTab(1)">{{parkDetail.parkName}}</a></h2>
+				<p id="deets"><a ng-click="navi.selectTab(1)"> {{parkDetail.streetAddress}}, {{parkDetail.city}}</p> <br/><h4> This park includes: {{parkDetail.feature}}.</h4></a>
+				<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
 		</section>
 	</div>

@@ -21,7 +21,6 @@
             };	
 	}]);	
 		
-		
 	app.controller('NavController', function(){
 		this.tab = 1;
 		
