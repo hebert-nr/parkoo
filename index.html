@@ -57,7 +57,7 @@
 			<div ng-show="navi.isSelected(4)" class="parkinfo"> 
 			  
 			  <h2><a ng-click="navi.selectTab(4)"> {{parkDetail.parkName}}</a></h2> 	
-			  <p><a ng-href="www.google.com/maps/@{{parkDetail.latitude}},{{parkDetail.longitude}},17z">{{parkDetail.streetAddress}}, {{parkDetail.city}}</a> <br/><h4> This park includes: {{parkDetail.feature}}.</h4></p>
+			  <p><a ng-href="geo:{{parkDetail.latitude}},{{parkDetail.longitude}},17z">{{parkDetail.streetAddress}}, {{parkDetail.city}}</a> <br/><h4> This park includes: {{parkDetail.feature}}.</h4></p>
 			  <p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
 		</section>

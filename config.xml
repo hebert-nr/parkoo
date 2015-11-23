@@ -3,7 +3,7 @@
 
 	xmlns:gap   = "http://phonegap.com/ns/1.0"
 	id          = "com.phonegap.parkoo"
-	version     = "0.8.14"
+	version     = "0.8.4"
 	versionCode = "10" >
 
 	<preference name="phonegap-version" value="cli-5.2.0" />
@@ -12,8 +12,10 @@
 
    
 	<name>Parkoo</name>
-	<content src="index.html"/>  
-	
+	<content src="parkoo.html"/>  
+
+	<access origin="http://maps.google.com" />
+	<access origin="geo:*" launch-external="yes"/>
 	<!-- Credit for the treeswing silhouette: http://www.tenstickers.co.uk/wall-stickers/img/preview/tree-swing-mac-sticker-2576.png -->
 	
 	<description>
@@ -23,7 +25,7 @@
 	<author email="sodajrrk@gmail.com">
 		Noah Hebert
 	</author>
-	
+
 	
 
 </widget>

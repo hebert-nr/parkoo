@@ -21,6 +21,10 @@
             };	
 	}]);	
 		
+	
+	app.config(function($compileProvider ){
+		$compileProvider.aHrefSanitizationWhitelist(/^\s*(geo):/);
+	}); 	
 		
 	app.controller('NavController', function(){
 		this.tab = 1;
