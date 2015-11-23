@@ -23,7 +23,7 @@
 	<author email="sodajrrk@gmail.com">
 		Noah Hebert
 	</author>
-	<gap:plugin name="org.apache.cordova.device" />
+	
 	
 
 </widget>
