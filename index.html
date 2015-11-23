@@ -56,14 +56,14 @@
 			
 			<div ng-show="navi.isSelected(4)" class="parkinfo"> 
 			  
-				<h2><a ng-click="navi.selectTab(1)">{{parkDetail.parkName}}</a></h2>
-				<p id="deets"><a ng-click="navi.selectTab(1)"> {{parkDetail.streetAddress}}, {{parkDetail.city}}</p> <br/><h4> This park includes: {{parkDetail.feature}}.</h4></a>
-				<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
+			  <h2><a ng-click="navi.selectTab(4)"> {{parkDetail.parkName}}</a></h2> 	
+			  <p><a ng-href="www.google.com/maps/@{{parkDetail.latitude}},{{parkDetail.longitude}},17z">{{parkDetail.streetAddress}}, {{parkDetail.city}}</a> <br/><h4> This park includes: {{parkDetail.feature}}.</h4></p>
+			  <p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
 		</section>
 	</div>
 
-<div ng-show="navi.isSelected(2)" class="aboutMe">
+<div ng-show="navi.isSelected(2)">
 
 <!-- SET UP A FUNCTION WHERE IF isSelected == 2 or 3, the back button goes to isSelected(1) to return to basic search.-->
 
@@ -80,7 +80,7 @@
 
 </div>
 
-	<div class="footer">
+	<footer>
 		<div class="section">
 			<img class="swing" src="images/treeswing.png"></img> 
 		</div>

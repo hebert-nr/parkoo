@@ -1,7 +1,7 @@
 
 
 body{	
-	background:#fcfdf1;
+	background:#d0d4d2;
 	font-family:Century Gothic, sans-serif;
 	font-size: 18px;
 }
@@ -14,10 +14,6 @@ h1, h2, h3{
 p{
 	font-size:14px;
 }
-
-/*PPF VERSION*/
-@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900|Droid+Sans:400,700");
-
 
 b, u, i, center,
 dl, dt, dd, ol, ul, li{
@@ -65,7 +61,6 @@ ol, ul {
 	box-shadow: 0 0 10px rgba(12, 3, 25, 0.8);
 }
 
-
 #search {
   color: #111;
   width: 90%;
@@ -83,56 +78,6 @@ ol, ul {
   font-size: 2em;
 }
 
-.clearfix:before,
-.clearfix:after,
-.dl-horizontal dd:before,
-.dl-horizontal dd:after,
-.container:before,
-.container:after,
-.container-fluid:before,
-.container-fluid:after,
-.row:before,
-.row:after,
-.form-horizontal .form-group:before,
-.form-horizontal .form-group:after,
-.btn-toolbar:before,
-.btn-toolbar:after,
-.btn-group-vertical > .btn-group:before,
-.btn-group-vertical > .btn-group:after,
-.nav:before,
-.nav:after,
-.navbar:before,
-.navbar:after,
-.navbar-header:before,
-.navbar-header:after,
-.navbar-collapse:before,
-.navbar-collapse:after,
-.pager:before,
-.pager:after,
-.panel-body:before,
-.panel-body:after,
-.modal-footer:before,
-.modal-footer:after {
-  display: table;
-  content: " ";
-}
-.clearfix:after,
-.dl-horizontal dd:after,
-.container:after,
-.container-fluid:after,
-.row:after,
-.form-horizontal .form-group:after,
-.btn-toolbar:after,
-.btn-group-vertical > .btn-group:after,
-.nav:after,
-.navbar:after,
-.navbar-header:after,
-.navbar-collapse:after,
-.pager:after,
-.panel-body:after,
-.modal-footer:after {
-  clear: both;
-}
 
 #search input {
   font-family: 'Droid Sans', sans-serif;
@@ -197,21 +142,22 @@ ol, ul {
 }
 
 .parksList a {
-	text-decoration: none;
-	  cursor:pointer;	
   padding: 3px;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
-
-/* park details and more information or whatever */
-
+.parksList li:hover {
+  background: #6aba6f;
+  color: red;
+  opacity: 1;
+  border-radius: 8px;
+}
 
 .parkinfo {
-  cursor:pointer;	
   font-family: Century Gothic, sans-serif; 
+  font-size: 1.1em;
   background: #92A38F;
-  color: #fff;
+  color: #005406;
   padding: 20px 30px;
 }
 
@@ -222,19 +168,27 @@ ol, ul {
   text-shadow: 2px 2px 3px black;
 }
 
-#deets{
-	color:#fff;
-	text-shadow: 2px 2px 2px black;	
-}
-
 .parkinfo p{
- font-size: 1.2em;
- margin:0;
+  color: #f2f2f2;
+  margin:0;
  padding:0;
 text-align:center; 
-color:#005406;
+  text-shadow: 2px 2px 1px black;	
 }
 
+.ctrl{
+	text-align:center;
+	font-size: 2em;
+	color:white;
+}
+
+.ctrl a{
+	color: #005406;
+}
+
+.ctrl a:visited{
+	color:#005406;
+}
 
 .park.ng-enter.ng-enter-active,
 .park.ng-leave {
@@ -248,6 +202,51 @@ color:#005406;
   opacity: 0;
   height: 0;
   overflow: hidden;
+}
+
+@media screen and (max-width:478px){
+#search input{
+	width:80%;
+}	
+
+.parkinfo  p{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.btn {
+	width:100%;
+	padding:0;
+	margin-top:1em;
+	
+}
+
+.btn-left, .btn-right{
+	width:10%;
+	padding: 6px 12px;
+	margin-bottom: 1em;
+}
+}
+
+@media screen and (max-width:740px){
+
+.parkinfo{
+ margin-top:4em;
+}
+.parkinfo  p{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+}
+
+
+
+
+#feat{
+	font-size: 1em;
+}
+.addy{
+	font-size: 1.1em;
 }
 
 img{
@@ -274,6 +273,91 @@ ul {
   padding: 0;
 }
 
+* {
+  -moz-transition: all .1s cubic-bezier(.1,.7,.3,1);
+  -webkit-transition: all .1s cubic-bezier(.1,.7,.3,1);
+  -o-transition: all .1s cubic-bezier(.1,.7,.3,1);
+  -ms-transition: all .1s cubic-bezier(.1,.7,.3,1);
+  transition: all .1s cubic-bezier(.1,.7,.3,1);
+}
+
+.shy-menu { 
+  visibility:hidden;
+  position: absolute;
+  margin:0;
+  padding:0;
+  display: block;
+  height: 35px;
+  width: 35px;
+  background-color: rgba(33,40,44,.1);
+  color: #fff;
+}
+.shy-menu.is-open,
+.shy-menu:hover { 
+  z-index:20;
+  background-color: rgba(33,40,44,1);
+}
+
+.shy-menu.is-open {
+  height: 40%;
+  width: 200px;
+}
+
+.shy-menu-panel { 
+  margin-left: -250px;
+}
+.is-open .shy-menu-panel { 
+  margin-left: 0;
+}
+
+.is-open .shy-menu-panel ul li a{
+	color:white;
+	display:block;
+	margin-left:0;
+	font-weight: 900;
+	text-decoration:none;
+}
+
+.shy-menu-hamburger {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 54px;
+  height: 54px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.shy-menu-hamburger  .layer {
+  background-color: #fff;
+  border-radius: 1px;
+  display: block;
+  height: 2px;
+  overflow: hidden;
+  position: absolute;
+    left: 5px;
+  width: 18px;
+}
+
+.shy-menu-hamburger .layer.top { top: 9px; }
+.is-open .shy-menu-hamburger .layer.top { 
+  top: 17px;
+  left: 5px;
+  transform: rotate(45deg);
+}
+.shy-menu-hamburger .layer.mid { top: 16px; }
+.is-open .shy-menu-hamburger .layer.mid {
+  opacity: 0;
+  left: 0;
+}
+.shy-menu-hamburger .layer.btm { top: 23px; }
+.is-open .shy-menu-hamburger .layer.btm { 
+  top: 17px;
+  left: 5px;
+  transform: rotate(-45deg);
+}
+
 
 #head{
 	text-align:center;
@@ -281,6 +365,34 @@ ul {
 	height:auto;
 	background: #92a38f;
 	overflow:hidden;
+}
+#nav ul{
+	list-style:none;
+	margin:0;
+	padding-left: 3em;
+}
+
+#nav ul li{
+	float:left;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	width: 23%;
+	text-align:center;
+}
+
+#nav ul li a{
+	background:#005406;
+	color:white;
+	display:block;
+	padding: 5% 12%;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#nav ul li a:hover, #nav ul li.active a{
+    background:#6aba6f;
+	text-decoration:none;
 }
 
 .banner img{
@@ -305,13 +417,17 @@ ul {
 	text-align:center;
 }
 
-.footer{
+.parkinfo a{
+	text-decoration:none;
+}
+
+footer{
 	background:#005406;
 	width:100%;
 	overflow:hidden;
 }
 
-.footer h3, .footer p{
+footer h3, footer p{
 	color:#6aba6f;
 	font-weight:100;
 }
@@ -351,26 +467,10 @@ ul li img {
 	color: #005406;
 }
 
-
- 
-/*-------BEGIN MEDIA QUERY-------*/
- 
-/*-------BEGIN MEDIA QUERY-------*/
  
 /*-------BEGIN MEDIA QUERY-------*/
 
 
-@media screen and (max-width:478px){
-#search input{
-	width:80%;
-}
-
-.parkinfo  h4{
-	font-size: 1.3em;
-	font-weight:100;
-}
-
-}
 
 
 @media screen and (max-width:740px){
@@ -389,9 +489,14 @@ body{
 	box-shadow: 0 0 0 rgba(2, 3, 25, 0.8);
 	border:none;
 }
-
 p{
   font-size: 12px;
+}
+
+.shy-menu{
+  padding: 5px;
+  margin:default;
+  visibility:visible;	
 }
 
 .searching div{
@@ -421,6 +526,12 @@ p{
 	height:auto;
 	overflow:hidden;
 }
+
+ #nav{
+	visibility:hidden;
+	width:0;
+	height:0;
+ }
    
  .banner{
 	width:0;
@@ -440,10 +551,7 @@ p{
 	margin:0;
 	font-size: 80%;
 }
- .section img.swing{
-	text-align:left;
-	float:left;
- }
+
 
 #contactSet{
 width:85%;
@@ -455,21 +563,14 @@ width:85%;
 .addy{
 	font-size: 1.4em;
 }
-
-.parkinfo {
-	color: #fff;
-	font-size: 1em;
-}
-
-.parkinfo p{
-	font-size: 1.4em;
-}
-
  }
  
  
  
-
+ .section img.swing{
+	text-align:left;
+	float:left;
+ }
 
  
  
