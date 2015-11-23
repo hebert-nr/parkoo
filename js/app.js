@@ -20,12 +20,7 @@
                 
             };	
 	}]);	
-		
-	
-	app.config(function($compileProvider ){
-		$compileProvider.aHrefSanitizationWhitelist(/^\s*(geo):/);
-	}); 	
-		
+			
 	app.controller('NavController', function(){
 		this.tab = 1;
 		
@@ -38,3 +33,7 @@
 		};
 		
 	});
+	
+	app.config(function($compileProvider){
+		$compileProvider.aHrefSanitizationWhitelist(/^\s*(geo|https?|ftp|mailto|file|ghttps?|ms-appx|x-wmapp0):/);
+	}); 	

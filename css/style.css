@@ -61,6 +61,10 @@ ol, ul {
 	box-shadow: 0 0 10px rgba(12, 3, 25, 0.8);
 }
 
+#h{
+   color: #fff;
+}
+
 #search {
   color: #111;
   width: 90%;
@@ -112,6 +116,7 @@ ol, ul {
   border-radius: 10px;
   outline: 0;
 }
+
 
 /* park LIST */
 .parksList {

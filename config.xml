@@ -14,8 +14,6 @@
 	<name>Parkoo</name>
 	<content src="parkoo.html"/>  
 
-	<access origin="http://maps.google.com" />
-	<access origin="geo:*" launch-external="yes"/>
 	<!-- Credit for the treeswing silhouette: http://www.tenstickers.co.uk/wall-stickers/img/preview/tree-swing-mac-sticker-2576.png -->
 	
 	<description>
