@@ -1,6 +1,8 @@
 
 
-body{	
+body{
+	margin:0;
+	padding:0;
 	background:#d0d4d2;
 	font-family:Century Gothic, sans-serif;
 	font-size: 18px;
@@ -29,10 +31,29 @@ dl, dt, dd, ol, ul, li{
 	display:block;
 	text-align:left;
 	padding:4px;
+	color:white;
   }
 
   #ham{
-	margin-bottom: 8px;
+	background-color: #7C7F7E;  
+	margin: 0 0 8px 0;
+	padding-top: 8px 0 0 0;
+	border-bottom: 3px solid #b0b1b2;
+  }
+  
+  #ham ul{
+	  border-top: 2px solid #b0b1b2;
+	background: black;
+  }
+  
+  #ham ul li:hover{
+	background-color: #455;
+	color: #fff;
+	  
+  }
+  
+  #ham img{
+	padding: 12px;
   }
 
 /* Base Styles */
