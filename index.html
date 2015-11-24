@@ -67,10 +67,18 @@
 
 <!-- SET UP A FUNCTION WHERE IF isSelected == 2 or 3, the back button goes to isSelected(1) to return to basic search.-->
 
-<h1>ABOUT</h1>
-<p>THIS needs to be hidden initially because we don't want to see it until we click the nav menu which hides the other two tabs</p>
-<h1>ABOUT</h1>
-<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
+<div id="aboutMe">
+<h1>About Parkoo</h1>
+		
+		<p>As my kids have grown older and our time together becomes more and more important, the realization that I don't have hours to search the 
+		web coupled with my boys' desire to go to new places culminated to form our own park finder. A list of places we'd visited with 
+		the features offered at each location. </p>
+		
+		<p>Thanks to technology, we now want to offer our "research" to everyone to get out and find something new and beautiful to share 
+		with their loved ones, their pets or even their own inner child. </p>
+		<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
+	</div>
+
 </div>
 <div ng-show="navi.isSelected(3)">
 <h1>CONTACT</h1>

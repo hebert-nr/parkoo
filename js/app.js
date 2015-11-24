@@ -1,5 +1,5 @@
 
-	var app = angular.module('parkoo', [ ]);
+	var app = angular.module('parkoo', []);
 	
 	app.controller('ListController', ['$scope', '$http', function($scope, $http) {
 		//this is where we will populate our list for search functionality using data.json
