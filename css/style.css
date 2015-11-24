@@ -35,7 +35,7 @@ dl, dt, dd, ol, ul, li{
   }
 
   #ham{
-	background-color: #7C7F7E;  
+	background-color: #19530c;  
 	margin: 0 0 8px 0;
 	padding-top: 8px 0 0 0;
 	border-bottom: 3px solid #b0b1b2;
@@ -47,7 +47,7 @@ dl, dt, dd, ol, ul, li{
   }
   
   #ham ul li:hover{
-	background-color: #455;
+	background-color: #354;
 	color: #fff;
 	  
   }
@@ -56,6 +56,12 @@ dl, dt, dd, ol, ul, li{
 	padding: 12px;
   }
 
+  #small{
+	visibility: hidden;
+	clear:both;
+	position:absolute;
+  }
+  
 /* Base Styles */
 
 .cf:before,
@@ -266,6 +272,16 @@ text-align:center;
 /* ------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width:478px){
+#small{
+	visibility: visible;
+	position:relative;
+  }	
+	
+#hill{
+	visibility: hidden;
+	clear:both;
+	position:absolute;
+  }
 #search input{
 	width:80%;
 }	

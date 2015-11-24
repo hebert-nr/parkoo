@@ -4,6 +4,7 @@
 <link rel="shortcut icon" href="favIcon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <script type="text/javascript" src="js/angular.min.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 
@@ -24,7 +25,8 @@
 
 <div id="wrapper">
 	<div id="head">
-		<img src="images/Parkolo_logo2.png" alt="Park Finder" title="Parkolo!"></img>
+		<img id="hill" src="images/Parkoo_Logo.png" alt="Park Finder" title="Parkolo!"></img>
+		<img id="small" src="images/Parkoo_Logo_Small.png" alt="Park Finder" title="Parkolo!"></img>
 	</div>
 
 	<div class="banner">
@@ -57,7 +59,7 @@
 			<div ng-show="navi.isSelected(4)" class="parkinfo"> 
 			  
 			  <h2><a id="o" ng-click="navi.selectTab(4)"> {{parkDetail.parkName}}</a></h2> 	
-			  <p><a id="r" ng-href="bingmaps:?cp{{parkDetail.latitude}}~{{parkDetail.longitude}}">{{parkDetail.streetAddress}}, {{parkDetail.city}}</a> <br/><h4 id="h"> This park includes: </h4><h4>{{parkDetail.feature}}.</h4></p>
+			  <p><a id="r" ng-click="navi.selectTab(4)">{{parkDetail.streetAddress}}, {{parkDetail.city}}</a> <br/><h4 id="h"> This park includes: </h4><h4>{{parkDetail.feature}}.</h4></p>
 			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
 		</section>
