@@ -190,8 +190,24 @@ ol, ul {
 .parkinfo h2{
   margin: 0;
   padding-bottom: 0;
-  color: #D3E1CF;
+  color: #fff;
   text-shadow: 2px 2px 3px black;
+}
+
+.parkinfo a{
+	text-decoration:none;
+	color: #ccc;
+}
+
+#o{
+  color:#fff;
+}
+#e:hover{
+  color: #fff;
+}
+
+#r{
+  color:#ccc;	
 }
 
 .parkinfo p{
@@ -299,10 +315,6 @@ img{
 	margin-bottom:0;
 	padding:0;
 	text-align:center;
-}
-
-.parkinfo a{
-	text-decoration:none;
 }
 
 footer{
