@@ -20,6 +20,7 @@
 		<li><a id="Home" ng-click="navi.selectTab(1); toggle = false">Home</a></li>
 		<li><a id="About" ng-click="navi.selectTab(2); toggle = false">About</a></li>
 		<li><a id="Contact" ng-click="navi.selectTab(3);  toggle = false">Contact</a></li>
+		<li><a id="Review" ng-href="#"  ng-click="toggle = false">Rate/Review</a></li>
 	</ul>
 </div>
 
@@ -78,15 +79,17 @@
 		
 		<p>Thanks to technology, we now want to offer our "research" to everyone to get out and find something new and beautiful to share 
 		with their loved ones, their pets or even their own inner child. </p>
+		
+		<p>While this application is in no way perfect, I hope it at least helps you and those who matter most to you find somewhere new to play, fish, or 
+		just get outside.</p>
 		<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
 	</div>
 
 </div>
-<div ng-show="navi.isSelected(3)">
-<h1>CONTACT</h1>
-<p>THIS needs to be hidden initially because we don't want to see it until we click the nav menu which hides the other two tabs</p>
-<h1>CONTACT</h1>
-<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
+<div ng-show="navi.isSelected(3)" id="aboutMe">
+	<h1>CONTACT</h1>
+	<p>THIS needs to be hidden initially because we don't want to see it until we click the nav menu which hides the other two tabs</p>
+	<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
 
 </div>
 
@@ -96,7 +99,7 @@
 		</div>
 		<div class="section">
 		<br />
-		<h3>&#169; 2015 Parkolo</h3>
+		<h3>&#169; 2015 Parkoo</h3>
 		</div>
 		<div class="section">
 			<p>Connect with us</p>

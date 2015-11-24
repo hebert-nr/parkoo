@@ -27,11 +27,12 @@ dl, dt, dd, ol, ul, li{
   vertical-align: baseline; }
 
   
-  #ham ul li{
+  #ham ul li, #ham ul li a{
 	display:block;
 	text-align:left;
 	padding:4px;
 	color:white;
+	text-decoration:none;
   }
 
   #ham{
@@ -46,10 +47,9 @@ dl, dt, dd, ol, ul, li{
 	background: black;
   }
   
-  #ham ul li:hover{
+  #ham ul li:hover, #ham ul li a:hover {
 	background-color: #354;
-	color: #fff;
-	  
+	color: #fff;  
   }
   
   #ham img{
