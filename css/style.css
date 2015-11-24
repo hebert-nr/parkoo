@@ -58,7 +58,7 @@ dl, dt, dd, ol, ul, li{
 
   #small{
 	visibility: hidden;
-	position:absolute;
+	display:none;
   }
   
 /* Base Styles */
@@ -384,10 +384,13 @@ ul li img {
  p{
 font-size: 11px;
 }
+}
 
-#small{
+
+@media screen and (max-width:600px){
+	#small{
 	visibility: visible;
-	position:relative;
+	display:inline;
   }	
 	
 #hill{
@@ -395,7 +398,6 @@ font-size: 11px;
 	position:absolute;
   }
 }
-
  
 @media screen and (max-width:740px){
 body{
