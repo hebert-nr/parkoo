@@ -272,16 +272,7 @@ text-align:center;
 /* ------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width:478px){
-#small{
-	visibility: visible;
-	position:relative;
-  }	
-	
-#hill{
-	visibility: hidden;
-	clear:both;
-	position:absolute;
-  }
+
 #search input{
 	width:80%;
 }	
@@ -396,6 +387,20 @@ ul li img {
 	color: #005406;
 }
 
+
+@media screen and (max-width:600px){
+#small{
+	visibility: visible;
+	position:relative;
+  }	
+	
+#hill{
+	visibility: hidden;
+	clear:both;
+	position:absolute;
+  }
+	
+}
  
 @media screen and (max-width:740px){
 body{
