@@ -58,7 +58,6 @@ dl, dt, dd, ol, ul, li{
 
   #small{
 	visibility: hidden;
-	clear:both;
 	position:absolute;
   }
   
@@ -396,7 +395,6 @@ ul li img {
 	
 #hill{
 	visibility: hidden;
-	clear:both;
 	position:absolute;
   }
 	
