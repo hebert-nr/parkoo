@@ -266,40 +266,6 @@ text-align:center;
   overflow: hidden;
 }
 
-/* ------------------------------------------------------------------------------------------*/
-/* ------------------------*-------BEGIN MEDIA QUERY-------*---------------------------------*/
-/* ------------------------------------------------------------------------------------------*/
-
-@media screen and (max-width:478px){
-
-#search input{
-	width:80%;
-}	
-
-.parkinfo  p{
-	font-size: 1.4em;
-	font-weight: bold;
-}
-
- body{
-	font-size:13px;
- }
-
-.section ul li a img{
-	width: 20%;
-	height: 20%;
-}
-
-#aboutMe{
-	margin-bottom: 1em;
- font-size: 15px; 
-}
-
- p{
-font-size: 11px;
-}
-}
-
 
 img{
 	border:none;
@@ -386,8 +352,39 @@ ul li img {
 	color: #005406;
 }
 
+/* ------------------------------------------------------------------------------------------*/
+/* ------------------------*-------BEGIN MEDIA QUERY-------*---------------------------------*/
+/* ------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width:600px){
+@media screen and (max-width:478px){
+
+#search input{
+	width:80%;
+}	
+
+.parkinfo  p{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+ body{
+	font-size:13px;
+ }
+
+.section ul li a img{
+	width: 20%;
+	height: 20%;
+}
+
+#aboutMe{
+	margin-bottom: 1em;
+ font-size: 15px; 
+}
+
+ p{
+font-size: 11px;
+}
+
 #small{
 	visibility: visible;
 	position:relative;
@@ -397,8 +394,8 @@ ul li img {
 	visibility: hidden;
 	position:absolute;
   }
-	
 }
+
  
 @media screen and (max-width:740px){
 body{
