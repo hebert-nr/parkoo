@@ -11,8 +11,8 @@ body{
 h1, h2, h3{
 	text-align:center;
 	color: #666;
-
 }
+
 p{
 	font-size:14px;
 }
@@ -203,7 +203,7 @@ ol, ul {
   font-family: Century Gothic, sans-serif; 
   font-size: 1.1em;
   background: #92A38F;
-  color: #005406;
+  color: #000;
   padding: 20px 30px;
 }
 
@@ -211,12 +211,12 @@ ol, ul {
   margin: 0;
   padding-bottom: 0;
   color: #fff;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 2px 1px 1px #000;
 }
 
 .parkinfo a{
 	text-decoration:none;
-	color: #ccc;
+	color: #2c891d;
 }
 
 #o{
@@ -235,7 +235,7 @@ ol, ul {
   margin:0;
  padding:0;
 text-align:center; 
-  text-shadow: 2px 2px 1px black;	
+  text-shadow: 2px 1px 1px #000;	
 }
 
 .ctrl{
