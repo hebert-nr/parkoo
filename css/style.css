@@ -368,9 +368,6 @@ width: 50%;
 
 @media screen and (max-width:478px){
 
-#search input{
-	width:80%;
-}	
 
 .parkinfo  p{
 	font-size: 1.4em;
