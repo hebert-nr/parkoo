@@ -7,13 +7,7 @@
 		 $scope.data = park;
 		 $scope.parkOrder = 'parkName';
 		
-		$scope.setPage = function (pageNo) {
-			$scope.currentPage = pageNo;
-			};
-			
-			$scope.maxSize = 20;
-		    $scope.bigTotalItems = 20;
-			$scope.bigCurrentPage = 1;
+
 		});
 
 		//transfers ALL data onto detail page (needs to be modified to return FILTERED data.)
@@ -21,12 +15,7 @@
 			$scope.parkDetail=i;
 		};
 
-	$scope.save = function () { sessionStorage['SearchItem'] = JSON.stringify($scope.query); };
-            $scope.getSettings = function () {
-                if (sessionStorage['SearchItem'] != null) { $scope.query = JSON.parse(sessionStorage['SearchItem']); }
-                if (sessionStorage['SearchItem'] == null) { $scope.query = {  "SearchItem": Park }; $scope.save(); }
-                
-            };	
+	
 	}]);	
 			
 	app.controller('NavController', function(){
@@ -40,7 +29,8 @@
 			return this.tab === checkTab;
 		};
 		
-	});
+		});	
+	
 	
 	app.config(function($compileProvider){
 		$compileProvider.aHrefSanitizationWhitelist(/^\s*(geo|https?|ftp|mailto|file|ghttps?|ms-appx|x-wmapp0):/);

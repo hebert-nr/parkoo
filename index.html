@@ -6,8 +6,8 @@
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <script type="text/javascript" src="js/angular.min.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/angular-animate.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/ui-bootstrap.min.js"></script>
 
 <title>Parkoo</title>
@@ -33,7 +33,7 @@
 	</div>
 
 	<div class="banner">
-			<img src="images/lake_Rainbow.jpg" alt="Park Finder" title="Parkolo!"> </img>
+			<img src="images/lake_Rainbow.jpg" alt="Parkoo Park Finder" title="Parkoo!"> </img>
 	</div>
 	
 	<h1 class="centerSay">... find something new and beautiful...</h1>
@@ -48,7 +48,7 @@
 				  
 				  
 				<ul class="parksList">
-					<li ng-repeat="item in data | filter:q as results" >
+					<li ng-repeat="item in data | filter:q as results">
 						<a id="paLi" ng-click="parkIndex(item); navi.selectTab(4)" />
 							<div>
 								<h2>{{item.parkName}}</h2>
@@ -56,16 +56,6 @@
 								<hr />
 							</div>
 						</li>
-					<uib-pagination 
-						boundary-links="true" 
-						total-items="totalItems" 
-						ng-model="currentPage" 
-						class="pagination-sm" 
-						previous-text="&lsaquo;" 
-						next-text="&rsaquo;" 
-						first-text="&laquo;" 
-						last-text="&raquo;">
-					</uib-pagination>
 				</ul>
 			</div>
 			
@@ -99,8 +89,24 @@
 
 </div>
 <div ng-show="navi.isSelected(3)" id="aboutMe">
-	<h1>CONTACT</h1>
-	<p>THIS needs to be hidden initially because we don't want to see it until we click the nav menu which hides the other two tabs</p>
+	<div class="contactForm" action="/" method="post">
+		<h3>Comments or Questions? Please reach out to us or check out our social media links below.</h3>
+		
+		<form action="" method="post" name="contactForm" id="contactSet">
+			<label for="name">Name</label><br/>
+			<input type="text" name="name" required="required"><br/>
+			<label for="email"><span>E-mail</span></label><br/>
+			<input type="text" name="email" required="required"><br/>
+			<label for="message"><span>Comment or Question</span></label><br/>
+			<textarea type="text" rows="5" name="message" required="required"></textarea><br/>
+			<input type="submit" id="send" text="Submit"></input>
+		</form>
+		
+		<p>*Your information will not be shared or sold and is solely for communcation purposes between yourself and the Parkoo staff.</p>
+	</div>
+	<br/>
+	<p>Special thanks to my two sons and my family, GitHub, PhoneGap, Lynda.com, CPTC, metroparkstacoma.org, CipherTrick, Pixlr.com, my friends and anyone else who helped with research, development, and design.</p>
+	
 	<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
 
 </div>

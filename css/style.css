@@ -352,6 +352,16 @@ ul li img {
 	color: #005406;
 }
 
+.contactForm input, .contactForm textarea{
+width: 50%;	
+}
+
+.contactForm label{
+	text-align:align;
+}
+
+
+
 /* ------------------------------------------------------------------------------------------*/
 /* ------------------------*-------BEGIN MEDIA QUERY-------*---------------------------------*/
 /* ------------------------------------------------------------------------------------------*/
@@ -384,6 +394,8 @@ ul li img {
  p{
 font-size: 11px;
 }
+
+
 }
 
 
@@ -397,6 +409,11 @@ font-size: 11px;
 	visibility: hidden;
 	position:absolute;
   }
+  
+  .contactForm input, .contactForm textarea{
+width: 95%;	
+}
+  
 }
  
 @media screen and (max-width:740px){
@@ -475,9 +492,6 @@ p{
 }
 
 
-#contactSet{
-width:85%;
-}
 }
  
  /* -----------------------------------------------------------------------------------------*/
