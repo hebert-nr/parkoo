@@ -5,17 +5,13 @@
 		//this is where we will populate our list for search functionality using data.json
 		$http.get('js/data1.json').success(function(park){
 		 $scope.data = park;
-		 $scope.parkOrder = 'parkName';
-		
-
 		});
 
 		//transfers ALL data onto detail page (needs to be modified to return FILTERED data.)
 		$scope.parkIndex = function(i){
 			$scope.parkDetail=i;
 		};
-
-	
+			
 	}]);	
 			
 	app.controller('NavController', function(){
@@ -32,6 +28,8 @@
 		});	
 	
 	
+	
 	app.config(function($compileProvider){
 		$compileProvider.aHrefSanitizationWhitelist(/^\s*(geo|https?|ftp|mailto|file|ghttps?|ms-appx|x-wmapp0):/);
 	}); 	
+

@@ -38,24 +38,23 @@
 	
 	<h1 class="centerSay">... find something new and beautiful...</h1>
 
-	<div class="searching">
-		<section ng-controller="ListController as list">
+	<div class="searching" ng-controller="ListController as list">
 			<div ng-show="navi.isSelected(1)">
 				<div id="search">
-					<label>I found <b>{{results.length}}</b> parks. Narrow the search: </label>
+					<label>I found <b>{{results.length}}</b> parks! Narrow down your search: </label>
 					<input class="form-control" ng-model="q" placeholder="filter parks..." />
 				</div>
 				  
 				  
 				<ul class="parksList">
-					<li ng-repeat="item in data | filter:q as results">
+					<li ng-repeat="item in data | filter:q | limitTo: 20">
 						<a id="paLi" ng-click="parkIndex(item); navi.selectTab(4)" />
-							<div>
-								<h2>{{item.parkName}}</h2>
-								<span> Located at {{item.streetAddress}} in {{item.city}}, {{item.zipCode}}.</span>
-								<hr />
-							</div>
-						</li>
+						<div>
+							<h2>{{item.parkName}}</h2>
+							<span> Located at {{item.streetAddress}} in {{item.city}}, {{item.zipCode}}.</span>
+							<hr />
+						</div>
+					</li>
 				</ul>
 			</div>
 			
@@ -65,7 +64,8 @@
 			  <p><a id="r" ng-click="navi.selectTab(4)">{{parkDetail.streetAddress}}, {{parkDetail.city}}</a> <br/><h4 id="h"> This park includes: </h4><h4>{{parkDetail.feature}}.</h4></p>
 			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
-		</section>
+			
+		
 	</div>
 
 <div ng-show="navi.isSelected(2)">
