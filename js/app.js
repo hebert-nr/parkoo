@@ -1,18 +1,25 @@
 
-	var app = angular.module('parkoo', ['ngAnimate', 'ui.bootstrap' ]);
+	var app = angular.module('parkoo', ['angularUtils.directives.dirPagination']);
 	
-	app.controller('ListController', ['$scope', '$http', function($scope, $http) {
-		//this is where we will populate our list for search functionality using data.json
+	function ListController($scope, $http) {
 		$http.get('js/data1.json').success(function(park){
-		 $scope.data = park;
+		  $scope.currentPage = 1;
+		  $scope.pageSize = 10;
+		  $scope.data = park;
 		});
-
-		//transfers ALL data onto detail page (needs to be modified to return FILTERED data.)
-		$scope.parkIndex = function(i){
+		  $scope.pageChangeHandler = function(num) {
+			  console.log('meals page changed to ' + num);
+		  };
+		  $scope.parkIndex = function(i){
 			$scope.parkDetail=i;
 		};
-			
-	}]);	
+	}
+
+	function OtherController($scope) {
+	  $scope.pageChangeHandler = function(num) {
+		   console.log('going to page ' + num);
+	  };
+	}
 			
 	app.controller('NavController', function(){
 		this.tab = 1;
@@ -25,11 +32,11 @@
 			return this.tab === checkTab;
 		};
 		
-		});	
-	
-	
+	});
 	
 	app.config(function($compileProvider){
 		$compileProvider.aHrefSanitizationWhitelist(/^\s*(geo|https?|ftp|mailto|file|ghttps?|ms-appx|x-wmapp0):/);
 	}); 	
 
+	app.controller('ListController', ListController);
+	app.controller('OtherController', OtherController);

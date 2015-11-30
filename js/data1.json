@@ -1463,7 +1463,7 @@
 },
 {
 "parkId":"147",
-"parkName":"Pacific city Park",
+"parkName":"Pacific City Park",
 "streetAddress":"600 3rd Ave SE",
 "city":"Pacific",
 "zipCode":"98047",
@@ -1878,5 +1878,148 @@
 "latitude":"47.199501",
 "longitude":"-122.4677670",
 "feature":" Monument/Memorial, Picnic Area, Walking Trail"
+},
+{
+"parkId":"189",
+"parkName":"Avonlea Park",
+"streetAddress":"4112 Inglewood Loop SE",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.7009799",
+"longitude":"-1.228345218",
+"feature":" Basketball Court, BBQ/Grill, Picnic Area, Playground, Toddler Playground"
+},
+{
+"parkId":"190",
+"parkName":"Brooks Park",
+"streetAddress":"1313 College St E",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.70347773",
+"longitude":"-1.228260496",
+"feature":" Picnic Area"
+},
+{
+"parkId":"191",
+"parkName":"Civic Plaza",
+"streetAddress":"521 Sleater Kinney Rd SE",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.70446703",
+"longitude":"-1.228343120",
+"feature":" Monument/Memorial"
+},
+{
+"parkId":"192",
+"parkName":"West Plaza Park",
+"streetAddress":"780 Sleater Kinney Rd SE",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.70408159",
+"longitude":"-1.228334999",
+"feature":" Picnic Area"
+},
+{
+"parkId":"193",
+"parkName":"Homann Park",
+"streetAddress":"1301 Carpenter Rd SE",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.70346147",
+"longitude":"-1.228035045",
+"feature":" Baseball Field, Basketball Court, BBQ/Grill, Disabled Access, Picnic Area, Playground, Restrooms, Soccer Field, Toddler Playground, Walking Trail"
+},
+{
+"parkId":"194",
+"parkName":"Horizon Pointe Park",
+"streetAddress":"5700 Ruddell Rd SE",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.69865408",
+"longitude":"-1.228109954",
+"feature":" Basketball Court, BBQ/Grill, Picnic Area, Playground, Soccer Field"
+},
+{
+"parkId":"195",
+"parkName":"Thomas W. Huntamer Park",
+"streetAddress":"618 Woodland Square Loop SE",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.70405481",
+"longitude":"-1.228275796",
+"feature":" Picnic Area, Restrooms, Stage, Walking Trail"
+},
+{
+"parkId":"196",
+"parkName":"I-5 Park",
+"streetAddress":"4251 3rd Ave SE",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.70452812",
+"longitude":"-1.228327049",
+"feature":" Biking/Bike Trail, Walking Trail"
+},
+{
+"parkId":"197",
+"parkName":"Wonderwood Park",
+"streetAddress":"5304 Sunset Dr SE",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.70193214",
+"longitude":"-1.228156586",
+"feature":" Baseball Field, Basketball Court, BBQ/Grill, Disabled Access, Picnic Area, Playground, Restrooms, Tennis Court, Toddler Playground, Walking Trail"
+},
+{
+"parkId":"198",
+"parkName":"Lake Lois Park",
+"streetAddress":"6020 7th Ave SE",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.70411973",
+"longitude":"-1.228010238",
+"feature":" BBQ/Grill, Disabled Access, Fishing, Lake, Picnic Area, Walking Trail"
+},
+{
+"parkId":"199",
+"parkName":"Lakepointe Park",
+"streetAddress":"6400 Compton Blvd SE",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.69926681",
+"longitude":"-1.227969559",
+"feature":" Baseball Field, Basketball Court, Disabled Access, Pickle Ball, Picnic Area, Playground, Pond, Soccer Field, Tennis Court, Toddler Playground, Walking Trail"
+},
+{
+"parkId":"200",
+"parkName":"Long Lake Park",
+"streetAddress":"2790 Carpenter Road",
+"city":"Lavcey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.70217466",
+"longitude":"-1.227893784",
+"feature":" BBQ/Grill, Disabled Access, Fishing, Lake, Picnic Area, Restrooms, Volleyball, Walking Trail"
+},
+{
+"parkId":"201",
+"parkName":"Meridian Neighborhood Park",
+"streetAddress":"8855 Campus Glen Drive NE",
+"city":"Lacey",
+"zipCode":"98503",
+"county":"Thurston",
+"latitude":"4.70829096",
+"longitude":"-1.227531358",
+"feature":" Basketball Court, BBQ/Grill, Disabled Access, Hiking, Picnic Area, Playground, Restrooms, Toddler Playground, Walking Trail"
 }
 ]

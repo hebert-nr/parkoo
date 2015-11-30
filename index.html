@@ -3,12 +3,14 @@
 <head>
 <link rel="shortcut icon" href="favIcon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 <script type="text/javascript" src="js/angular.min.js"></script>
-<script type="text/javascript" src="js/angular-animate.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
-<script type="text/javascript" src="js/ui-bootstrap.min.js"></script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/dirPagination.js"></script>
+<script type="text/javascript" src="js/app.js"></script>  
+
 
 <title>Parkoo</title>
 </head>
@@ -33,30 +35,31 @@
 	</div>
 
 	<div class="banner">
-			<img src="images/lake_Rainbow.jpg" alt="Parkoo Park Finder" title="Parkoo!"> </img>
+			<img src="images/lake_Rainbow.jpg" alt="Park Finder" title="Parkoo!"> </img>
 	</div>
 	
 	<h1 class="centerSay">... find something new and beautiful...</h1>
 
-	<div class="searching" ng-controller="ListController as list">
+	<div class="searching">
+		<section ng-controller="ListController">
 			<div ng-show="navi.isSelected(1)">
 				<div id="search">
-					<label>I found <b>{{results.length}}</b> parks! Narrow down your search: </label>
+					<label>Narrow the search by name, city, zip code or park features: </label>
 					<input class="form-control" ng-model="q" placeholder="filter parks..." />
 				</div>
 				  
 				  
 				<ul class="parksList">
-					<li ng-repeat="item in data | filter:q | limitTo: 20">
+					<li dir-paginate="item in data | filter:q | itemsPerPage: 10" current-page="currentPage" >
 						<a id="paLi" ng-click="parkIndex(item); navi.selectTab(4)" />
-						<div>
-							<h2>{{item.parkName}}</h2>
-							<span> Located at {{item.streetAddress}} in {{item.city}}, {{item.zipCode}}.</span>
-							<hr />
-						</div>
+							<div>
+								<h2>{{item.parkName}}</h2>
+								<span> Located at {{item.streetAddress}} in {{item.city}}, {{item.zipCode}}.</span>
+								<hr />
+							</div>
 					</li>
 				</ul>
-			</div>
+			</div>			
 			
 			<div ng-show="navi.isSelected(4)" class="parkinfo"> 
 			  
@@ -64,8 +67,12 @@
 			  <p><a id="r" ng-click="navi.selectTab(4)">{{parkDetail.streetAddress}}, {{parkDetail.city}}</a> <br/><h4 id="h"> This park includes: </h4><h4>{{parkDetail.feature}}.</h4></p>
 			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
-			
-		
+		</section>
+		<div ng-controller="OtherController" ng-show="navi.isSelected(1)">
+		  <div class="text-center">
+		  <dir-pagination-controls boundary-links="true" on-page-change="pageChangeHandler(newPageNumber)" template-url="dirPagination.tpl.html"></dir-pagination-controls>
+		  </div>
+		</div>
 	</div>
 
 <div ng-show="navi.isSelected(2)">
@@ -105,7 +112,7 @@
 		<p>*Your information will not be shared or sold and is solely for communcation purposes between yourself and the Parkoo staff.</p>
 	</div>
 	<br/>
-	<p>Special thanks to my two sons and my family, GitHub, PhoneGap, Lynda.com, CPTC, metroparkstacoma.org, CipherTrick, Pixlr.com, my friends and anyone else who helped with research, development, and design.</p>
+	<p>Special thanks to my two sons and my family, Angularjs.org, GitHub, PhoneGap, Lynda.com, CPTC, metroparkstacoma.org, Pixlr.com, my friends and anyone else who helped with research, development, and design.</p>
 	
 	<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
 
