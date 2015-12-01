@@ -92,7 +92,7 @@ ol, ul {
 }
 
 #aboutMe a{
-	color:#6ABA6F;
+	color:#aaa;
   font-size: 1.3em;
   font-weight: 800;
   text-shadow:2px 1px 1px black;
@@ -109,7 +109,6 @@ ol, ul {
 
 #search {
   color: #111;
-  width: 90%;
   margin: 0 auto;
   text-align:center;
   padding: 10px 0;
@@ -143,7 +142,7 @@ ol, ul {
   width: auto;
 }
 
-#search label.formgroup {
+#search label{
   display: inline;
   width: auto;
 }
@@ -217,7 +216,7 @@ ol, ul {
 
 .parkinfo a{
 	text-decoration:none;
-	color: #2c891d;
+	color: #bbb;
 }
 
 #o{
@@ -360,6 +359,8 @@ width: 50%;
 .contactForm label{
 	text-align:align;
 }
+
+
 
 
 
