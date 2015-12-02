@@ -24,6 +24,7 @@
 		<li><a id="Home" ng-click="navi.selectTab(1); toggle = false">Home</a></li>
 		<li><a id="About" ng-click="navi.selectTab(2); toggle = false">About</a></li>
 		<li><a id="Contact" ng-click="navi.selectTab(3);  toggle = false">Contact</a></li>
+		<li><a id="Settings" ng-click="navi.selectTab(5);  toggle = false">Settings</a></li>
 		<li><a id="Review" ng-href="#"  ng-click="toggle = false">Rate/Review</a></li>
 	</ul>
 </div>
@@ -39,9 +40,17 @@
 	</div>
 	
 	<h1 class="centerSay">... find something new and beautiful...</h1>
-
-	<div class="searching">
-		<section ng-controller="ListController">
+		<div class="searching">
+			<section ng-controller="ListController">
+			<div id="settings" ng-show="navi.isSelected(5)">
+				<h2>Settings</h2>
+				<label><span>Choose your state:<select ng-model="state">
+										<option Value = "AL">AL</option><option Value = "AK">AK</option><option Value = "AZ">AZ</option><option Value = "AR">AR</option><option Value = "CA">CA</option><option Value = "CO">CO</option><option Value = "CT">CT</option><option Value = "DE">DE</option><option Value = "FL">FL</option><option Value = "GA">GA</option><option Value = "HI">HI</option><option Value = "ID">ID</option><option Value = "IL">IL</option><option Value = "IN">IN</option><option Value = "IA">IA</option><option Value = "KS">KS</option><option Value = "KY">KY</option><option Value = "LA">LA</option><option Value = "ME">ME</option><option Value = "MD">MD</option><option Value = "MA">MA</option><option Value = "MI">MI</option><option Value = "MN">MN</option><option Value = "MS">MS</option><option Value = "MO">MO</option><option Value = "MT">MT</option><option Value = "NE">NE</option><option Value = "NV">NV</option><option Value = "NH">NH</option><option Value = "NJ">NJ</option><option Value = "NM">NM</option><option Value = "NY">NY</option><option Value = "NC">NC</option><option Value = "ND">ND</option><option Value = "OH">OH</option><option Value = "OK">OK</option><option Value = "OR">OR</option><option Value = "PA">PA</option><option Value = "RI">RI</option><option Value = "SD">SD</option><option Value = "SC">SC</option><option Value = "TN">TN</option><option Value = "TX">TX</option><option Value = "UT">UT</option><option Value = "VT">VT</option><option Value = "VA">VA</option><option Value = "WA">WA</option><option Value = "WV">WV</option><option Value = "WI">WI</option><option Value = "WY">WY</option><option Value = "DC">DC</option>
+									</select></span>
+									</label>
+			</div>
+	
+	
 			<div ng-show="navi.isSelected(1)">
 				<div id="search">
 					<label>Narrow the search by name, city, zip code or park features: </label>
@@ -91,12 +100,12 @@
 		</div>
 	</div>
 
-<div ng-show="navi.isSelected(2)">
+	<div ng-show="navi.isSelected(2)">
 
 <!-- SET UP A FUNCTION WHERE IF isSelected == 2 or 3, the back button goes to isSelected(1) to return to basic search.-->
 
-<div id="aboutMe">
-<h1>About Parkoo</h1>
+	<div id="aboutMe">
+	<h1>About Parkoo</h1>
 		
 		<p>As my kids have grown older and our time together becomes more and more important, the realization that I don't have hours to search the 
 		web coupled with my boys' desire to go to new places culminated to form our own park finder. A list of places we'd visited with 
@@ -110,29 +119,29 @@
 		<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
 	</div>
 
-</div>
-<div ng-show="navi.isSelected(3)" id="aboutMe">
-	<div class="contactForm" action="/" method="post">
-		<h3>Comments or Questions? Please reach out to us or check out our social media links below.</h3>
-		
-		<form action="" method="post" name="contactForm" id="contactSet">
-			<label for="name">Name</label><br/>
-			<input type="text" name="name" required="required"><br/>
-			<label for="email"><span>E-mail</span></label><br/>
-			<input type="text" name="email" required="required"><br/>
-			<label for="message"><span>Comment or Question</span></label><br/>
-			<textarea type="text" rows="5" name="message" required="required"></textarea><br/>
-			<input type="submit" id="send" text="Submit"></input>
-		</form>
-		
-		<p>*Your information will not be shared or sold and is solely for communcation purposes between yourself and the Parkoo staff.</p>
 	</div>
-	<br/>
-	<p>Special thanks to my two sons and my family, Angularjs.org, GitHub, PhoneGap, Lynda.com, CPTC, metroparkstacoma.org, Pixlr.com, my friends and anyone else who helped with research, development, and design.</p>
-	
-	<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
+	<div ng-show="navi.isSelected(3)" id="aboutMe">
+		<div class="contactForm" action="/" method="post">
+			<h3>Comments or Questions? Please reach out to us or check out our social media links below.</h3>
+			
+			<form action="" method="post" name="contactForm" id="contactSet">
+				<label for="name">Name</label><br/>
+				<input type="text" name="name" required="required"><br/>
+				<label for="email"><span>E-mail</span></label><br/>
+				<input type="text" name="email" required="required"><br/>
+				<label for="message"><span>Comment or Question</span></label><br/>
+				<textarea type="text" rows="5" name="message" required="required"></textarea><br/>
+				<input type="submit" id="send" text="Submit"></input>
+			</form>
+			
+			<p>*Your information will not be shared or sold and is solely for communcation purposes between yourself and the Parkoo staff.</p>
+		</div>
+		<br/>
+		<p>Special thanks to my two sons and my family, Angularjs.org, GitHub, PhoneGap, Lynda.com, CPTC, metroparkstacoma.org, Pixlr.com, my friends and anyone else who helped with research, development, and design.</p>
+		
+		<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
 
-</div>
+	</div>
 
 	<footer>
 		<div class="section">
