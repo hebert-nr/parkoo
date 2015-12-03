@@ -73,24 +73,24 @@
 								</label>
 								<label>
 									<span>Which state?
-										<select ng-model="stateSelect">
+										<select class="select" ng-model="stateSelect">
 											<option Value="">All</option>
 											<option ng-repeat="states in data | unique: 'state' | orderBy: 'state'"> {{states.state}}</option>
 										</select>
 									</span>
 								</label>
 								<label class="formgroup"><span><br class="break"/>Sort by:
-									<select ng-model="parkOrder">
+									<select class="select" ng-model="parkOrder">
 										<option value="parkName">Park Name</option>
 										<option value="city">City</option>
 									</select></span>
 								</label>
 								<label class="formgroup">
-									<input type="radio" ng-model="direction" name="direction" checked>
+									<input class="select" type="radio" ng-model="direction" name="direction" checked>
 									asc
 								</label>
 								<label class="formgroup">
-									<input id="desc" type="radio" ng-model="direction" name="direction" value="reverse">
+									<input class="select" type="radio" ng-model="direction" name="direction" value="reverse">
 									desc
 								</label>
 								
