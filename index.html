@@ -58,19 +58,11 @@
 			<div ng-show="navi.isSelected(1)">
 				<div id="search">
 					<label>
-						<h4>I found {{park.length}} parks.</h4>
-						Narrow the search by name, city, zip code or park features: 
+						<h4>I found {{park.length}} parks. Narrow the search:</h4> 
 						<li ng-repeat="item in park = (data | filter:q)"></li>
 					</label>
 					<input class="form-control" ng-model="q" placeholder="filter parks..." />
 						<div id="sort">
-								<label>				
-									<span>Parks Displayed:
-									<select ng-model="display">
-										<option Value = "5"> 5</option><option Value = "10"> 10</option><option Value = "20"> 20</option><option Value = "30"> 30 </option><option Value = "40"> 40</option><option Value = "50"> 50</option>
-									</select>
-									</span>
-								</label>
 								<label>
 									<span>Which state?
 										<select class="select" ng-model="stateSelect">
@@ -79,7 +71,7 @@
 										</select>
 									</span>
 								</label>
-								<label class="formgroup"><span><br class="break"/>Sort by:
+								<label class="formgroup"><span>Sort by:
 									<select class="select" ng-model="parkOrder">
 										<option value="parkName">Park Name</option>
 										<option value="city">City</option>
@@ -92,7 +84,7 @@
 								<label class="formgroup">
 									<input class="select" type="radio" ng-model="direction" name="direction" value="reverse">
 									desc
-								</label>
+								</label> 
 								
 						</div>
 				</div>				
@@ -116,6 +108,13 @@
 			  <h4 id="h"> This park includes: </h4><h4>{{parkDetail.feature}}.</h4></p>
 			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
+			<label>				
+				<span>Parks Displayed:
+					<select ng-model="display">
+						<option Value = "5"> 5</option><option Value = "10" selected> 10</option><option Value = "20"> 20</option><option Value = "30"> 30 </option><option Value = "40"> 40</option><option Value = "50"> 50</option>
+					</select>
+				</span>
+			</label>
 		</section>
 		<div ng-controller="OtherController" ng-show="navi.isSelected(1)">
 		  <div class="text-center">
