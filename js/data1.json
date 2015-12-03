@@ -8,8 +8,9 @@
 "county":"Pierce",
 "latitude":"47.171212",
 "longitude":"-122.2781745",
-"feature":" BBQ/Grill, Disabled Access, Hiking, Multi-Purpose Room Rental, Picnic Area, Playground, Restrooms, Stream or Creek, Toddler Playground, Walking Trail, Waterfall"
-},{
+"state":"WA", "feature":" BBQ/Grill, Disabled Access, Hiking, Multi-Purpose Room Rental, Picnic Area, Playground, Restrooms, Stream or Creek, Toddler Playground, Walking Trail, Waterfall"
+},
+{
 "parkId":"3",
 "parkName":"Allan Yorke Park",
 "streetAddress":"7203 West Tapps Hwy E",
@@ -18,7 +19,7 @@
 "county":"Pierce",
 "latitude":"47.1897496",
 "longitude":"-122.1654507",
-"feature":" Baseball Field, Basketball Court, BBQ/Grill, Beach, Boat Launch, Concessions, Disabled Access, Dock Access, Fishing, Lake, Lighted Tennis Courts, Picnic Area, Playground, Restrooms, Skate Park, Soccer Field, Stage, Stream or Creek, Tennis Court, Volleyball, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, BBQ/Grill, Beach, Boat Launch, Concessions, Disabled Access, Dock Access, Fishing, Lake, Lighted Tennis Courts, Picnic Area, Playground, Restrooms, Skate Park, Soccer Field, Stage, Stream or Creek, Tennis Court, Volleyball, Walking Trail"
 },
 {
 "parkId":"4",
@@ -29,7 +30,7 @@
 "county":"Pierce",
 "latitude":"47.186785",
 "longitude":"-122.3197859",
-"feature":" Baseball Field, BBQ/Grill, Dock Access, Excersize Path, Fishing, Hiking, Off Leash Dog Park, Picnic Area, Playground, Pond, Restrooms, Stream or Creek, Tennis Court, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, BBQ/Grill, Dock Access, Excersize Path, Fishing, Hiking, Off Leash Dog Park, Picnic Area, Playground, Pond, Restrooms, Stream or Creek, Tennis Court, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"6",
@@ -40,7 +41,7 @@
 "county":"Pierce",
 "latitude":"47.1610869",
 "longitude":"-122.2841332",
-"feature":" Baseball Field, BBQ/Grill, Disabled Access, Dock Access, Fishing, Lake, Picnic Area, Playground, Restrooms, Walking Trail"
+"state":"WA", "feature":" Baseball Field, BBQ/Grill, Disabled Access, Dock Access, Fishing, Lake, Picnic Area, Playground, Restrooms, Walking Trail"
 },
 {
 "parkId":"7",
@@ -51,7 +52,7 @@
 "county":"Pierce",
 "latitude":"47.1164915",
 "longitude":"-122.4441807",
-"feature":" Access Fee, Basketball Court, BBQ/Grill, Beach, Boat Launch, Boat Rentals, Disabled Access, Dock Access, Fishing, Lake, Picnic Area, Playground, Restrooms, Tennis Court, Walking Trail"
+"state":"WA", "feature":" Access Fee, Basketball Court, BBQ/Grill, Beach, Boat Launch, Boat Rentals, Disabled Access, Dock Access, Fishing, Lake, Picnic Area, Playground, Restrooms, Tennis Court, Walking Trail"
 },
 {
 "parkId":"9",
@@ -62,7 +63,7 @@
 "county":"King",
 "latitude":"47.280441",
 "longitude":"-122.2054517",
-"feature":" Ampitheater, Baseball Field, Basketball Court, BBQ/Grill, Concessions, Disabled Access, Fishing, Lighted Tennis Courts, Picnic Area, Playground, Restrooms, River, Soccer Field, Stage, Tennis Court, Volleyball, Walking Trail"
+"state":"WA", "feature":" Ampitheater, Baseball Field, Basketball Court, BBQ/Grill, Concessions, Disabled Access, Fishing, Lighted Tennis Courts, Picnic Area, Playground, Restrooms, River, Soccer Field, Stage, Tennis Court, Volleyball, Walking Trail"
 },
 {
 "parkId":"11",
@@ -73,7 +74,7 @@
 "county":"King",
 "latitude":"47.3682825",
 "longitude":"-122.2721941",
-"feature":" Boat Launch, Disabled Access, Disc golf, Dock Access, Fishing, Lake, Walking Trail"
+"state":"WA", "feature":" Boat Launch, Disabled Access, Disc golf, Dock Access, Fishing, Lake, Walking Trail"
 },
 {
 "parkId":"13",
@@ -84,7 +85,7 @@
 "county":"Pierce",
 "latitude":"47.2420453",
 "longitude":"-122.1678951",
-"feature":" Access Fee, Beach, Boat Launch, Concessions, Disabled Access, Dock Access, Lake, Picnic Area, Restrooms"
+"state":"WA", "feature":" Access Fee, Beach, Boat Launch, Concessions, Disabled Access, Dock Access, Lake, Picnic Area, Restrooms"
 },
 {
 "parkId":"14",
@@ -95,7 +96,7 @@
 "county":"Pierce",
 "latitude":"47.2531536",
 "longitude":"-122.5495709",
-"feature":" Baseball Field, Basketball Court, BBQ/Grill, Beach, Disabled Access, Excersize Path, Lighted Tennis Courts, Multi-Purpose Room Rental, Picnic Area, Playground, Pond, Restrooms, Scuba/Underwater Park, Spray Park, Tennis Court, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, BBQ/Grill, Beach, Disabled Access, Excersize Path, Lighted Tennis Courts, Multi-Purpose Room Rental, Picnic Area, Playground, Pond, Restrooms, Scuba/Underwater Park, Spray Park, Tennis Court, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"15",
@@ -106,7 +107,7 @@
 "county":"Pierce",
 "latitude":"47.199963",
 "longitude":"-122.3152970",
-"feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Restrooms, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Restrooms, Walking Trail"
 },
 {
 "parkId":"16",
@@ -117,7 +118,7 @@
 "county":"Pierce",
 "latitude":"47.1953972",
 "longitude":"-122.2926226",
-"feature":" Picnic Area, Playground, Restrooms"
+"state":"WA", "feature":" Picnic Area, Playground, Restrooms"
 },
 {
 "parkId":"17",
@@ -128,7 +129,7 @@
 "county":"Pierce",
 "latitude":"47.1893184",
 "longitude":"-122.2948858",
-"feature":" Disabled Access, Multi-Purpose Room Rental, Playground, Restrooms, Spray Park, Stage, Toddler Playground"
+"state":"WA", "feature":" Disabled Access, Multi-Purpose Room Rental, Playground, Restrooms, Spray Park, Stage, Toddler Playground"
 },
 {
 "parkId":"18",
@@ -139,7 +140,7 @@
 "county":"Pierce",
 "latitude":"47.2093331",
 "longitude":"-122.3041438",
-"feature":" Baseball Field, Basketball Court, Concessions, Disabled Access, Multi-Purpose Room Rental, Playground, Restrooms, Soccer Field, Tennis Court, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Concessions, Disabled Access, Multi-Purpose Room Rental, Playground, Restrooms, Soccer Field, Tennis Court, Walking Trail"
 },
 {
 "parkId":"20",
@@ -150,7 +151,7 @@
 "county":"Pierce",
 "latitude":"47.1820015",
 "longitude":"-122.3197859",
-"feature":" Baseball Field, Disabled Access, Excersize Path, Hiking, Off Leash Dog Park, Restrooms, Stream or Creek, Tennis Court, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Disabled Access, Excersize Path, Hiking, Off Leash Dog Park, Restrooms, Stream or Creek, Tennis Court, Walking Trail"
 },
 {
 "parkId":"21",
@@ -161,7 +162,7 @@
 "county":"Pierce",
 "latitude":"47.2021308",
 "longitude":"-122.2976782",
-"feature":" Biking/Bike Trail, Disabled Access, Playground, Restrooms, River, Skate Park, Walking Trail"
+"state":"WA", "feature":" Biking/Bike Trail, Disabled Access, Playground, Restrooms, River, Skate Park, Walking Trail"
 },
 {
 "parkId":"22",
@@ -172,7 +173,7 @@
 "county":"Pierce",
 "latitude":"47.2310942",
 "longitude":"-122.3582427",
-"feature":" Baseball Field, Basketball Court, Disabled Access, Museum, Picnic Area, Playground, Pond, Restrooms, Volleyball, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Disabled Access, Museum, Picnic Area, Playground, Pond, Restrooms, Volleyball, Walking Trail"
 },
 {
 "parkId":"23",
@@ -183,7 +184,7 @@
 "county":"Pierce",
 "latitude":"47.232003",
 "longitude":"-122.3500130",
-"feature":" Basketball Court, Disabled Access, Picnic Area, Playground, Toddler Playground"
+"state":"WA", "feature":" Basketball Court, Disabled Access, Picnic Area, Playground, Toddler Playground"
 },
 {
 "parkId":"24",
@@ -194,7 +195,7 @@
 "county":"Pierce",
 "latitude":"47.2383371",
 "longitude":"-122.3554069",
-"feature":" Access Fee, Picnic Area, Playground, Pool"
+"state":"WA", "feature":" Access Fee, Picnic Area, Playground, Pool"
 },
 {
 "parkId":"25",
@@ -205,7 +206,7 @@
 "county":"Pierce",
 "latitude":"47.225810",
 "longitude":"-122.3439510",
-"feature":" Basketball Court, Picnic Area, Playground, Restrooms, Skate Park, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Basketball Court, Picnic Area, Playground, Restrooms, Skate Park, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"26",
@@ -216,7 +217,7 @@
 "county":"Pierce",
 "latitude":"47.250104",
 "longitude":"-122.3468520",
-"feature":" Pond, Stream or Creek, Walking Trail"
+"state":"WA", "feature":" Pond, Stream or Creek, Walking Trail"
 },
 {
 "parkId":"27",
@@ -227,18 +228,18 @@
 "county":"Pierce",
 "latitude":"46.8699979",
 "longitude":"-122.2724811",
-"feature":" Basketball Court, Disabled Access, Playground, Restrooms"
+"state":"WA", "feature":" Basketball Court, Disabled Access, Playground, Restrooms"
 },
 {
 "parkId":"28",
-"parkName":"Ashford county Park",
+"parkName":"Ashford County Park",
 "streetAddress":"29801 State Route 706",
 "city":"Ashford",
 "zipCode":"98304",
 "county":"Pierce",
 "latitude":"46.7614465",
 "longitude":"-122.0397065",
-"feature":" Ampitheater, Baseball Field, BBQ/Grill, Disabled Access, Picnic Area, Playground, Pond, Restrooms, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Ampitheater, Baseball Field, BBQ/Grill, Disabled Access, Picnic Area, Playground, Pond, Restrooms, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"29",
@@ -249,7 +250,7 @@
 "county":"Pierce",
 "latitude":"47.1705893",
 "longitude":"-122.5648762",
-"feature":" Baseball Field, BBQ/Grill, Biking/Bike Trail, Covered Picnic Rental, Disabled Access, Disc golf, Fishing, Lake, Monument/Memorial, Multi-Purpose Room Rental, Museum, Off Leash Dog Park, Picnic Area, Playground, Restrooms, Soccer Field, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, BBQ/Grill, Biking/Bike Trail, Covered Picnic Rental, Disabled Access, Disc golf, Fishing, Lake, Monument/Memorial, Multi-Purpose Room Rental, Museum, Off Leash Dog Park, Picnic Area, Playground, Restrooms, Soccer Field, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"30",
@@ -260,7 +261,7 @@
 "county":"Pierce",
 "latitude":"47.2419648",
 "longitude":"-122.1906568",
-"feature":" Baseball Field, BBQ/Grill, Covered Picnic Rental, Picnic Area, Playground, Restrooms, Toddler Playground"
+"state":"WA", "feature":" Baseball Field, BBQ/Grill, Covered Picnic Rental, Picnic Area, Playground, Restrooms, Toddler Playground"
 },
 {
 "parkId":"31",
@@ -271,7 +272,7 @@
 "county":"Pierce",
 "latitude":"47.2457803",
 "longitude":"-122.5092807",
-"feature":" Fishing, Lake, Walking Trail"
+"state":"WA", "feature":" Fishing, Lake, Walking Trail"
 },
 {
 "parkId":"32",
@@ -282,7 +283,7 @@
 "county":"Pierce",
 "latitude":"47.2473677",
 "longitude":"-122.4989232",
-"feature":" Pond, Walking Trail"
+"state":"WA", "feature":" Pond, Walking Trail"
 },
 {
 "parkId":"33",
@@ -293,7 +294,7 @@
 "county":"Pierce",
 "latitude":"47.2409061",
 "longitude":"-122.4936300",
-"feature":" Concessions, Lake, Multi-Purpose Room Rental, Museum, Picnic Area, Pond, Restrooms, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Concessions, Lake, Multi-Purpose Room Rental, Museum, Picnic Area, Pond, Restrooms, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"34",
@@ -304,7 +305,7 @@
 "county":"Pierce",
 "latitude":"47.2419434",
 "longitude":"-122.4967090",
-"feature":" Baseball Field, Disabled Access, Restrooms"
+"state":"WA", "feature":" Baseball Field, Disabled Access, Restrooms"
 },
 {
 "parkId":"35",
@@ -315,7 +316,7 @@
 "county":"Pierce",
 "latitude":"47.2480979",
 "longitude":"-122.4814218",
-"feature":" Baseball Field, Basketball Court, Community Garden, Covered Picnic Rental, Disabled Access, Picnic Area, Playground, Restrooms, Spray Park, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Community Garden, Covered Picnic Rental, Disabled Access, Picnic Area, Playground, Restrooms, Spray Park, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"36",
@@ -326,7 +327,7 @@
 "county":"Pierce",
 "latitude":"47.2582352",
 "longitude":"-122.4909363",
-"feature":" Baseball Field, Basketball Court, Community Center, Picnic Area, Playground, Restrooms, Spray Park, Tennis Court, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Community Center, Picnic Area, Playground, Restrooms, Spray Park, Tennis Court, Walking Trail"
 },
 {
 "parkId":"37",
@@ -337,7 +338,7 @@
 "county":"Pierce",
 "latitude":"47.2572094",
 "longitude":"-122.5359984",
-"feature":" Monument/Memorial, Picnic Area, Walking Trail"
+"state":"WA", "feature":" Monument/Memorial, Picnic Area, Walking Trail"
 },
 {
 "parkId":"38",
@@ -348,7 +349,7 @@
 "county":"Pierce",
 "latitude":"47.2809054",
 "longitude":"-122.5187874",
-"feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Restrooms, Tennis Court, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Restrooms, Tennis Court, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"39",
@@ -359,7 +360,7 @@
 "county":"Pierce",
 "latitude":"47.2922447",
 "longitude":"-122.5093725",
-"feature":" Basketball Court, Picnic Area, Playground, Soccer Field, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Basketball Court, Picnic Area, Playground, Soccer Field, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"40",
@@ -370,7 +371,7 @@
 "county":"Pierce",
 "latitude":"47.2970177",
 "longitude":"-122.5115069",
-"feature":" Basketball Court, Picnic Area, Playground"
+"state":"WA", "feature":" Basketball Court, Picnic Area, Playground"
 },
 {
 "parkId":"41",
@@ -381,7 +382,7 @@
 "county":"Pierce",
 "latitude":"47.3078759",
 "longitude":"-122.5309605",
-"feature":" BBQ/Grill, Beach, Boat Launch, Boat Rentals, Community Garden, Concessions, Covered Picnic Rental, Disabled Access, Fishing, Hiking, Monument/Memorial, Multi-Purpose Room Rental, Museum, Off Leash Dog Park, Picnic Area, Playground, Restrooms, Scuba/Underwater Park, Stage, Tennis Court, Unmotorized Boat Launch, Walking Trail, Zoo"
+"state":"WA", "feature":" BBQ/Grill, Beach, Boat Launch, Boat Rentals, Community Garden, Concessions, Covered Picnic Rental, Disabled Access, Fishing, Hiking, Monument/Memorial, Multi-Purpose Room Rental, Museum, Off Leash Dog Park, Picnic Area, Playground, Restrooms, Scuba/Underwater Park, Stage, Tennis Court, Unmotorized Boat Launch, Walking Trail, Zoo"
 },
 {
 "parkId":"42",
@@ -392,7 +393,7 @@
 "county":"Pierce",
 "latitude":"47.2864226",
 "longitude":"-122.4907891",
-"feature":" Beach, Biking/Bike Trail, Concessions, Disabled Access, Dock Access, Picnic Area, Restrooms, Scuba/Underwater Park, Walking Trail"
+"state":"WA", "feature":" Beach, Biking/Bike Trail, Concessions, Disabled Access, Dock Access, Picnic Area, Restrooms, Scuba/Underwater Park, Walking Trail"
 },
 {
 "parkId":"43",
@@ -403,7 +404,7 @@
 "county":"Pierce",
 "latitude":"47.2766082",
 "longitude":"-122.4818975",
-"feature":" Stream or Creek, Walking Trail"
+"state":"WA", "feature":" Stream or Creek, Walking Trail"
 },
 {
 "parkId":"44",
@@ -414,7 +415,7 @@
 "county":"Pierce",
 "latitude":"47.2762193",
 "longitude":"-122.4751853",
-"feature":" Beach, Biking/Bike Trail, Disabled Access, Monument/Memorial, Picnic Area, Restrooms, Scuba/Underwater Park, Walking Trail"
+"state":"WA", "feature":" Beach, Biking/Bike Trail, Disabled Access, Monument/Memorial, Picnic Area, Restrooms, Scuba/Underwater Park, Walking Trail"
 },
 {
 "parkId":"45",
@@ -425,7 +426,7 @@
 "county":"Pierce",
 "latitude":"47.2736529",
 "longitude":"-122.4748798",
-"feature":" Basketball Court, Picnic Area, Playground, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Basketball Court, Picnic Area, Playground, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"46",
@@ -436,7 +437,7 @@
 "county":"Pierce",
 "latitude":"47.2749288",
 "longitude":"-122.4657046",
-"feature":" Monument/Memorial, Picnic Area"
+"state":"WA", "feature":" Monument/Memorial, Picnic Area"
 },
 {
 "parkId":"47",
@@ -447,7 +448,7 @@
 "county":"Pierce",
 "latitude":"47.2749093",
 "longitude":"-122.4609299",
-"feature":" Beach, Biking/Bike Trail, Disabled Access, Monument/Memorial, Multi-Purpose Room Rental, Picnic Area, Walking Trail"
+"state":"WA", "feature":" Beach, Biking/Bike Trail, Disabled Access, Monument/Memorial, Multi-Purpose Room Rental, Picnic Area, Walking Trail"
 },
 {
 "parkId":"48",
@@ -458,7 +459,7 @@
 "county":"Pierce",
 "latitude":"47.2687942",
 "longitude":"-122.4575825",
-"feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Walking Trail"
 },
 {
 "parkId":"49",
@@ -469,7 +470,7 @@
 "county":"Pierce",
 "latitude":"47.2559401",
 "longitude":"-122.4500033",
-"feature":" Baseball Field, Bocce Courts, Disabled Access, Horse Shoe Pits, Multi-Purpose Room Rental, Picnic Area, Playground, Pond, Restrooms, Spray Park, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Bocce Courts, Disabled Access, Horse Shoe Pits, Multi-Purpose Room Rental, Picnic Area, Playground, Pond, Restrooms, Spray Park, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"50",
@@ -480,7 +481,7 @@
 "county":"Pierce",
 "latitude":"47.2610656",
 "longitude":"-122.4395577",
-"feature":" Beach, Disabled Access, Fishing, Monument/Memorial, Picnic Area, Playground, Walking Trail"
+"state":"WA", "feature":" Beach, Disabled Access, Fishing, Monument/Memorial, Picnic Area, Playground, Walking Trail"
 },
 {
 "parkId":"51",
@@ -491,7 +492,7 @@
 "county":"Pierce",
 "latitude":"47.2554285",
 "longitude":"-122.4487604",
-"feature":" Basketball Court, Community Garden, Playground"
+"state":"WA", "feature":" Basketball Court, Community Garden, Playground"
 },
 {
 "parkId":"52",
@@ -502,7 +503,7 @@
 "county":"Pierce",
 "latitude":"47.2540524", 
 "longitude":"-122.4543926",
-"feature":"Playground, Disabled Access, Walking Trail, Basketball Court, Picnic Area, Stage"
+"state":"WA", "feature":"Playground, Disabled Access, Walking Trail, Basketball Court, Picnic Area, Stage"
 },
 {
 "parkId":"53",
@@ -513,7 +514,7 @@
 "county":"Pierce",
 "latitude":"47.2562107",
 "longitude":",-122.4375492",
-"feature":"Disabled Access, Walking Trail, Picnic Area, Monument/Memorial"
+"state":"WA", "feature":"Disabled Access, Walking Trail, Picnic Area, Monument/Memorial"
 },
 {
 "parkId":"54",
@@ -524,7 +525,7 @@
 "county":"Pierce",
 "latitude":"47.2551594",
 "longitude":"-122.4394471",
-"feature":" Pond, Walking Trail"
+"state":"WA", "feature":" Pond, Walking Trail"
 },
 {
 "parkId":"55",
@@ -535,7 +536,7 @@
 "county":"Pierce",
 "latitude":"47.2468925",
 "longitude":"-122.4655159",
-"feature":" Baseball Field, Concessions, Disabled Access"
+"state":"WA", "feature":" Baseball Field, Concessions, Disabled Access"
 },
 {
 "parkId":"56",
@@ -546,7 +547,7 @@
 "county":"Pierce",
 "latitude":"47.2483271",
 "longitude":"-122.4551495",
-"feature":" Picnic Area, Playground, Walking Trail"
+"state":"WA", "feature":" Picnic Area, Playground, Walking Trail"
 },
 {
 "parkId":"57",
@@ -557,7 +558,7 @@
 "county":"Pierce",
 "latitude":"47.243387",
 "longitude":"-122.4355513",
-"feature":" Walking Trail"
+"state":"WA", "feature":" Walking Trail"
 },
 {
 "parkId":"58",
@@ -568,7 +569,7 @@
 "county":"Pierce",
 "latitude":"47.2269677",
 "longitude":"-122.4436720",
-"feature":" Basketball Court, Picnic Area, Playground, Restrooms, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Basketball Court, Picnic Area, Playground, Restrooms, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"59",
@@ -579,7 +580,7 @@
 "county":"Pierce",
 "latitude":"47.2173822",
 "longitude":"-122.4195714",
-"feature":" Basketball Court, Disabled Access, Picnic Area, Playground, Restrooms, Spray Park, Tennis Court, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Basketball Court, Disabled Access, Picnic Area, Playground, Restrooms, Spray Park, Tennis Court, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"60",
@@ -590,7 +591,7 @@
 "county":"Pierce",
 "latitude":"47.2319195",
 "longitude":"-122.4057142",
-"feature":" Basketball Court, Community Center, Disabled Access, Football Field, Playground, Restrooms, Soccer Field, Tennis Court, Wading Pool, Walking Trail"
+"state":"WA", "feature":" Basketball Court, Community Center, Disabled Access, Football Field, Playground, Restrooms, Soccer Field, Tennis Court, Wading Pool, Walking Trail"
 },
 {
 "parkId":"61",
@@ -601,7 +602,7 @@
 "county":"Pierce",
 "latitude":"47.2104732",
 "longitude":"-122.4800813",
-"feature":" Baseball Field, Basketball Court, Disabled Access, Playground, Spray Park, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Disabled Access, Playground, Spray Park, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"62",
@@ -612,7 +613,7 @@
 "county":"Pierce",
 "latitude":"47.1962011",
 "longitude":"-122.4553889",
-"feature":" BBQ/Grill, Biking/Bike Trail, Covered Picnic Rental, Disabled Access, Dock Access, Juvenile Fishing, Lake, Monument/Memorial, Multi-Purpose Room Rental, Off Leash Dog Park, Picnic Area, Playground, Restrooms, Toddler Playground, Unmotorized Boat Launch, Walking Trail"
+"state":"WA", "feature":" BBQ/Grill, Biking/Bike Trail, Covered Picnic Rental, Disabled Access, Dock Access, Juvenile Fishing, Lake, Monument/Memorial, Multi-Purpose Room Rental, Off Leash Dog Park, Picnic Area, Playground, Restrooms, Toddler Playground, Unmotorized Boat Launch, Walking Trail"
 },
 {
 "parkId":"63",
@@ -623,7 +624,7 @@
 "county":"Pierce",
 "latitude":"47.1725491",
 "longitude":"-122.5081472",
-"feature":" Community Center, Disc golf, Picnic Area, Playground, Walking Trail"
+"state":"WA", "feature":" Community Center, Disc golf, Picnic Area, Playground, Walking Trail"
 },
 {
 "parkId":"64",
@@ -634,7 +635,7 @@
 "county":"Pierce",
 "latitude":"47.1800726",
 "longitude":"-122.4725427",
-"feature":" Covered Picnic Rental, Disabled Access, Lake, Playground, Restrooms, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Covered Picnic Rental, Disabled Access, Lake, Playground, Restrooms, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"65",
@@ -645,7 +646,7 @@
 "county":"Pierce",
 "latitude":"47.1753283",
 "longitude":"-122.5170290",
-"feature":" Disabled Access, Picnic Area, Playground, Restrooms, Skate Park, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Disabled Access, Picnic Area, Playground, Restrooms, Skate Park, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"66",
@@ -656,7 +657,7 @@
 "county":"Pierce",
 "latitude":"47.1984391",
 "longitude":"-122.5269932",
-"feature":" Covered Picnic Rental, Picnic Area, Stream or Creek, Walking Trail"
+"state":"WA", "feature":" Covered Picnic Rental, Picnic Area, Stream or Creek, Walking Trail"
 },
 {
 "parkId":"67",
@@ -667,7 +668,7 @@
 "county":"Pierce",
 "latitude":"47.1461544",
 "longitude":"-122.5369351",
-"feature":" Baseball Field, Basketball Court, Covered Picnic Rental, Picnic Area, Playground"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Covered Picnic Rental, Picnic Area, Playground"
 },
 {
 "parkId":"69",
@@ -678,7 +679,7 @@
 "county":"Pierce",
 "latitude":"47.1417587",
 "longitude":"-122.5585342",
-"feature":" Access Fee, Beach, Boat Launch, Covered Picnic Rental, Disabled Access, Dock Access, Lake, Picnic Area, Playground, Restrooms"
+"state":"WA", "feature":" Access Fee, Beach, Boat Launch, Covered Picnic Rental, Disabled Access, Dock Access, Lake, Picnic Area, Playground, Restrooms"
 },
 {
 "parkId":"70",
@@ -689,7 +690,7 @@
 "county":"Pierce",
 "latitude":"47.1283926",
 "longitude":"-122.5542268",
-"feature":" Baseball Field, Basketball Court, Beach, Covered Picnic Rental, Fishing, Lake, Picnic Area, Playground, Restrooms, Skate Park, Tennis Court, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Beach, Covered Picnic Rental, Fishing, Lake, Picnic Area, Playground, Restrooms, Skate Park, Tennis Court, Walking Trail"
 },
 {
 "parkId":"71",
@@ -700,7 +701,7 @@
 "county":"Pierce",
 "latitude":"47.149980",
 "longitude":"-122.5726818",
-"feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Walking Trail"
 },
 {
 "parkId":"72",
@@ -711,7 +712,7 @@
 "county":"Pierce",
 "latitude":"47.1260018",
 "longitude":"-122.5792035",
-"feature":" Beach, Lake, Picnic Area, Playground, Restrooms, Toddler Playground"
+"state":"WA", "feature":" Beach, Lake, Picnic Area, Playground, Restrooms, Toddler Playground"
 },
 {
 "parkId":"73",
@@ -722,7 +723,7 @@
 "county":"Pierce",
 "latitude":"47.1158996",
 "longitude":"-122.5830758",
-"feature":" Basketball Court, Beach, Boat Launch, Covered Picnic Rental, Dock Access, Fishing, Lake, Multi-Purpose Room Rental, Picnic Area, Playground, Restrooms"
+"state":"WA", "feature":" Basketball Court, Beach, Boat Launch, Covered Picnic Rental, Dock Access, Fishing, Lake, Multi-Purpose Room Rental, Picnic Area, Playground, Restrooms"
 },
 {
 "parkId":"74",
@@ -733,7 +734,7 @@
 "county":"Pierce",
 "latitude":"47.1737945",
 "longitude":"-122.5988030",
-"feature":" Monument/Memorial, Picnic Area, Stage, Walking Trail"
+"state":"WA", "feature":" Monument/Memorial, Picnic Area, Stage, Walking Trail"
 },
 {
 "parkId":"75",
@@ -744,7 +745,7 @@
 "county":"Pierce",
 "latitude":"47.1803633",
 "longitude":"-122.5889269",
-"feature":" Access Fee, BBQ/Grill, Beach, Covered Picnic Rental, Disabled Access, Picnic Area, Playground, Restrooms, Scuba/Underwater Park, Volleyball, Walking Trail"
+"state":"WA", "feature":" Access Fee, BBQ/Grill, Beach, Covered Picnic Rental, Disabled Access, Picnic Area, Playground, Restrooms, Scuba/Underwater Park, Volleyball, Walking Trail"
 },
 {
 "parkId":"76",
@@ -755,7 +756,7 @@
 "county":"Pierce",
 "latitude":"47.197994",
 "longitude":"-122.5768590",
-"feature":" Beach, Off Leash Dog Park"
+"state":"WA", "feature":" Beach, Off Leash Dog Park"
 },
 {
 "parkId":"77",
@@ -766,7 +767,7 @@
 "county":"Pierce",
 "latitude":"47.1248569",
 "longitude":"-122.4600799",
-"feature":" Hiking, Pond, Stream or Creek, Walking Trail"
+"state":"WA", "feature":" Hiking, Pond, Stream or Creek, Walking Trail"
 },
 {
 "parkId":"78",
@@ -777,18 +778,18 @@
 "county":"Pierce",
 "latitude":"47.1226312",
 "longitude":"-122.4405726",
-"feature":" Baseball Field, Basketball Court, Concessions, Ice Skating, Multi-Purpose Room Rental, Picnic Area, Playground, Racquetball, Restrooms, Rock Climbing, Skate Park, Tennis Court, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Concessions, Ice Skating, Multi-Purpose Room Rental, Picnic Area, Playground, Racquetball, Restrooms, Rock Climbing, Skate Park, Tennis Court, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"79",
-"parkName":"Mayfair county Park",
+"parkName":"Mayfair County Park",
 "streetAddress":"13th Ave Ct E",
 "city":"Parkland",
 "zipCode":"98445",
 "county":"Pierce",
 "latitude":"47.1324841",
 "longitude":"-122.4112039",
-"feature":" Baseball Field, Stream or Creek"
+"state":"WA", "feature":" Baseball Field, Stream or Creek"
 },
 {
 "parkId":"80",
@@ -799,7 +800,7 @@
 "county":"Pierce",
 "latitude":"47.1773518",
 "longitude":"-122.4404146",
-"feature":" Picnic Area, Playground, Walking Trail"
+"state":"WA", "feature":" Picnic Area, Playground, Walking Trail"
 },
 {
 "parkId":"81",
@@ -810,7 +811,7 @@
 "county":"Pierce",
 "latitude":"47.2048171",
 "longitude":"-122.4266203",
-"feature":" Baseball Field, Basketball Court, Concessions, Disabled Access, Multi-Purpose Room Rental, Picnic Area, Playground, Pool, Restrooms, Skate Park, Soccer Field, Tennis Court, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Concessions, Disabled Access, Multi-Purpose Room Rental, Picnic Area, Playground, Pool, Restrooms, Skate Park, Soccer Field, Tennis Court, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"82",
@@ -821,7 +822,7 @@
 "county":"Pierce",
 "latitude":"47.2134035",
 "longitude":"-122.4421678",
-"feature":" Basketball Court, Disabled Access, Picnic Area, Playground"
+"state":"WA", "feature":" Basketball Court, Disabled Access, Picnic Area, Playground"
 },
 {
 "parkId":"83",
@@ -832,7 +833,7 @@
 "county":"Pierce",
 "latitude":"47.1765212",
 "longitude":"-122.4063316",
-"feature":" Baseball Field, Basketball Court, BBQ/Grill, Covered Picnic Rental, Disabled Access, Picnic Area, Playground, Restrooms, Tennis Court, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, BBQ/Grill, Covered Picnic Rental, Disabled Access, Picnic Area, Playground, Restrooms, Tennis Court, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"84",
@@ -843,7 +844,7 @@
 "county":"Pierce",
 "latitude":"47.2040939",
 "longitude":"-122.4085157",
-"feature":" Basketball Court, Disabled Access, Picnic Area, Playground, Tennis Court, Walking Trail"
+"state":"WA", "feature":" Basketball Court, Disabled Access, Picnic Area, Playground, Tennis Court, Walking Trail"
 },
 {
 "parkId":"85",
@@ -854,7 +855,7 @@
 "county":"Pierce",
 "latitude":"47.2277486",
 "longitude":"-122.3916051",
-"feature":" Biking/Bike Trail, Community Garden, Hiking, Picnic Area, Pond, Stream or Creek, Walking Trail"
+"state":"WA", "feature":" Biking/Bike Trail, Community Garden, Hiking, Picnic Area, Pond, Stream or Creek, Walking Trail"
 },
 {
 "parkId":"86",
@@ -865,7 +866,7 @@
 "county":"Pierce",
 "latitude":"47.1261922",
 "longitude":"-122.3149975",
-"feature":" Biking/Bike Trail, Disabled Access, Picnic Area, Playground, Pond, Restrooms, Soccer Field, Stream or Creek, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Biking/Bike Trail, Disabled Access, Picnic Area, Playground, Pond, Restrooms, Soccer Field, Stream or Creek, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"87",
@@ -876,7 +877,7 @@
 "county":"Pierce",
 "latitude":"47.0900734",
 "longitude":"-122.2120670",
-"feature":" Baseball Field, Fishing, Off Leash Dog Park, Playground, River"
+"state":"WA", "feature":" Baseball Field, Fishing, Off Leash Dog Park, Playground, River"
 },
 {
 "parkId":"88",
@@ -887,7 +888,7 @@
 "county":"Pierce",
 "latitude":"47.0973249",
 "longitude":"-122.3229222",
-"feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Soccer Field"
+"state":"WA", "feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Soccer Field"
 },
 {
 "parkId":"89",
@@ -898,7 +899,7 @@
 "county":"Pierce",
 "latitude":"47.0942258",
 "longitude":"-122.2052302",
-"feature":" Basketball Court, BBQ/Grill, Biking/Bike Trail, Covered Picnic Rental, Disabled Access, Horse Shoe Pits, Monument/Memorial, Multi-Purpose Room Rental, Picnic Area, Playground, Restrooms, Stage, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Basketball Court, BBQ/Grill, Biking/Bike Trail, Covered Picnic Rental, Disabled Access, Horse Shoe Pits, Monument/Memorial, Multi-Purpose Room Rental, Picnic Area, Playground, Restrooms, Stage, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"90",
@@ -909,7 +910,7 @@
 "county":"Pierce",
 "latitude":"47.0942258",
 "longitude":"-122.1988864",
-"feature":" Biking/Bike Trail, Disabled Access, Playground, Skate Park, Walking Trail"
+"state":"WA", "feature":" Biking/Bike Trail, Disabled Access, Playground, Skate Park, Walking Trail"
 },
 {
 "parkId":"92",
@@ -920,7 +921,7 @@
 "county":"Pierce",
 "latitude":"47.165147",
 "longitude":"-122.0276793",
-"feature":" Basketball Court, Biking/Bike Trail, Community Center, Monument/Memorial, Multi-Purpose Room Rental, Museum, Picnic Area, Playground, Restrooms, Skate Park, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Basketball Court, Biking/Bike Trail, Community Center, Monument/Memorial, Multi-Purpose Room Rental, Museum, Picnic Area, Playground, Restrooms, Skate Park, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"94",
@@ -931,7 +932,7 @@
 "county":"Pierce",
 "latitude":"47.1597229",
 "longitude":"-122.0271627",
-"feature":" Playground, Toddler Playground"
+"state":"WA", "feature":" Playground, Toddler Playground"
 },
 {
 "parkId":"95",
@@ -942,7 +943,7 @@
 "county":"Pierce",
 "latitude":"47.155756",
 "longitude":"-122.0128184",
-"feature":" Picnic Area, Playground, Walking Trail"
+"state":"WA", "feature":" Picnic Area, Playground, Walking Trail"
 },
 {
 "parkId":"96",
@@ -953,7 +954,7 @@
 "county":"Pierce",
 "latitude":"47.1553909",
 "longitude":"-122.0294166",
-"feature":" Picnic Area, Playground"
+"state":"WA", "feature":" Picnic Area, Playground"
 },
 {
 "parkId":"97",
@@ -964,7 +965,7 @@
 "county":"Pierce",
 "latitude":"47.1367489",
 "longitude":"-122.0994578",
-"feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Restrooms, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Restrooms, Walking Trail"
 },
 {
 "parkId":"98",
@@ -975,7 +976,7 @@
 "county":"Pierce",
 "latitude":"47.1729079",
 "longitude":"-122.1547399",
-"feature":" Basketball Court, Covered Picnic Rental, Disabled Access, Picnic Area, Playground, Toddler Playground"
+"state":"WA", "feature":" Basketball Court, Covered Picnic Rental, Disabled Access, Picnic Area, Playground, Toddler Playground"
 },
 {
 "parkId":"99",
@@ -986,7 +987,7 @@
 "county":"Pierce",
 "latitude":"47.1900042",
 "longitude":"-122.1884520",
-"feature":" Fishing, Lake, Picnic Area, Playground, Unmotorized Boat Launch, Walking Trail"
+"state":"WA", "feature":" Fishing, Lake, Picnic Area, Playground, Unmotorized Boat Launch, Walking Trail"
 },
 {
 "parkId":"100",
@@ -997,7 +998,7 @@
 "county":"Pierce",
 "latitude":"47.1847756",
 "longitude":"-122.1888177",
-"feature":" Basketball Court, Picnic Area, Playground"
+"state":"WA", "feature":" Basketball Court, Picnic Area, Playground"
 },
 {
 "parkId":"101",
@@ -1008,7 +1009,7 @@
 "county":"Pierce",
 "latitude":"47.1500199",
 "longitude":"-122.1871221",
-"feature":" Hiking, Waterfall"
+"state":"WA", "feature":" Hiking, Waterfall"
 },
 {
 "parkId":"102",
@@ -1019,7 +1020,7 @@
 "county":"Pierce",
 "latitude":"47.1831751",
 "longitude":"-122.1775823",
-"feature":" Baseball Field, Off Leash Dog Park, Playground, Soccer Field"
+"state":"WA", "feature":" Baseball Field, Off Leash Dog Park, Playground, Soccer Field"
 },
 {
 "parkId":"103",
@@ -1030,7 +1031,7 @@
 "county":"Pierce",
 "latitude":"47.1329409",
 "longitude":"-122.1769880",
-"feature":" Baseball Field, Basketball Court, Disabled Access, Picnic Area, Playground, Soccer Field, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Disabled Access, Picnic Area, Playground, Soccer Field, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"105",
@@ -1041,18 +1042,18 @@
 "county":"Pierce",
 "latitude":"47.1581698",
 "longitude":"-122.2636744",
-"feature":" Playground"
+"state":"WA", "feature":" Playground"
 },
 {
 "parkId":"106",
-"parkName":"Riverside county Park",
+"parkName":"Riverside County Park",
 "streetAddress":"78th St E",
 "city":"Sumner",
 "zipCode":"98390",
 "county":"Pierce",
 "latitude":"47.1855481",
 "longitude":"-122.2159751",
-"feature":" Biking/Bike Trail, Disc golf, Playground, River, Walking Trail"
+"state":"WA", "feature":" Biking/Bike Trail, Disc golf, Playground, River, Walking Trail"
 },
 {
 "parkId":"107",
@@ -1063,7 +1064,7 @@
 "county":"Pierce",
 "latitude":"47.199651",
 "longitude":"-122.2373640",
-"feature":" Basketball Court, Disabled Access, Horse Shoe Pits, Picnic Area, Playground, Restrooms, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Basketball Court, Disabled Access, Horse Shoe Pits, Picnic Area, Playground, Restrooms, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"108",
@@ -1074,7 +1075,7 @@
 "county":"Pierce",
 "latitude":"47.2065158",
 "longitude":"-122.2257250",
-"feature":" Baseball Field, Basketball Court, Community Center, Disabled Access, Picnic Area, Restrooms, Skate Park, Tennis Court, Volleyball"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Community Center, Disabled Access, Picnic Area, Restrooms, Skate Park, Tennis Court, Volleyball"
 },
 {
 "parkId":"109",
@@ -1085,7 +1086,7 @@
 "county":"Pierce",
 "latitude":"47.2027928",
 "longitude":"-122.2416580",
-"feature":" Disabled Access, Stage"
+"state":"WA", "feature":" Disabled Access, Stage"
 },
 {
 "parkId":"110",
@@ -1096,7 +1097,7 @@
 "county":"Pierce",
 "latitude":"47.1976964",
 "longitude":"-122.2233369",
-"feature":" Basketball Court, BBQ/Grill, Covered Picnic Rental, Disabled Access, Museum, Picnic Area, Playground, Restrooms, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Basketball Court, BBQ/Grill, Covered Picnic Rental, Disabled Access, Museum, Picnic Area, Playground, Restrooms, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"111",
@@ -1107,7 +1108,7 @@
 "county":"Pierce",
 "latitude":"47.2092589",
 "longitude":"-122.2363075",
-"feature":" Basketball Court, Disabled Access, Picnic Area, Playground"
+"state":"WA", "feature":" Basketball Court, Disabled Access, Picnic Area, Playground"
 },
 {
 "parkId":"113",
@@ -1118,7 +1119,7 @@
 "county":"Pierce",
 "latitude":"47.2672371",
 "longitude":"-122.5658436",
-"feature":" Beach, Disabled Access, Fishing, Hiking, Picnic Area, Unmotorized Boat Launch, Walking Trail"
+"state":"WA", "feature":" Beach, Disabled Access, Fishing, Hiking, Picnic Area, Unmotorized Boat Launch, Walking Trail"
 },
 {
 "parkId":"114",
@@ -1129,7 +1130,7 @@
 "county":"Pierce",
 "latitude":"47.3305781",
 "longitude":"-122.5819951",
-"feature":" Monument/Memorial, Museum, Restrooms"
+"state":"WA", "feature":" Monument/Memorial, Museum, Restrooms"
 },
 {
 "parkId":"115",
@@ -1140,7 +1141,7 @@
 "county":"Pierce",
 "latitude":"47.322054",
 "longitude":"-122.5866452",
-"feature":" Disabled Access, Picnic Area, Skate Park, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Disabled Access, Picnic Area, Skate Park, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"116",
@@ -1151,7 +1152,7 @@
 "county":"Pierce",
 "latitude":"47.319031",
 "longitude":"-122.5967125",
-"feature":" Dock Access, Lake, Walking Trail"
+"state":"WA", "feature":" Dock Access, Lake, Walking Trail"
 },
 {
 "parkId":"118",
@@ -1162,7 +1163,7 @@
 "county":"Pierce",
 "latitude":"47.2770061",
 "longitude":"-122.6646525",
-"feature":" Beach, Fishing, Unmotorized Boat Launch"
+"state":"WA", "feature":" Beach, Fishing, Unmotorized Boat Launch"
 },
 {
 "parkId":"119",
@@ -1173,7 +1174,7 @@
 "county":"Pierce",
 "latitude":"47.2285321",
 "longitude":"-122.5911128",
-"feature":" Beach, Boat Launch, Disabled Access, Dock Access, Fishing, Restrooms, Unmotorized Boat Launch"
+"state":"WA", "feature":" Beach, Boat Launch, Disabled Access, Dock Access, Fishing, Restrooms, Unmotorized Boat Launch"
 },
 {
 "parkId":"120",
@@ -1184,7 +1185,7 @@
 "county":"Pierce",
 "latitude":"47.289968",
 "longitude":"-122.6668726",
-"feature":" Baseball Field, Monument/Memorial, Museum, Tennis Court"
+"state":"WA", "feature":" Baseball Field, Monument/Memorial, Museum, Tennis Court"
 },
 {
 "parkId":"121",
@@ -1195,7 +1196,7 @@
 "county":"Pierce",
 "latitude":"47.3087474",
 "longitude":"-122.6781362",
-"feature":" Access Fee, Beach, Disabled Access, Fishing, Hiking, Picnic Area, Playground, Restrooms, Scuba/Underwater Park, Unmotorized Boat Launch"
+"state":"WA", "feature":" Access Fee, Beach, Disabled Access, Fishing, Hiking, Picnic Area, Playground, Restrooms, Scuba/Underwater Park, Unmotorized Boat Launch"
 },
 {
 "parkId":"122",
@@ -1206,7 +1207,7 @@
 "county":"Pierce",
 "latitude":"47.320923",
 "longitude":"-122.6871590",
-"feature":" Beach, Fishing, Hiking, Rock Climbing"
+"state":"WA", "feature":" Beach, Fishing, Hiking, Rock Climbing"
 },
 {
 "parkId":"123",
@@ -1217,7 +1218,7 @@
 "county":"Pierce",
 "latitude":"47.3030299",
 "longitude":"-122.5860585",
-"feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Restrooms, Soccer Field, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Restrooms, Soccer Field, Walking Trail"
 },
 {
 "parkId":"124",
@@ -1228,7 +1229,7 @@
 "county":"Pierce",
 "latitude":"47.3454129",
 "longitude":"-122.5797483",
-"feature":" Baseball Field, Basketball Court, Biking/Bike Trail, Disabled Access, Picnic Area, Playground, Restrooms, Stream or Creek, Tennis Court, Volleyball, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Biking/Bike Trail, Disabled Access, Picnic Area, Playground, Restrooms, Stream or Creek, Tennis Court, Volleyball, Walking Trail"
 },
 {
 "parkId":"125",
@@ -1239,7 +1240,7 @@
 "county":"Pierce",
 "latitude":"47.3337809",
 "longitude":"-122.5889258",
-"feature":" Beach, Boat Launch, Disabled Access, Dock Access, Fishing, Monument/Memorial, Picnic Area, Restrooms, Unmotorized Boat Launch, Walking Trail"
+"state":"WA", "feature":" Beach, Boat Launch, Disabled Access, Dock Access, Fishing, Monument/Memorial, Picnic Area, Restrooms, Unmotorized Boat Launch, Walking Trail"
 },
 {
 "parkId":"126",
@@ -1250,7 +1251,7 @@
 "county":"Pierce",
 "latitude":"47.3377195",
 "longitude":"-122.5946682",
-"feature":" Picnic Area, Restrooms, Stream or Creek, Walking Trail"
+"state":"WA", "feature":" Picnic Area, Restrooms, Stream or Creek, Walking Trail"
 },
 {
 "parkId":"127",
@@ -1261,7 +1262,7 @@
 "county":"Pierce",
 "latitude":"47.3308522",
 "longitude":"-122.6541196",
-"feature":" Baseball Field, Restrooms"
+"state":"WA", "feature":" Baseball Field, Restrooms"
 },
 {
 "parkId":"128",
@@ -1272,7 +1273,7 @@
 "county":"Pierce",
 "latitude":"47.3498877",
 "longitude":"-122.5570929",
-"feature":" Beach, Fishing, Hiking, Scuba/Underwater Park, Unmotorized Boat Launch, Walking Trail"
+"state":"WA", "feature":" Beach, Fishing, Hiking, Scuba/Underwater Park, Unmotorized Boat Launch, Walking Trail"
 },
 {
 "parkId":"129",
@@ -1283,7 +1284,7 @@
 "county":"Pierce",
 "latitude":"47.3512234",
 "longitude":"-122.6303802",
-"feature":" Ampitheater, Baseball Field, Basketball Court, Community Garden, Concessions, Covered Picnic Rental, Disabled Access, Football Field, Hiking, Multi-Purpose Room Rental, Picnic Area, Playground, Pond, Restrooms, Soccer Field, Stage, Stream or Creek, Tennis Court, Walking Trail"
+"state":"WA", "feature":" Ampitheater, Baseball Field, Basketball Court, Community Garden, Concessions, Covered Picnic Rental, Disabled Access, Football Field, Hiking, Multi-Purpose Room Rental, Picnic Area, Playground, Pond, Restrooms, Soccer Field, Stage, Stream or Creek, Tennis Court, Walking Trail"
 },
 {
 "parkId":"130",
@@ -1294,7 +1295,7 @@
 "county":"Pierce",
 "latitude":"47.3523177",
 "longitude":"-122.6186672",
-"feature":" Biking/Bike Trail, Hiking, Walking Trail"
+"state":"WA", "feature":" Biking/Bike Trail, Hiking, Walking Trail"
 },
 {
 "parkId":"131",
@@ -1305,18 +1306,18 @@
 "county":"Pierce",
 "latitude":"47.350872",
 "longitude":"-122.6215640",
-"feature":" Off Leash Dog Park, Picnic Area"
+"state":"WA", "feature":" Off Leash Dog Park, Picnic Area"
 },
 {
 "parkId":"133",
-"parkName":"Crescent Lake county Park",
+"parkName":"Crescent Lake County Park",
 "streetAddress":"3510 Grandview St",
 "city":"Gig Harbor",
 "zipCode":"98335",
 "county":"Pierce",
 "latitude":"47.39468844",
 "longitude":"-122.5675070",
-"feature":" Boat Launch, Disabled Access, Fishing, Lake, Restrooms"
+"state":"WA", "feature":" Boat Launch, Disabled Access, Fishing, Lake, Restrooms"
 },
 {
 "parkId":"134",
@@ -1327,7 +1328,7 @@
 "county":"Pierce",
 "latitude":"47.3903724",
 "longitude":"-122.5562399",
-"feature":" Beach, Hiking"
+"state":"WA", "feature":" Beach, Hiking"
 },
 {
 "parkId":"135",
@@ -1338,7 +1339,7 @@
 "county":"Pierce",
 "latitude":"47.3808995",
 "longitude":"-122.6391228",
-"feature":" Beach, Dock Access, Fishing, Walking Trail"
+"state":"WA", "feature":" Beach, Dock Access, Fishing, Walking Trail"
 },
 {
 "parkId":"136",
@@ -1349,7 +1350,7 @@
 "county":"Pierce",
 "latitude":"47.2576685",
 "longitude":"-122.7433775",
-"feature":" Access Fee, Biking/Bike Trail, Disabled Access, Dock Access, Fishing, Horse Shoe Pits, Picnic Area, Restrooms, Scuba/Underwater Park"
+"state":"WA", "feature":" Access Fee, Biking/Bike Trail, Disabled Access, Dock Access, Fishing, Horse Shoe Pits, Picnic Area, Restrooms, Scuba/Underwater Park"
 },
 {
 "parkId":"137",
@@ -1360,7 +1361,7 @@
 "county":"Pierce",
 "latitude":"47.2254708",
 "longitude":"-122.8091532",
-"feature":" Access Fee, Beach, Boat Launch, Disabled Access, Dock Access, Fishing, Restrooms, Walking Trail"
+"state":"WA", "feature":" Access Fee, Beach, Boat Launch, Disabled Access, Dock Access, Fishing, Restrooms, Walking Trail"
 },
 {
 "parkId":"138",
@@ -1371,7 +1372,7 @@
 "county":"Pierce",
 "latitude":"47.3082779",
 "longitude":"-122.7556183",
-"feature":" Baseball Field, Disabled Access, Disc golf, Hiking, Picnic Area, Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Disabled Access, Disc golf, Hiking, Picnic Area, Playground, Walking Trail"
 },
 {
 "parkId":"139",
@@ -1382,7 +1383,7 @@
 "county":"Pierce",
 "latitude":"47.1429056",
 "longitude":"-122.5013869",
-"feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Soccer Field, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Soccer Field, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"140",
@@ -1393,7 +1394,7 @@
 "county":"Pierce",
 "latitude":"47.1741372",
 "longitude":"-122.5354221",
-"feature":" Fishing, Unmotorized Boat Launch"
+"state":"WA", "feature":" Fishing, Unmotorized Boat Launch"
 },
 {
 "parkId":"141",
@@ -1404,7 +1405,7 @@
 "county":"Pierce",
 "latitude":"47.2299532",
 "longitude":"-122.5113925",
-"feature":" Baseball Field, Bocce Courts, Disabled Access, Soccer Field, Tennis Court"
+"state":"WA", "feature":" Baseball Field, Bocce Courts, Disabled Access, Soccer Field, Tennis Court"
 },
 {
 "parkId":"142",
@@ -1415,7 +1416,7 @@
 "county":"Pierce",
 "latitude":"47.232393",
 "longitude":"-122.5070440",
-"feature":" Monument/Memorial, Picnic Area, Walking Trail"
+"state":"WA", "feature":" Monument/Memorial, Picnic Area, Walking Trail"
 },
 {
 "parkId":"143",
@@ -1426,7 +1427,7 @@
 "county":"Pierce",
 "latitude":"47.2231439",
 "longitude":"-122.5382532",
-"feature":" Monument/Memorial, Picnic Area, Walking Trail"
+"state":"WA", "feature":" Monument/Memorial, Picnic Area, Walking Trail"
 },
 {
 "parkId":"144",
@@ -1437,7 +1438,7 @@
 "county":"Pierce",
 "latitude":"47.234370",
 "longitude":"-122.5113780",
-"feature":" Baseball Field, Basketball Court, Community Center, Disabled Access, Picnic Area, Playground, Pool, Restrooms, Soccer Field, Street Hockey, Tennis Court"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Community Center, Disabled Access, Picnic Area, Playground, Pool, Restrooms, Soccer Field, Street Hockey, Tennis Court"
 },
 {
 "parkId":"145",
@@ -1448,7 +1449,7 @@
 "county":"Pierce",
 "latitude":"47.2119938",
 "longitude":"-122.5342154",
-"feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Restrooms, Skate Park, Soccer Field, Volleyball, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Restrooms, Skate Park, Soccer Field, Volleyball, Walking Trail"
 },
 {
 "parkId":"146",
@@ -1459,7 +1460,7 @@
 "county":"Pierce",
 "latitude":"47.862357",
 "longitude":"-122.2648560",
-"feature":" Disabled Access, Museum, Picnic Area, Playground, Pond, Restrooms, River, Skate Park, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Disabled Access, Museum, Picnic Area, Playground, Pond, Restrooms, River, Skate Park, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"147",
@@ -1470,7 +1471,7 @@
 "county":"King",
 "latitude":"47.264111",
 "longitude":"-122.2368896",
-"feature":" Baseball Field, Basketball Court, Disabled Access, Picnic Area, Playground, Restrooms, River, Soccer Field, Stage, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Disabled Access, Picnic Area, Playground, Restrooms, River, Soccer Field, Stage, Walking Trail"
 },
 {
 "parkId":"148",
@@ -1481,7 +1482,7 @@
 "county":"Pierce",
 "latitude":"47.0591971",
 "longitude":"-122.2969316",
-"feature":" Concessions, Disabled Access, Multi-Purpose Room Rental, Playground, Restrooms, Walking Trail"
+"state":"WA", "feature":" Concessions, Disabled Access, Multi-Purpose Room Rental, Playground, Restrooms, Walking Trail"
 },
 {
 "parkId":"149",
@@ -1492,7 +1493,7 @@
 "county":"Pierce",
 "latitude":"47.9140844",
 "longitude":"-122.6441602",
-"feature":" Access Fee, Disabled Access, Fishing, Hiking, Lake, Museum, Picnic Area, Restrooms, River, Walking Trail"
+"state":"WA", "feature":" Access Fee, Disabled Access, Fishing, Hiking, Lake, Museum, Picnic Area, Restrooms, River, Walking Trail"
 },
 {
 "parkId":"150",
@@ -1503,7 +1504,7 @@
 "county":"Pierce",
 "latitude":"47.7864549",
 "longitude":"-122.7382209",
-"feature":" Access Fee, Concessions, Disabled Access, Hiking, Museum, Picnic Area, Restrooms, River, Walking Trail, Waterfall"
+"state":"WA", "feature":" Access Fee, Concessions, Disabled Access, Hiking, Museum, Picnic Area, Restrooms, River, Walking Trail, Waterfall"
 },
 {
 "parkId":"151",
@@ -1514,7 +1515,7 @@
 "county":"Pierce",
 "latitude":"47.2869923",
 "longitude":"-122.3889551",
-"feature":" Picnic Area, Playground, Walking Trail"
+"state":"WA", "feature":" Picnic Area, Playground, Walking Trail"
 },
 {
 "parkId":"152",
@@ -1525,7 +1526,7 @@
 "county":"Pierce",
 "latitude":"47.2028644",
 "longitude":"-122.4524257",
-"feature":" Picnic Area, Playground, Tennis Court, Walking Trail"
+"state":"WA", "feature":" Picnic Area, Playground, Tennis Court, Walking Trail"
 },
 {
 "parkId":"153",
@@ -1536,7 +1537,7 @@
 "county":"Pierce",
 "latitude":"47.301781",
 "longitude":"-122.4237600",
-"feature":" Baseball Field, Disabled Access, Playground, Soccer Field, Tennis Court, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Disabled Access, Playground, Soccer Field, Tennis Court, Walking Trail"
 },
 {
 "parkId":"154",
@@ -1547,7 +1548,7 @@
 "county":"Pierce",
 "latitude":"47.3053722",
 "longitude":"-122.4438329",
-"feature":" Beach, Boat Launch, Fishing, Monument/Memorial, Museum, Walking Trail"
+"state":"WA", "feature":" Beach, Boat Launch, Fishing, Monument/Memorial, Museum, Walking Trail"
 },
 {
 "parkId":"155",
@@ -1558,7 +1559,7 @@
 "county":"Pierce",
 "latitude":"47.3018319",
 "longitude":"-122.4401733",
-"feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Soccer Field, Tennis Court"
+"state":"WA", "feature":" Baseball Field, Disabled Access, Picnic Area, Playground, Soccer Field, Tennis Court"
 },
 {
 "parkId":"156",
@@ -1569,7 +1570,7 @@
 "county":"Pierce",
 "latitude":"47.287103",
 "longitude":"-122.4889310",
-"feature":" Beach, Biking/Bike Trail, Disabled Access, Dock Access, Fishing, Monument/Memorial, Picnic Area, Walking Trail"
+"state":"WA", "feature":" Beach, Biking/Bike Trail, Disabled Access, Dock Access, Fishing, Monument/Memorial, Picnic Area, Walking Trail"
 },
 {
 "parkId":"157",
@@ -1580,7 +1581,7 @@
 "county":"Pierce ",
 "latitude":"47.3191803",
 "longitude":"-122.4268471",
-"feature":" Beach, Disabled Access, Dock Access, Fishing, Picnic Area, Restrooms, Scuba/Underwater Park, Unmotorized Boat Launch, Walking Trail"
+"state":"WA", "feature":" Beach, Disabled Access, Dock Access, Fishing, Picnic Area, Restrooms, Scuba/Underwater Park, Unmotorized Boat Launch, Walking Trail"
 },
 {
 "parkId":"158",
@@ -1591,7 +1592,7 @@
 "county":"Pierce",
 "latitude":"47.2765499",
 "longitude":"-122.4687572",
-"feature":" Beach, Dock Access, Fishing, Picnic Area"
+"state":"WA", "feature":" Beach, Dock Access, Fishing, Picnic Area"
 },
 {
 "parkId":"159",
@@ -1602,7 +1603,7 @@
 "county":"Pierce",
 "latitude":"47.236316",
 "longitude":"-122.4621220",
-"feature":" Basketball Court, Picnic Area, Playground, Soccer Field"
+"state":"WA", "feature":" Basketball Court, Picnic Area, Playground, Soccer Field"
 },
 {
 "parkId":"160",
@@ -1613,7 +1614,7 @@
 "county":"Pierce",
 "latitude":"47.2752638",
 "longitude":"-122.4644025",
-"feature":" Beach, Monument/Memorial, Picnic Area, Walking Trail"
+"state":"WA", "feature":" Beach, Monument/Memorial, Picnic Area, Walking Trail"
 },
 {
 "parkId":"161",
@@ -1624,7 +1625,7 @@
 "county":"Pierce",
 "latitude":"47.2851304",
 "longitude":"-122.5035159",
-"feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Restrooms, Soccer Field"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Restrooms, Soccer Field"
 },
 {
 "parkId":"162",
@@ -1635,7 +1636,7 @@
 "county":"Pierce",
 "latitude":"47.2700411",
 "longitude":"-122.5085643",
-"feature":" Baseball Field, Basketball Court, Community Center, Community Garden, Concessions, Disabled Access, Playground, Pool, Restrooms, Skate Park, Soccer Field, Spray Park, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Community Center, Community Garden, Concessions, Disabled Access, Playground, Pool, Restrooms, Skate Park, Soccer Field, Spray Park, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"163",
@@ -1646,7 +1647,7 @@
 "county":"Pierce",
 "latitude":"47.227527",
 "longitude":"-122.4694570",
-"feature":" Playground"
+"state":"WA", "feature":" Playground"
 },
 {
 "parkId":"164",
@@ -1657,7 +1658,7 @@
 "county":"Pierce",
 "latitude":"47.250543",
 "longitude":"-122.4489280",
-"feature":" Picnic Area, Playground"
+"state":"WA", "feature":" Picnic Area, Playground"
 },
 {
 "parkId":"165",
@@ -1668,7 +1669,7 @@
 "county":"Pierce",
 "latitude":"47.1960869",
 "longitude":"-122.4984261",
-"feature":" Covered Picnic Rental, Disabled Access, Horse Shoe Pits, Picnic Area, Playground, Restrooms, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Covered Picnic Rental, Disabled Access, Horse Shoe Pits, Picnic Area, Playground, Restrooms, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"166",
@@ -1679,7 +1680,7 @@
 "county":"Pierce",
 "latitude":"47.239643",
 "longitude":"-122.4473400",
-"feature":" Ampitheater, Community Garden, Disabled Access, Picnic Area, Playground, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Ampitheater, Community Garden, Disabled Access, Picnic Area, Playground, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"167",
@@ -1690,7 +1691,7 @@
 "county":"Pierce",
 "latitude":"47.299032",
 "longitude":"-122.4044660",
-"feature":" Community Center, Disabled Access, Picnic Area, Playground, Pool, Restrooms, Soccer Field, Spray Park, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Community Center, Disabled Access, Picnic Area, Playground, Pool, Restrooms, Soccer Field, Spray Park, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"168",
@@ -1701,7 +1702,7 @@
 "county":"Pierce",
 "latitude":"47.2631762",
 "longitude":"-122.4606136",
-"feature":" Playground, Walking Trail"
+"state":"WA", "feature":" Playground, Walking Trail"
 },
 {
 "parkId":"169",
@@ -1712,7 +1713,7 @@
 "county":"Pierce",
 "latitude":"47.281955",
 "longitude":"-122.3735890",
-"feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Restrooms, Soccer Field"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Picnic Area, Playground, Restrooms, Soccer Field"
 },
 {
 "parkId":"170",
@@ -1723,7 +1724,7 @@
 "county":"Pierce",
 "latitude":"47.2320262",
 "longitude":"-122.4932897",
-"feature":" Basketball Court, Picnic Area, Playground, Soccer Field, Walking Trail"
+"state":"WA", "feature":" Basketball Court, Picnic Area, Playground, Soccer Field, Walking Trail"
 },
 {
 "parkId":"171",
@@ -1734,7 +1735,7 @@
 "county":"Pierce",
 "latitude":"47.263216",
 "longitude":"-122.5348260",
-"feature":" Baseball Field, Basketball Court, Disabled Access, Playground"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Disabled Access, Playground"
 },
 {
 "parkId":"172",
@@ -1745,7 +1746,7 @@
 "county":"Pierce",
 "latitude":"47.2759012",
 "longitude":"-122.4896494",
-"feature":" Disabled Access, Hiking, Picnic Area, Playground, Restrooms, Stream or Creek, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Disabled Access, Hiking, Picnic Area, Playground, Restrooms, Stream or Creek, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"173",
@@ -1756,7 +1757,7 @@
 "county":"Pierce",
 "latitude":"47.2331721",
 "longitude":"-122.4154100",
-"feature":" Basketball Court, Community Garden, Picnic Area, Playground"
+"state":"WA", "feature":" Basketball Court, Community Garden, Picnic Area, Playground"
 },
 {
 "parkId":"174",
@@ -1767,7 +1768,7 @@
 "county":"Pierce",
 "latitude":"47.225973",
 "longitude":"-122.3985860",
-"feature":" Baseball Field, Basketball Court, Disabled Access, Disc golf, Picnic Area, Playground, Soccer Field, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Disabled Access, Disc golf, Picnic Area, Playground, Soccer Field, Walking Trail"
 },
 {
 "parkId":"175",
@@ -1778,7 +1779,7 @@
 "county":"Pierce",
 "latitude":"47.184615",
 "longitude":"-122.4370070",
-"feature":" Picnic Area, Playground, Walking Trail"
+"state":"WA", "feature":" Picnic Area, Playground, Walking Trail"
 },
 {
 "parkId":"176",
@@ -1789,7 +1790,7 @@
 "county":"Pierce",
 "latitude":"47.229212",
 "longitude":"-122.4539770",
-"feature":" Basketball Court, Picnic Area, Playground"
+"state":"WA", "feature":" Basketball Court, Picnic Area, Playground"
 },
 {
 "parkId":"177",
@@ -1800,7 +1801,7 @@
 "county":"Pierce",
 "latitude":"47.2376327",
 "longitude":"-122.4528505",
-"feature":" Picnic Area, Playground"
+"state":"WA", "feature":" Picnic Area, Playground"
 },
 {
 "parkId":"178",
@@ -1811,7 +1812,7 @@
 "county":"Pierce",
 "latitude":"47.2006646",
 "longitude":"-122.4902047",
-"feature":" Access Fee, Baseball Field, Community Center, Disabled Access, Football Field, Multi-Purpose Room Rental, Picnic Area, Playground, Pond, Restrooms, Soccer Field, Spray Park, Tennis Court, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Access Fee, Baseball Field, Community Center, Disabled Access, Football Field, Multi-Purpose Room Rental, Picnic Area, Playground, Pond, Restrooms, Soccer Field, Spray Park, Tennis Court, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"179",
@@ -1822,7 +1823,7 @@
 "county":"Pierce",
 "latitude":"47.2734521",
 "longitude":"-122.4700414",
-"feature":" Picnic Area, Walking Trail"
+"state":"WA", "feature":" Picnic Area, Walking Trail"
 },
 {
 "parkId":"180",
@@ -1833,7 +1834,7 @@
 "county":"Pierce",
 "latitude":"47.199501",
 "longitude":"-122.4677670",
-"feature":" Baseball Field, Basketball Court, Biking/Bike Trail, Picnic Area, Playground, Restrooms, Soccer Field, Spray Park, Walking Trail"
+"state":"WA", "feature":" Baseball Field, Basketball Court, Biking/Bike Trail, Picnic Area, Playground, Restrooms, Soccer Field, Spray Park, Walking Trail"
 },
 {
 "parkId":"182",
@@ -1844,7 +1845,7 @@
 "county":"Pierce",
 "latitude":"47.1461544",
 "longitude":"-122.5369351",
-"feature":" Monument/Memorial, Multi-Purpose Room Rental, Walking Trail"
+"state":"WA", "feature":" Monument/Memorial, Multi-Purpose Room Rental, Walking Trail"
 },
 {
 "parkId":"183",
@@ -1855,7 +1856,7 @@
 "county":"Pierce",
 "latitude":"47.124666",
 "longitude":"-122.1668730",
-"feature":" Picnic Area, Playground, Toddler Playground, Walking Trail"
+"state":"WA", "feature":" Picnic Area, Playground, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"184",
@@ -1866,7 +1867,7 @@
 "county":"Pierce",
 "latitude":"47.1277194",
 "longitude":"-122.1859127",
-"feature":" Bocce Courts, Covered Picnic Rental, Playground, Restrooms"
+"state":"WA", "feature":" Bocce Courts, Covered Picnic Rental, Playground, Restrooms"
 },
 {
 "parkId":"188",
@@ -1877,7 +1878,7 @@
 "county":"Pierce",
 "latitude":"47.199501",
 "longitude":"-122.4677670",
-"feature":" Monument/Memorial, Picnic Area, Walking Trail"
+"state":"WA", "feature":" Monument/Memorial, Picnic Area, Walking Trail"
 },
 {
 "parkId":"189",
@@ -1886,9 +1887,9 @@
 "city":"Lacey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.7009799",
-"longitude":"-1.228345218",
-"feature":" Basketball Court, BBQ/Grill, Picnic Area, Playground, Toddler Playground"
+"latitude":"47.009799",
+"longitude":"-122.8345218",
+"state":"WA", "feature":" Basketball Court, BBQ/Grill, Picnic Area, Playground, Toddler Playground"
 },
 {
 "parkId":"190",
@@ -1897,9 +1898,9 @@
 "city":"Lacey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.70347773",
-"longitude":"-1.228260496",
-"feature":" Picnic Area"
+"latitude":"47.0347773",
+"longitude":"-122.8260496",
+"state":"WA", "feature":" Picnic Area"
 },
 {
 "parkId":"191",
@@ -1908,9 +1909,9 @@
 "city":"Lacey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.70446703",
-"longitude":"-1.228343120",
-"feature":" Monument/Memorial"
+"latitude":"47.0446703",
+"longitude":"-122.8343120",
+"state":"WA", "feature":" Monument/Memorial"
 },
 {
 "parkId":"192",
@@ -1919,9 +1920,9 @@
 "city":"Lacey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.70408159",
-"longitude":"-1.228334999",
-"feature":" Picnic Area"
+"latitude":"47.0408159",
+"longitude":"-122.8334999",
+"state":"WA", "feature":" Picnic Area"
 },
 {
 "parkId":"193",
@@ -1930,9 +1931,9 @@
 "city":"Lacey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.70346147",
-"longitude":"-1.228035045",
-"feature":" Baseball Field, Basketball Court, BBQ/Grill, Disabled Access, Picnic Area, Playground, Restrooms, Soccer Field, Toddler Playground, Walking Trail"
+"latitude":"47.0346147",
+"longitude":"-122.8035045",
+"state":"WA", "feature":" Baseball Field, Basketball Court, BBQ/Grill, Disabled Access, Picnic Area, Playground, Restrooms, Soccer Field, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"194",
@@ -1942,8 +1943,8 @@
 "zipCode":"98503",
 "county":"Thurston",
 "latitude":"4.69865408",
-"longitude":"-1.228109954",
-"feature":" Basketball Court, BBQ/Grill, Picnic Area, Playground, Soccer Field"
+"longitude":"-122.8109954",
+"state":"WA", "feature":" Basketball Court, BBQ/Grill, Picnic Area, Playground, Soccer Field"
 },
 {
 "parkId":"195",
@@ -1952,9 +1953,9 @@
 "city":"Lacey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.70405481",
-"longitude":"-1.228275796",
-"feature":" Picnic Area, Restrooms, Stage, Walking Trail"
+"latitude":"47.0405481",
+"longitude":"-122.8275796",
+"state":"WA", "feature":" Picnic Area, Restrooms, Stage, Walking Trail"
 },
 {
 "parkId":"196",
@@ -1963,9 +1964,9 @@
 "city":"Lacey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.70452812",
-"longitude":"-1.228327049",
-"feature":" Biking/Bike Trail, Walking Trail"
+"latitude":"47.0452812",
+"longitude":"-122.8327049",
+"state":"WA", "feature":" Biking/Bike Trail, Walking Trail"
 },
 {
 "parkId":"197",
@@ -1974,9 +1975,9 @@
 "city":"Lacey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.70193214",
-"longitude":"-1.228156586",
-"feature":" Baseball Field, Basketball Court, BBQ/Grill, Disabled Access, Picnic Area, Playground, Restrooms, Tennis Court, Toddler Playground, Walking Trail"
+"latitude":"47.0193214",
+"longitude":"-122.8156586",
+"state":"WA", "feature":" Baseball Field, Basketball Court, BBQ/Grill, Disabled Access, Picnic Area, Playground, Restrooms, Tennis Court, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"198",
@@ -1985,9 +1986,9 @@
 "city":"Lacey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.70411973",
-"longitude":"-1.228010238",
-"feature":" BBQ/Grill, Disabled Access, Fishing, Lake, Picnic Area, Walking Trail"
+"latitude":"47.0411973",
+"longitude":"-122.8010238",
+"state":"WA", "feature":" BBQ/Grill, Disabled Access, Fishing, Lake, Picnic Area, Walking Trail"
 },
 {
 "parkId":"199",
@@ -1996,9 +1997,9 @@
 "city":"Lacey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.69926681",
-"longitude":"-1.227969559",
-"feature":" Baseball Field, Basketball Court, Disabled Access, Pickle Ball, Picnic Area, Playground, Pond, Soccer Field, Tennis Court, Toddler Playground, Walking Trail"
+"latitude":"46.9926681",
+"longitude":"-122.7969559",
+"state":"WA", "feature":" Baseball Field, Basketball Court, Disabled Access, Pickle Ball, Picnic Area, Playground, Pond, Soccer Field, Tennis Court, Toddler Playground, Walking Trail"
 },
 {
 "parkId":"200",
@@ -2007,9 +2008,9 @@
 "city":"Lavcey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.70217466",
-"longitude":"-1.227893784",
-"feature":" BBQ/Grill, Disabled Access, Fishing, Lake, Picnic Area, Restrooms, Volleyball, Walking Trail"
+"latitude":"47.0217466",
+"longitude":"-122.7893784",
+"state":"WA", "feature":" BBQ/Grill, Disabled Access, Fishing, Lake, Picnic Area, Restrooms, Volleyball, Walking Trail"
 },
 {
 "parkId":"201",
@@ -2018,8 +2019,620 @@
 "city":"Lacey",
 "zipCode":"98503",
 "county":"Thurston",
-"latitude":"4.70829096",
-"longitude":"-1.227531358",
-"feature":" Basketball Court, BBQ/Grill, Disabled Access, Hiking, Picnic Area, Playground, Restrooms, Toddler Playground, Walking Trail"
+"latitude":"47.0829096",
+"longitude":"-122.7531358",
+"state":"WA", "feature":" Basketball Court, BBQ/Grill, Disabled Access, Hiking, Picnic Area, Playground, Restrooms, Toddler Playground, Walking Trail"
+},
+{
+"parkId":"203",
+"parkName":"Rooster Rock State Park",
+"streetAddress":"Exit 25 and Highway 84",
+"city":"Corbett",
+"zipCode":"97019",
+"county":"Multnomah",
+"latitude":"45.5468365",
+"longitude":"-122.2386571",
+"state":"OR",
+"feature":" Access Fee, BBQ/Grill, Beach, Boat Launch, Covered Picnic Rental, Disabled Access, Disc golf, Fishing, Hiking, Multi-Purpose Room Rental, Picnic Area, Restrooms, River, Volleyball, Walking Trail, Waterfall"
+},
+{
+"parkId":"204",
+"parkName":"East City Park",
+"streetAddress":"900 East Third Street",
+"city":"Moscow",
+"zipCode":"83843",
+"county":"Latah",
+"latitude":"46.7330899",
+"longitude":"-116.9910006",
+"state":"ID",
+"feature":" Ampitheater, Basketball Court, BBQ/Grill, Covered Picnic Rental, Disabled Access, Horse Shoe Pits, Monument/Memorial, Picnic Area, Playground, Restrooms, Stage, Toddler Playground, Volleyball, Walking Trail"
+},
+{
+"parkId":"207",
+"parkName":"Mills Park",
+"streetAddress":"1111 E Williams St",
+"city":"Carson City",
+"zipCode":"89701",
+"county":"Washoe",
+"latitude":"39.1699453",
+"longitude":"-119.7589311",
+"state":"NV",
+"feature":" Skate Park, Waterfall"
+},
+{
+"parkId":"208",
+"parkName":"Himmel Park",
+"streetAddress":"1000 N Tucson Blvd",
+"city":"Tucson",
+"zipCode":"85716",
+"county":"Pima",
+"latitude":"32.2328585",
+"longitude":"-110.9333520",
+"state":"AZ",
+"feature":" Pool"
+},
+{
+"parkId":"209",
+"parkName":"Cahoon Park",
+"streetAddress":"1101 W 4th St",
+"city":"Roswell",
+"zipCode":"88201",
+"county":"Chaves",
+"latitude":"33.3980093",
+"longitude":"-104.5376023",
+"state":"NM",
+"feature":" Walking Trail"
+},
+{
+"parkId":"210",
+"parkName":"Trinity Park",
+"streetAddress":"2401 University Dr",
+"city":"Fort Worth",
+"zipCode":"79107",
+"county":"Tarrant",
+"latitude":"32.7402637",
+"longitude":"-97.3526952",
+"state":"TX",
+"feature":" River"
+},
+{
+"parkId":"211",
+"parkName":"Murray Park",
+"streetAddress":"296 E Murray Park Ave",
+"city":"Murray",
+"zipCode":"84107",
+"county":"Salt Lake",
+"latitude":"40.6609683",
+"longitude":"-111.8792361",
+"state":"UT",
+"feature":" Stream or Creek"
+},
+{
+"parkId":"212",
+"parkName":"Tom Bertagnolli Park",
+"streetAddress":"500 E Cedar St",
+"city":"Three Forks",
+"zipCode":"59752",
+"county":"Gallatin",
+"latitude":"45.8927081",
+"longitude":"-111.5457776",
+"state":"MT",
+"feature":" Baseball Field"
+},
+{
+"parkId":"213",
+"parkName":"Jaycee Park",
+"streetAddress":"1600 W Sunset Drive",
+"city":"Riverton",
+"zipCode":"82501",
+"county":"Fremont ",
+"latitude":"43.0346414",
+"longitude":"-108.4126315",
+"state":"WY",
+"feature":" Baseball Field"
+},
+{
+"parkId":"214",
+"parkName":"Waneka Lake Park",
+"streetAddress":"1600 Caria Dr",
+"city":"Lafayette",
+"zipCode":"80026",
+"county":"Boulder",
+"latitude":"39.9924599",
+"longitude":"-105.1247671",
+"state":"CO",
+"feature":" Lake"
+},
+{
+"parkId":"215",
+"parkName":"Tom Tenorio Park",
+"streetAddress":"2900 Arenal Rd SW",
+"city":"Albuquerque",
+"zipCode":"87121",
+"county":"Bernalillo",
+"latitude":"35.0495611",
+"longitude":"-106.7199847",
+"state":"NM",
+"feature":" Playground"
+},
+{
+"parkId":"216",
+"parkName":"Cross Ranch State Park",
+"streetAddress":"1403 River Road",
+"city":"Center",
+"zipCode":"58530",
+"county":"Oliver ",
+"latitude":"47.2189669",
+"longitude":"-101.0047187",
+"state":"ND",
+"feature":" River"
+},
+{
+"parkId":"217",
+"parkName":"Ravine Lake Park",
+"streetAddress":"Easy Street",
+"city":"Huron",
+"zipCode":"57350",
+"county":"Beadle ",
+"latitude":"44.3675045",
+"longitude":"-98.2159095",
+"state":"SD",
+"feature":" Lake"
+},
+{
+"parkId":"218",
+"parkName":"Riverside Park",
+"streetAddress":"1600 S Beltline Hwy W",
+"city":"Scottsbluff",
+"zipCode":"69361",
+"county":"Scotts Bluff",
+"latitude":"41.8541096",
+"longitude":"-103.6879414",
+"state":"NE",
+"feature":" Playground"
+},
+{
+"parkId":"219",
+"parkName":"Elmdale Park",
+"streetAddress":"400 East Avenue E",
+"city":"Hutchinson",
+"zipCode":"67501",
+"county":"Reno",
+"latitude":"38.0471047",
+"longitude":"-97.9300583",
+"state":"KS",
+"feature":" Tennis Court"
+},
+{
+"parkId":"220",
+"parkName":"Dolese Youth Park",
+"streetAddress":"5105 NW 50th St",
+"city":"Oklahoma City",
+"zipCode":"73122",
+"county":"Oklahoma",
+"latitude":"35.0585836",
+"longitude":"-100.5332416",
+"state":"OK",
+"feature":" Lake"
+},
+{
+"parkId":"221",
+"parkName":"Peavey Park",
+"streetAddress":"730 E 22nd St",
+"city":"Minneapolis",
+"zipCode":"55404",
+"county":"Hennepin",
+"latitude":"44.9624136",
+"longitude":"-93.2671142",
+"state":"MN",
+"feature":" Soccer Field"
+},
+{
+"parkId":"222",
+"parkName":"Dexter County Park",
+"streetAddress":"8200 WI-54",
+"city":"Pittsville",
+"zipCode":"54466",
+"county":"Wood",
+"latitude":"44.3850792",
+"longitude":"-90.1671303",
+"state":"WI",
+"feature":" Lake"
+},
+{
+"parkId":"223",
+"parkName":"Manistique Central Park",
+"streetAddress":"Lake St",
+"city":"Manistique",
+"zipCode":"49854",
+"county":"Schoolcraft",
+"latitude":"45.9599960",
+"longitude":"-86.2445831",
+"state":"MI",
+"feature":" Lake"
+},
+{
+"parkId":"224",
+"parkName":"Little Bridge Park",
+"streetAddress":"101 Adair St",
+"city":"De Soto",
+"zipCode":"50069",
+"county":"Dallas",
+"latitude":"41.5285407",
+"longitude":"-94.0110447",
+"state":"IA",
+"feature":" Baseball Field"
+},
+{
+"parkId":"225",
+"parkName":"Castlewood State Park",
+"streetAddress":"1401 Kiefer Creek Rd",
+"city":"Ballwin",
+"zipCode":"63021",
+"county":"St. Louis",
+"latitude":"38.5454803",
+"longitude":"-90.6006668",
+"state":"MO",
+"feature":" River"
+},
+{
+"parkId":"226",
+"parkName":"William Zimmer Memorial Park",
+"streetAddress":"730 Rogers St",
+"city":"Waterloo",
+"zipCode":"62298",
+"county":"Monroe",
+"latitude":"38.3510906",
+"longitude":"-90.1456897",
+"state":"IL",
+"feature":" Playground"
+},
+{
+"parkId":"227",
+"parkName":"Lake Cherrywood Park",
+"streetAddress":"300 Summitt St",
+"city":"Sherwood",
+"zipCode":"72120",
+"county":"Pulaski",
+"latitude":"34.8294418",
+"longitude":"-92.2038794",
+"state":"AR",
+"feature":" Lake"
+},
+{
+"parkId":"228",
+"parkName":"North Bossier Park",
+"streetAddress":"4307 Old Brownlee Rd",
+"city":"Bossier City",
+"zipCode":"71111",
+"county":"Bossier",
+"latitude":"32.5821031",
+"longitude":"-93.7392537",
+"state":"LA",
+"feature":" Tennis Court"
+},
+{
+"parkId":"229",
+"parkName":"Robertson Park",
+"streetAddress":"Blackwell Street",
+"city":"Collins",
+"zipCode":"39428",
+"county":"Covington",
+"latitude":"31.6337468",
+"longitude":"-89.5521126",
+"state":"MS",
+"feature":" Baseball Field"
+},
+{
+"parkId":"230",
+"parkName":"Bladon Springs State Park",
+"streetAddress":"3921 Bladon Rd",
+"city":"Silas",
+"zipCode":"36919",
+"county":"Choctaw",
+"latitude":"31.7350292",
+"longitude":"-88.2805199",
+"state":"AL",
+"feature":" Covered Picnic Rental"
+},
+{
+"parkId":"231",
+"parkName":"Wekiwa Springs State Park",
+"streetAddress":"1800 Wekiwa Cir",
+"city":"Apopka",
+"zipCode":"32712",
+"county":"Orange",
+"latitude":"28.7113508",
+"longitude":"-81.4672561",
+"state":"FL",
+"feature":" Hiking, Playground, Pond, Walking Trail"
+},
+{
+"parkId":"232",
+"parkName":"Apple Valley Park",
+"streetAddress":"1719 Marvin Griffin Rd",
+"city":"Augusta",
+"zipCode":"30906",
+"county":"Richmond",
+"latitude":"33.3937125",
+"longitude":"-81.9991167",
+"state":"GA",
+"feature":" Playground, Toddler Playground"
+},
+{
+"parkId":"233",
+"parkName":"Montgomery Bell State Park",
+"streetAddress":"1020 Jackson Hill Rd",
+"city":"Burns",
+"zipCode":"37029",
+"county":"Dickson",
+"latitude":"36.0859392",
+"longitude":"-87.3494275",
+"state":"TN",
+"feature":" Lake"
+},
+{
+"parkId":"234",
+"parkName":"Mammoth Cave National Park",
+"streetAddress":"1 Mammoth Cave Pkwy",
+"city":"Mammoth Cave",
+"zipCode":"42259",
+"county":"Edmonson",
+"latitude":"37.1753149",
+"longitude":"-86.4413840",
+"state":"KY",
+"feature":" Monument/Memorial"
+},
+{
+"parkId":"235",
+"parkName":"Future Park",
+"streetAddress":"400 S Apperson Way",
+"city":"Kokomo",
+"zipCode":"46901",
+"county":"Howard",
+"latitude":"40.4840047",
+"longitude":"-86.1369645",
+"state":"IN",
+"feature":" Tennis Court"
+},
+{
+"parkId":"236",
+"parkName":"Stephens Drive Park",
+"streetAddress":"915 W Stephen Dr",
+"city":"Columbus",
+"zipCode":"43204",
+"county":"Franklin",
+"latitude":"39.9363898",
+"longitude":"-83.0898131",
+"state":"OH",
+"feature":" Picnic Area"
+},
+{
+"parkId":"237",
+"parkName":"Green Tree Park",
+"streetAddress":"905 Greentree Rd",
+"city":"Pittsburgh",
+"zipCode":"15220",
+"county":"Allegheny",
+"latitude":"40.4234248",
+"longitude":"-80.0467443",
+"state":"PA",
+"feature":" Baseball Field"
+},
+{
+"parkId":"238",
+"parkName":"Audra State Park",
+"streetAddress":"Audra Park Rd",
+"city":"Buckhannon",
+"zipCode":"26201",
+"county":"Upshur",
+"latitude":"39.0401775",
+"longitude":"-80.0697770",
+"state":"WV",
+"feature":" River"
+},
+{
+"parkId":"239",
+"parkName":"Mount Blue State Park",
+"streetAddress":"299 Center Hill Rd",
+"city":"Weld",
+"zipCode":"04285",
+"county":"Franklin",
+"latitude":"44.7968484",
+"longitude":"-70.5456874",
+"state":"ME",
+"feature":" Hiking"
+},
+{
+"parkId":"240",
+"parkName":"Umbagog State Park",
+"streetAddress":"NH-26",
+"city":"Errol",
+"zipCode":"03579",
+"county":"Coos",
+"latitude":"44.7267717",
+"longitude":"-71.0779252",
+"state":"NH",
+"feature":" Lake"
+},
+{
+"parkId":"241",
+"parkName":"Mount Philo State Park",
+"streetAddress":"5425 Mt Philo Rd",
+"city":"Charlotte",
+"zipCode":"05445",
+"county":"Chittenden",
+"latitude":"44.2651697",
+"longitude":"-73.2386503",
+"state":"VT",
+"feature":" Picnic Area"
+},
+{
+"parkId":"242",
+"parkName":"Westmoreland Park",
+"streetAddress":"130 Westmoreland Avenue",
+"city":"Syracuse",
+"zipCode":"13210",
+"county":"Onondaga",
+"latitude":"43.0499064",
+"longitude":"-76.1162401",
+"state":"NY",
+"feature":" Baseball Field"
+},
+{
+"parkId":"243",
+"parkName":"Doolittle Park",
+"streetAddress":"78 S Elm St",
+"city":"Wallingford",
+"zipCode":"06492",
+"county":"New Haven",
+"latitude":"41.4490890",
+"longitude":"-72.8173356",
+"state":"CT",
+"feature":" Tennis Court"
+},
+{
+"parkId":"244",
+"parkName":"War Memorial Park",
+"streetAddress":"65 N Main St",
+"city":"West Bridgewater",
+"zipCode":"02379",
+"county":"Plymouth",
+"latitude":"42.0153108",
+"longitude":"-71.0101561",
+"state":"MA",
+"feature":" Walking Trail"
+},
+{
+"parkId":"245",
+"parkName":"Snake Den State Park",
+"streetAddress":"2321 Hartford Ave",
+"city":"Johnston",
+"zipCode":"02919",
+"county":"Providence",
+"latitude":"41.8282504",
+"longitude":"-71.5851131",
+"state":"RI",
+"feature":" Walking Trail"
+},
+{
+"parkId":"246",
+"parkName":"Piney Run Park",
+"streetAddress":"30 Martz Rd",
+"city":"Sykesville",
+"zipCode":"21784",
+"county":"Carroll",
+"latitude":"39.3947827",
+"longitude":"-77.0148439",
+"state":"MD",
+"feature":" Lake"
+},
+{
+"parkId":"247",
+"parkName":"Edward R Murrow Park",
+"streetAddress":"H Street NW and 18th Street NW",
+"city":"Washington",
+"zipCode":"20006",
+"county":"District of Columbia",
+"latitude":"38.9009455",
+"longitude":"-77.0414565",
+"state":"DC",
+"feature":" Picnic Area"
+},
+{
+"parkId":"248",
+"parkName":"Behrman Park",
+"streetAddress":"2200 Margerum Ave",
+"city":"Lake Como",
+"zipCode":"07719",
+"county":"Monmouth",
+"latitude":"40.1664778",
+"longitude":"-74.0314326",
+"state":"NJ",
+"feature":" Baseball Field"
+},
+{
+"parkId":"249",
+"parkName":"Mayfair Park",
+"streetAddress":"154 Blue Beach Dr",
+"city":"Dover",
+"zipCode":"19904",
+"county":"Kent",
+"latitude":"39.1396793",
+"longitude":"-75.5397816",
+"state":"DE",
+"feature":" Playground, Toddler Playground"
+},
+{
+"parkId":"250",
+"parkName":"Dorey Park",
+"streetAddress":"2999 Darbytown Rd",
+"city":"Henrico",
+"zipCode":"23231",
+"county":"Henrico",
+"latitude":"37.4634313",
+"longitude":"-77.3350925",
+"state":"VA",
+"feature":" Playground"
+},
+{
+"parkId":"251",
+"parkName":"Woodlawn Park",
+"streetAddress":"100 N Woodlawn Ave",
+"city":"Greenville",
+"zipCode":"27858",
+"county":"Pitt",
+"latitude":"35.6137351",
+"longitude":"-77.3643213",
+"state":"NC",
+"feature":" Playground"
+},
+{
+"parkId":"252",
+"parkName":"Myrtle Beach State Park",
+"streetAddress":"4401 S Kings Hwy",
+"city":"Myrtle Beach",
+"zipCode":"29575",
+"county":"Horry",
+"latitude":"33.6470537",
+"longitude":"-78.9432731",
+"state":"SC",
+"feature":" Beach"
+},
+{
+"parkId":"253",
+"parkName":"Growden Park",
+"streetAddress":"1100 Wilbur Street",
+"city":"Fairbanks",
+"zipCode":"99701",
+"county":"Fairbanks North Star Borough",
+"latitude":"64.8401540",
+"longitude":"-147.7622065",
+"state":"AK",
+"feature":" Baseball Field"
+},
+{
+"parkId":"254",
+"parkName":"Patsy T. Mink Central Oahu Regional Park",
+"streetAddress":"94-801 Kamehameha Hwy",
+"city":"Waipahu",
+"zipCode":"96797",
+"county":"Honolulu ",
+"latitude":"21.4159478",
+"longitude":"-158.0218106",
+"state":"HI",
+"feature":" Disabled Access"
+},
+{
+"parkId":"254",
+"parkName":"Patsy T. Mink Central Oahu Regional Park",
+"streetAddress":"94-801 Kamehameha Hwy",
+"city":"Waipahu",
+"zipCode":"96797",
+"county":"Honolulu ",
+"latitude":"21.4159478",
+"longitude":"-158.0218106",
+"state":"HI",
+"feature":" Disabled Access"
 }
 ]

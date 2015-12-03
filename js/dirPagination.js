@@ -238,11 +238,11 @@
                 throw 'pagination directive: the pagination controls' + idMessage + 'cannot be used without the corresponding pagination directive.';
             }
 
-            if (!scope.maxSize) { scope.maxSize = 7; }
+            if (!scope.maxSize) { scope.maxSize = 5; }
             scope.directionLinks = angular.isDefined(attrs.directionLinks) ? scope.$parent.$eval(attrs.directionLinks) : true;
             scope.boundaryLinks = angular.isDefined(attrs.boundaryLinks) ? scope.$parent.$eval(attrs.boundaryLinks) : false;
 
-            var paginationRange = Math.max(scope.maxSize, 5);
+            var paginationRange = Math.max(scope.maxSize, 3);
             scope.pages = [];
             scope.pagination = {
                 last: 1,
