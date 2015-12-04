@@ -42,17 +42,20 @@
 	
 		<div class="searching">
 			<section ng-controller="ListController">
-			<!-- <div class="parkinfo" ng-show="navi.isSelected(5)">
+			
+			 <div class="parkinfo" ng-show="navi.isSelected(5)">
 				<h2>Settings</h2>
+				
+				<h4>...under construction...</h4>
 				<!-- <label> 
 					<span>Choose your state:
 						<select ng-model="stateSelect">
 							<option Value="" selected>All States</option><option Value = "AL">AL</option><option Value = "AK">AK</option><option Value = "AZ">AZ</option><option Value = "AR">AR</option><option Value = "CA">CA</option><option Value = "CO">CO</option><option Value = "CT">CT</option><option Value = "DE">DE</option><option Value = "FL">FL</option><option Value = "GA">GA</option><option Value = "HI">HI</option><option Value = "ID">ID</option><option Value = "IL">IL</option><option Value = "IN">IN</option><option Value = "IA">IA</option><option Value = "KS">KS</option><option Value = "KY">KY</option><option Value = "LA">LA</option><option Value = "ME">ME</option><option Value = "MD">MD</option><option Value = "MA">MA</option><option Value = "MI">MI</option><option Value = "MN">MN</option><option Value = "MS">MS</option><option Value = "MO">MO</option><option Value = "MT">MT</option><option Value = "NE">NE</option><option Value = "NV">NV</option><option Value = "NH">NH</option><option Value = "NJ">NJ</option><option Value = "NM">NM</option><option Value = "NY">NY</option><option Value = "NC">NC</option><option Value = "ND">ND</option><option Value = "OH">OH</option><option Value = "OK">OK</option><option Value = "OR">OR</option><option Value = "PA">PA</option><option Value = "RI">RI</option><option Value = "SD">SD</option><option Value = "SC">SC</option><option Value = "TN">TN</option><option Value = "TX">TX</option><option Value = "UT">UT</option><option Value = "VT">VT</option><option Value = "VA">VA</option><option Value = "WA">WA</option><option Value = "WV">WV</option><option Value = "WI">WI</option><option Value = "WY">WY</option><option Value = "DC">DC</option>
 						</select>
 					</span>
-				</label>				
+				</label>	-->			
 				<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
-			</div> -->
+			</div> 
 	
 	
 			<div ng-show="navi.isSelected(1)">
@@ -105,10 +108,10 @@
 			  <hr>
 			  <h2><a id="o" ng-click="navi.selectTab(4)"> {{parkDetail.parkName}}</a></h2> 
 			  <p><a id="r" ng-click="navi.selectTab(4)">{{parkDetail.streetAddress}}, {{parkDetail.city}}</a><hr>
-			  <h4 id="h"> This park includes: </h4><h4>{{parkDetail.feature}}.</h4></p>
+			  <h4> This park includes: </h4><h4 id="h">{{parkDetail.feature}}.</h4></p>
 			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
-			<label>				
+			<label ng-show="navi.isSelected(1)">				
 				<span>Parks Displayed:
 					<select ng-model="display">
 						<option Value = "5"> 5</option><option Value = "10" selected> 10</option><option Value = "20"> 20</option><option Value = "30"> 30 </option><option Value = "40"> 40</option><option Value = "50"> 50</option>
@@ -127,16 +130,18 @@
 <!-- SET UP A FUNCTION WHERE IF isSelected == 2 or 3, the back button goes to isSelected(1) to return to basic search.-->
 		<div id="aboutMe">
 		<h1>About Parkoo</h1>
+			<h4>This is our BETA version.  More features will be available in the future, including an expanded parks database, user settings, and mapping functionality. For now
+			I'm just a 1 man team pursuing a dream with this little application.</h4>
 			
-			<p>As my kids have grown older and our time together becomes more and more important, the realization that I don't have hours to search the 
+			<h5>As my kids have grown older and our time together becomes more and more important, the realization that I don't have hours to search the 
 			web coupled with my boys' desire to go to new places culminated to form our own park finder. A list of places we'd visited with 
-			the features offered at each location. </p>
+			the features offered at each location. </h5>
 			
-			<p>Thanks to technology, we now want to offer our "research" to everyone to get out and find something new and beautiful to share 
-			with their loved ones, their pets or even their own inner child. </p>
+			<h5>Thanks to technology, we now want to offer our "research" to everyone to get out and find something new and beautiful to share 
+			with their loved ones, their pets or even their own inner child. </h5>
 			
-			<p>While this application is in no way perfect, I hope it at least helps you and those who matter most to you find somewhere new to play, fish, or 
-			just get outside.</p>
+			<h5>While this application is in no way perfect, I hope it at least helps you and those who matter most to you find somewhere new to play, fish, or 
+			just get outside.</h5>
 			<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
 		</div>
 	</div>

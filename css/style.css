@@ -13,6 +13,9 @@ h1, h2, h3{
 	text-align:center;
 	color: #666;
 }
+h4, h5{
+	color: #005406;
+}
 
 p{
 	font-size:14px;
@@ -93,6 +96,7 @@ ol, ul {
 }
 #aboutMe{
 	margin-bottom:1em;
+	color: #005406;
 }
 
 #aboutMe a{
@@ -132,8 +136,8 @@ ol, ul {
   font-family: 'Droid Sans', sans-serif;
   width: 100%;
   padding: 10px 0 10px 15px;
-  font-size: 1rem;
-  background: rgba(255,255,255,0.4);
+  font-size: 1em;
+  background: rgba(255,255,255,0.8);
   border: 1px solid rgba(255,255,255,0.2);
   border-radius: 6px;
   outline: 0;
@@ -149,17 +153,6 @@ ol, ul {
   display: inline;
   width: auto;
 }
-
-#search select, .select {
-  display: inline;
-  padding: 10px;
-  color: #005406;
-  background: rgba(255,255,255,0.4);
-  border: 1px solid rgba(0,0,0,0.3);
-  border-radius: 6px;
-
-}
-
 
 /* park LIST */
 .parksList {
@@ -375,8 +368,7 @@ width: 50%;
 
 
 @media screen and (max-width:600px){
-	
-	
+
 .break{
 	display:block;
 	visibility:visible;
@@ -405,10 +397,6 @@ width: 50%;
 font-size: 11px;
 }
 
-#sort{
-    text-align:left;
-	font-size:0.48em;
-}
 
 #small{
 	visibility: visible;
@@ -505,12 +493,6 @@ p{
 	font-size: 80%;
 }
 }
-
-@media screen and (max-width:880px){
-#sort{
-	font-size: 1rem;
-}
-}
  
  /* -----------------------------------------------------------------------------------------*/
  /* -------------------------*-------END MEDIA QUERY-------*---------------------------------*/
@@ -525,9 +507,9 @@ p{
 .form-control {
   display: block;
   width: 100%;
-  height: 34px;
-  padding: 6px 12px;
-  font-size: 14px;
+  height: 3.3em;
+  padding: 1px 12px;
+  font-size: 3em;
   line-height: 1.42857143;
   color: #555;
   background-color: #fff;
@@ -543,8 +525,8 @@ p{
 .form-control:focus {
   border-color: #66afe9;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
-          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(66, 256, 0, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(66, 256, 0, 0.6);
 }
 .form-control::-moz-placeholder {
   color: #999;
@@ -567,7 +549,7 @@ fieldset[disabled] .form-control {
   cursor: not-allowed;
 }
 textarea.form-control {
-  height: auto;
+  height: 2em;
 }
 
 #search label.formgroup {

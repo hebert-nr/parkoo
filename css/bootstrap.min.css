@@ -699,7 +699,7 @@ border-top-right-radius:3px;
 @media screen and (max-width:600px){
 .pagination>li>a,
 .pagination>li>span{
-	padding:8px 14px;
+	padding:10px 16px;
 }
 
 
