@@ -7,6 +7,7 @@ body{
 	background:#d0d4d2;
 	font-family:Century Gothic, sans-serif;
 	font-size: 18px;
+	-webkit-backface-visibility: hidden
 }
 
 h1, h2, h3{
