@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js"></script>
 <script src="js/app.js"></script> 
@@ -76,7 +76,7 @@
 									<input style="padding:0; margin:0;border:none;" class="select" type="radio" ng-model="direction" name="direction" value="reverse">
 									desc
 								</label>
-								<a id="advance" ng-click="navi.selectTab(6)"><span>Advanced Search>></span></a>
+								<a class="advance" ng-click="navi.selectTab(6)"><span>Advanced Search>></span></a>
 						</div>
 				</div>
 						
@@ -99,20 +99,26 @@
 				<h2>Advanced Search</h2>
 				<label>
 					<span>Which state?
-							<select class="select" ng-model="stateSelect" ng-options="item.state as item.state for item in data | unique:'state'" >
+							<select class="select" ng-model="stateSelect" ng-options="item.state as item.state for item in data | unique:'state' | orderBy:'state'" >
+							<option value="">All</option>
 							</select>
 					</span>
 				</label>
 				<label>
 					<span>Which County?
-						<select class="select" ng-model="countySelect" ng-options="item.county as item.county for item in park = (data|filter:stateSelect) | unique:'county'"></select>
+						<select class="select" ng-model="countySelect" ng-options="item.county as item.county for item in park = (data|filter:stateSelect) | unique:'county' | orderBy:'county'">
+						<option value="">All</option>
+						</select>
 					</span>
 				</label>
 				<label>
 					<span>Which City?
-						<select class="select" ng-model="citySelect" ng-options="item.city as item.city for item in park = (data|filter:countySelect) | unique:'city'"></select>
+						<select class="select" ng-model="citySelect" ng-options="item.city as item.city for item in park = (data|filter:countySelect) | unique:'city' | orderBy:'city'">
+						<option value="">All</option>
+						</select>
 					</span>
 				</label>
+				<p><a class="advance" ng-click="navi.selectTab(1)">Back to Main Search</a></p>
 				<hr></hr>
 				<ul class="parksList">
 					<li ng-model="results" ng-repeat="item in data | filterMultiple:{state:stateSelect, city:citySelect, county:countySelect} | limitTo: display | orderBy: parkOrder:direction">
@@ -125,7 +131,7 @@
 						</a>
 					</li>
 				</ul>
-			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Main Search</a></p>					  
+			  <p><a class="advance" ng-click="navi.selectTab(1)">Back to Main Search</a></p>					  
 			</div>		
 
 	<!--details of the clicked results from BOTH advance and basic searches-->
@@ -136,7 +142,7 @@
 			  <h4> This park includes: </h4><h4 id="h">{{parkDetail.feature}}.</h4></p>
 			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
-			<label ng-show="navi.isSelected(1)">				
+			<label ng-show="navi.isSelected(1), navi.isSelected(6)">				
 				<span>Parks Displayed:
 					<select ng-model="display">
 						<option Value = "5"> 5</option><option Value = "10" selected> 10</option><option Value = "20"> 20</option><option Value = "30"> 30 </option><option Value = "40"> 40</option><option Value = "50"> 50</option>
@@ -145,10 +151,9 @@
 				</span>
 			</label>
 		</section>
-		<div ng-controller="PaginationControl" ng-show="navi.isSelected(1)">
+		<div ng-controller="PaginationController" ng-show="navi.isSelected(1)">
 		  <div class="text-center">
 		  <uib-pagination items-per-page="display" ng-change="pageChanged(currentPage)" ng-model="currentPage"  max-size="maxSize" class="pagination-sm" next-text=">" previous-text="<" boundary-links="false" >
-		 
 		  </div>
 		</div>
 	</div>

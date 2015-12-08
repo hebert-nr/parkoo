@@ -74,7 +74,7 @@
 								filteredData:[],
 								applyFilter : function(obj,key){
 									var fData = [];
-									if(this.filteredData.length == 0)
+									if(this.filteredData.length === 0)
 										this.filteredData = this.data;
 									if(obj){
 										var fObj = {};

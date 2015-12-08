@@ -213,7 +213,7 @@ ol, ul {
 }
 
 #e:hover{
-  color: #fff;
+  color: #666;
 }
 
 #r{
@@ -323,7 +323,6 @@ ul li img {
 }
 
 .searching{
-	
 	margin-top: 10px;
 	padding:20px;
 }
@@ -355,11 +354,11 @@ width: 50%;
 	margin-top:2%;
 }
 
-#advance{
+.advance{
 	float:right;
 	color: #005406;
 }
-#advance:hover{
+.advance:hover{
 	color:#888;
 	cursor:pointer;
 }
