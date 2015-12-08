@@ -56,9 +56,9 @@
 	<!-- Basic search at first which searches through all portions of JSON -->	
 			<div ng-show="navi.isSelected(1)">
 				<div id="search">
-					<label>
-						<h4>I found {{park.length}} parks. Narrow the search:</h4> 
+					<label> 
 						<p ng-repeat="item in park = (data | filter: q)"></p>
+						<h4>I found {{park.length}} parks. Narrow the search:</h4>
 					</label>
 					<input class="form-control" ng-model="q" placeholder="filter parks..." />
 						<div id="sort">
@@ -93,38 +93,42 @@
 					</li>
 				</ul>
 			</div>
-				<div id="advanceSearch" ng-show="navi.isSelected(6)">
-					<h2>Advanced Search</h2>
-					<label>
-						<span>Which state?
-								<select class="select" ng-model="stateSelect" ng-options="item.state as item.state for item in data | unique:'state'" >
-								</select>
-						</span>
-					</label>
-					<label>
-						<span>Which County?
-							<select class="select" ng-model="countySelect" ng-options="item.county as item.county for item in park = (data|filter:stateSelect) | unique:'county'"></select>
-						</span>
-					</label>
-					<label>
-						<span>Which City?
-							<select class="select" ng-model="citySelect" ng-options="item.city as item.city for item in park = (data|filter:countySelect) | unique:'city'"></select>
-						</span>
-					</label>
-					<hr></hr>
-					<ul class="parksList">
-						<li ng-model="results" ng-repeat="item in data | filterMultiple:{state:stateSelect, city:citySelect, county:countySelect} | limitTo: display | orderBy: parkOrder:direction">
-							<a id="paLi" ng-click="parkIndex(item); navi.selectTab(4)">
-								<div>
-									<h2>{{item.parkName}}</h2>
-									<span> Located at {{item.streetAddress}} in {{item.city}}, {{item.state}}  {{item.zipCode}}.</span>
-									<hr />
-								</div>
-							</a>
-						</li>
-					</ul>
-				  <p><a id="e" ng-click="navi.selectTab(1)">Back to Main Search</a></p>					  
-				</div>								
+			
+	<!--advance search function starts here (lots of code redundancy, but it's working ET...  it's working.-->		
+			<div id="advanceSearch" ng-show="navi.isSelected(6)">
+				<h2>Advanced Search</h2>
+				<label>
+					<span>Which state?
+							<select class="select" ng-model="stateSelect" ng-options="item.state as item.state for item in data | unique:'state'" >
+							</select>
+					</span>
+				</label>
+				<label>
+					<span>Which County?
+						<select class="select" ng-model="countySelect" ng-options="item.county as item.county for item in park = (data|filter:stateSelect) | unique:'county'"></select>
+					</span>
+				</label>
+				<label>
+					<span>Which City?
+						<select class="select" ng-model="citySelect" ng-options="item.city as item.city for item in park = (data|filter:countySelect) | unique:'city'"></select>
+					</span>
+				</label>
+				<hr></hr>
+				<ul class="parksList">
+					<li ng-model="results" ng-repeat="item in data | filterMultiple:{state:stateSelect, city:citySelect, county:countySelect} | limitTo: display | orderBy: parkOrder:direction">
+						<a id="paLi" ng-click="parkIndex(item); navi.selectTab(4)">
+							<div>
+								<h2>{{item.parkName}}</h2>
+								<span> Located at {{item.streetAddress}} in {{item.city}}, {{item.state}}  {{item.zipCode}}.</span>
+								<hr />
+							</div>
+						</a>
+					</li>
+				</ul>
+			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Main Search</a></p>					  
+			</div>		
+
+	<!--details of the clicked results from BOTH advance and basic searches-->
 			<div ng-show="navi.isSelected(4)" class="parkinfo"> 
 			  <hr>
 			  <h2> {{parkDetail.parkName}}</h2> 
