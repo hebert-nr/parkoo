@@ -5,7 +5,7 @@
 		$http.get('js/data1.json').success(function(park){
 		  $scope.data = park;
 		  $scope.parkOrder='parkName';
-		  $scope.display = 10;		  
+		  $scope.display = 10;
 		});
 			$scope.pageChangeHandler = function(num) {
 			console.log('data page changed to ' + num);
@@ -13,7 +13,6 @@
 			$scope.parkIndex = function(i){
 			$scope.parkDetail=i;
 			};
-			
 		});
 
 	app.controller('OtherController', function($scope) {
@@ -38,9 +37,8 @@
 	app.config(function($compileProvider){
 		$compileProvider.aHrefSanitizationWhitelist(/^\s*(geo|https?|ftp|mailto|file|ghttps?|ms-appx|x-wmapp0):/);
 	}); 	
-
 	
-	app.controller('PaginationDemoCtrl',function ($scope,  $window) {
+	app.controller('PaginationControl',function ($scope,  $window) {
         // Pagination variables
         $scope.totalItems = 100;
         $scope.currentPage = 1;

@@ -212,9 +212,6 @@ ol, ul {
 	color: #bbb;
 }
 
-#o{
-  color:#fff;
-}
 #e:hover{
   color: #fff;
 }
@@ -410,10 +407,6 @@ font-size: 11px;
 width: 95%;	
 }
 
-#o{
-	font-size: 1.2em;
-}
-  
 }
  
 @media screen and (max-width:740px){

@@ -1,0 +1,94 @@
+[
+{"state":"WA",
+"parkData":{"parkId":"2",
+			"parkName":"Wildwood Park",
+			"streetAddress":"1101 23rd Ave SE",
+			"city":"Puyallup",
+			"zipCode":"98374",
+			"county":"Pierce",
+			"latitude":"47.171212",
+			"longitude":"-122.2781745",
+			"state":"Washington", 
+			"feature":" BBQ/Grill, Disabled Access, Hiking, Multi-Purpose Room Rental, Picnic Area, Playground, Restrooms, Stream or Creek, Toddler Playground, Walking Trail, Waterfall"
+			},
+			{
+			"parkId":"3",
+			"parkName":"Allan Yorke Park",
+			"streetAddress":"7203 West Tapps Hwy E",
+			"city":"Bonney Lake",
+			"zipCode":"98391",
+			"county":"Pierce",
+			"latitude":"47.1897496",
+			"longitude":"-122.1654507",
+			"state":"Washington", 
+			"feature":" Baseball Field, Basketball Court, BBQ/Grill, Beach, Boat Launch, Concessions, Disabled Access, Dock Access, Fishing, Lake, Lighted Tennis Courts, Picnic Area, Playground, Restrooms, Skate Park, Soccer Field, Stage, Stream or Creek, Tennis Court, Volleyball, Walking Trail"
+			},
+			{
+			"parkId":"4",
+			"parkName":"DeCoursey Park",
+			"streetAddress":"1998 7th Ave SW",
+			"city":"Puyallup",
+			"zipCode":"98371",
+			"county":"Pierce",
+			"latitude":"47.186785",
+			"longitude":"-122.3197859",
+			"state":"Washington", 
+			"feature":" Baseball Field, BBQ/Grill, Dock Access, Excersize Path, Fishing, Hiking, Off Leash Dog Park, Picnic Area, Playground, Pond, Restrooms, Stream or Creek, Tennis Court, Toddler Playground, Walking Trail"
+			},
+			{
+			"parkId":"6",
+			"parkName":"Bradley Lake Park",
+			"streetAddress":"2791 7th St SE",
+			"city":"Puyallup",
+			"zipCode":"98374",
+			"county":"Pierce",
+			"latitude":"47.1610869",
+			"longitude":"-122.2841332",
+			"state":"Washington", 
+			"feature":" Baseball Field, BBQ/Grill, Disabled Access, Dock Access, Fishing, Lake, Picnic Area, Playground, Restrooms, Walking Trail"
+			},
+			{
+			"parkId":"7",
+			"parkName":"Spanaway Park",
+			"streetAddress":"14905 Bresemann Blvd S",
+			"city":"Spanaway",
+			"zipCode":"98387",
+			"county":"Pierce",
+			"latitude":"47.1164915",
+			"longitude":"-122.4441807",
+			"state":"Washington", 
+			"feature":" Access Fee, Basketball Court, BBQ/Grill, Beach, Boat Launch, Boat Rentals, Disabled Access, Dock Access, Fishing, Lake, Picnic Area, Playground, Restrooms, Tennis Court, Walking Trail"
+			},
+			{
+			"parkId":"9",
+			"parkName":"Auburn Game Farm Park",
+			"streetAddress":"3030 R St SE",
+			"city":"Auburn",
+			"zipCode":"98002",
+			"county":"King",
+			"latitude":"47.280441",
+			"longitude":"-122.2054517",
+			"state":"Washington", 
+			"feature":" Ampitheater, Baseball Field, Basketball Court, BBQ/Grill, Concessions, Disabled Access, Fishing, Lighted Tennis Courts, Picnic Area, Playground, Restrooms, River, Soccer Field, Stage, Tennis Court, Volleyball, Walking Trail"
+			},
+			{
+			"parkId":"11",
+			"parkName":"Lake Fenwick Park",
+			"streetAddress":"25828 Lake Fenwick Rd S",
+			"city":"Kent",
+			"zipCode":"98032",
+			"county":"King",
+			"latitude":"47.3682825",
+			"longitude":"-122.2721941",
+			"state":"Washington", 
+			"feature":" Boat Launch, Disabled Access, Disc golf, Dock Access, Fishing, Lake, Walking Trail"
+			}
+},
+{
+"state":"OR",
+"parkData":{
+}
+}
+
+
+]
