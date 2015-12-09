@@ -38,32 +38,23 @@
 		$compileProvider.aHrefSanitizationWhitelist(/^\s*(geo|https?|ftp|mailto|file|ghttps?|ms-appx|x-wmapp0):/);
 	}); 	
 	
-	app.controller('PaginationControl',function ($scope,  $window) {
-        // Pagination variables
-        $scope.totalItems = 100;
-        $scope.currentPage = 1;
-        $scope.maxSize = 8;
-        $scope.itemsPerPage = 10;
-        $scope.windowWidth = '';
-        
-         // Window resize event
-         var w = angular.element($window);
-         w.bind('resize', function () {
-             
-             // Get window width
-             $scope.windowWidth = "innerWidth" in window ? window.innerWidth : document.documentElement.offsetWidth;
-             
-             // Change maxSize based on window width
-             if($scope.windowWidth > 800) {
-                 $scope.maxSize = 8;
-             } else if($scope.windowWidth > 400) {
-                 $scope.maxSize = 5;
-             } else {
-                 $scope.maxSize = 2;
-             }
-             $scope.$apply();
-         });
-});
+	app.controller('PaginationController', function($scope, $log) {
+		$scope.totalItems = 234;
+		$scope.currentPage = 1;
+		
+		
+		$scope.setPage = function (pageNo) {
+			$scope.currentPage = pageNo;
+		};
+
+		$scope.pageChanged = function() {
+			$log.log('Page changed to: ' + $scope.currentPage);
+		};
+
+		
+		$scope.bigTotalItems = 234;
+		$scope.bigCurrentPage = 1;
+	});
 	
 	
 	//filter Multiple...
@@ -74,7 +65,7 @@
 								filteredData:[],
 								applyFilter : function(obj,key){
 									var fData = [];
-									if(this.filteredData.length === 0)
+									if(this.filteredData.length == 0)
 										this.filteredData = this.data;
 									if(obj){
 										var fObj = {};
