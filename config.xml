@@ -8,25 +8,24 @@
 
 	<preference name="phonegap-version" value="cli-5.2.0" />
 
-	<preference name="Orientation" value="portrait" />	
-
-	
+	<preference name="Orientation" value="portrait" />		
 	
    
 	<name>Parkoo</name>
 	<content src="index.html"/>
-	<icon src="images/Parkoo_icon.png" gap:platform="winphone" />
-	<icon src="images/Parkoo_icon.png" gap:platform="winphone" gap:role="background" />
-	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="ldpi" />
-	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="mdpi" />
-	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="hdpi" />
-	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="xhdpi" />
-	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
-	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />	
-
-	<access origin="http://maps.google.com" />
-	<access origin="geo:*" launch-external="yes"/>
-	<!-- Credit for the treeswing silhouette: http://www.tenstickers.co.uk/wall-stickers/img/preview/tree-swing-mac-sticker-2576.png -->
+	<platform name="wp8">
+		<icon src="images/parkoo_icon.png" gap:platform="winphone" />
+		<icon src="images/parkoo_icon.png" gap:platform="winphone" gap:role="background" />
+	</platform>
+	
+	<platform name="android">
+		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="ldpi" />
+		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="mdpi" />
+		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="hdpi" />
+		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />	
+	</platform>
 	
 	<description>
 		<h4>!!!BETA VERSION!!!</h4>
@@ -40,7 +39,5 @@
 	<author email="sodajrrk@gmail.com">
 		Noah Hebert
 	</author>
-
-	
 
 </widget>
