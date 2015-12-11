@@ -1,5 +1,5 @@
 
-	var app = angular.module('parkoo', ['ui.bootstrap','angular.filter']);
+	var app = angular.module('parkoo', ['angularUtils.directives.dirPagination', 'ui.bootstrap','angular.filter']);
 	
 	app.controller('ListController',function($scope, $http) {
 		$http.get('js/data1.json').success(function(park){
@@ -8,19 +8,19 @@
 		  $scope.display = 10;
 		});
 			$scope.pageChangeHandler = function(num) {
-			console.log('data page changed to ' + num);
-			};
+			  console.log('parks page changed to ' + num);
+		  };
+
 			$scope.parkIndex = function(i){
 			$scope.parkDetail=i;
 			};
 		});
-
-	app.controller('OtherController', function($scope) {
-	  $scope.pageChangeHandler = function(num) {
-		console.log('going to page ' + num);
-	  };
+	app.controller('OtherController',function($scope) {
+		$scope.pageChangeHandler = function(num) {
+			console.log('going to page ' + num);
+		};
 	});	
-			
+	
 	app.controller('NavController', function(){
 		this.tab = 1;
 		
@@ -38,24 +38,7 @@
 		$compileProvider.aHrefSanitizationWhitelist(/^\s*(geo|https?|ftp|mailto|file|ghttps?|ms-appx|x-wmapp0):/);
 	}); 	
 	
-	app.controller('PaginationController', function($scope, $log) {
-		$scope.totalItems = 234;
-		$scope.currentPage = 1;
 		
-		
-		$scope.setPage = function (pageNo) {
-			$scope.currentPage = pageNo;
-		};
-
-		$scope.pageChanged = function() {
-			$log.log('Page changed to: ' + $scope.currentPage);
-		};
-
-		
-		$scope.bigTotalItems = 234;
-		$scope.bigCurrentPage = 1;
-	});
-	
 	
 	//filter Multiple...
 	app.filter('filterMultiple',['$filter',function ($filter) {
@@ -113,4 +96,4 @@
 			return uniqueList;
 		};
 	});
-		
+	
