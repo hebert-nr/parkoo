@@ -121,7 +121,7 @@
 				<p><a class="advance" ng-click="navi.selectTab(1)">Back to Main Search</a></p>
 				<hr></hr>
 				<ul class="parksList">
-					<li ng-model="results" ng-repeat="item in data | filterMultiple:{state:stateSelect, city:citySelect, county:countySelect} | limitTo: display | orderBy: parkOrder:direction">
+					<li ng-model="results" dir-paginate="item in data | filterMultiple:{state:stateSelect, city:citySelect, county:countySelect} | itemsPerPage: display | orderBy: parkOrder:direction">
 						<a id="paLi" ng-click="parkIndex(item); navi.selectTab(4)">
 							<div>
 								<h2>{{item.parkName}}</h2>
@@ -158,7 +158,7 @@
 		</div>
 		<div ng-controller="PaginationController" ng-show="navi.isSelected(6)">
 			<div class="text-center">
-				
+				<dir-pagination-controls boundary-links="false" on-page-change="pageChangeHandler(newPageNumber)" template-url="dirPagination.tpl.html"> </dir-pagination-controls>
 			</div>
 		</div>
 	</div>
