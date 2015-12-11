@@ -3,7 +3,7 @@
 
 	xmlns:gap   = "http://phonegap.com/ns/1.0"
 	id          = "com.phonegap.parkoo"
-	version     = "0.10.51"
+	version     = "0.11.2"
 	versionCode = "10" >
 
 	<preference name="phonegap-version" value="cli-5.2.0" />
@@ -19,6 +19,11 @@
 	<!-- Credit for the treeswing silhouette: http://www.tenstickers.co.uk/wall-stickers/img/preview/tree-swing-mac-sticker-2576.png -->
 	
 	<description>
+		!!!BETA VERSION!!!
+		Still in test mode with minimalized data. Social Media accounts are yet to be activated and the Settings tab is lacking 
+		capabilities, as the main goal is to set and store in memory of the device which state and county the search will consider 
+		default for you!
+	
 		A way to search for new parks to take your kids, your dog or your own inner child to.  Database expansion to come. 
 	</description>
 
