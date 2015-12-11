@@ -12,7 +12,15 @@
 
    
 	<name>Parkoo</name>
-	<content src="index.html"/>  
+	<content src="index.html"/>
+	<icon src="images/Parkoo_icon.png" gap:platform="winphone" />
+	<icon src="images/Parkoo_icon.png" gap:platform="winphone" gap:role="background" />
+	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="ldpi" />
+	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<icon src="images/Parkoo_icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />	
 
 	<access origin="http://maps.google.com" />
 	<access origin="geo:*" launch-external="yes"/>
