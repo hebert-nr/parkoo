@@ -10,6 +10,8 @@
 
 	<preference name="Orientation" value="portrait" />	
 
+	
+	
    
 	<name>Parkoo</name>
 	<content src="index.html"/>
