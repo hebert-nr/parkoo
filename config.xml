@@ -14,17 +14,17 @@
 	<name>Parkoo</name>
 	<content src="index.html"/>
 	<platform name="wp8">
-		<icon src="images/parkoo_icon.png" gap:platform="winphone" />
-		<icon src="images/parkoo_icon.png" gap:platform="winphone" gap:role="background" />
+		<icon src="images/Parkoo_Icon.png" gap:platform="winphone" />
+		<icon src="images/Parkoo_Icon.png" gap:platform="winphone" gap:role="background" />
 	</platform>
 	
 	<platform name="android">
-		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="ldpi" />
-		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="mdpi" />
-		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="hdpi" />
-		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="xhdpi" />
-		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
-		<icon src="images/parkoo_icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />	
+		<icon src="images/Parkoo_Icon.png" gap:platform="android" gap:qualifier="ldpi" />
+		<icon src="images/Parkoo_Icon.png" gap:platform="android" gap:qualifier="mdpi" />
+		<icon src="images/Parkoo_Icon.png" gap:platform="android" gap:qualifier="hdpi" />
+		<icon src="images/Parkoo_Icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+		<icon src="images/Parkoo_Icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+		<icon src="images/Parkoo_Icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />	
 	</platform>
 	
 	<description>
