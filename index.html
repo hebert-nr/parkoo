@@ -5,10 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+
+<!--CDN CONTENT FOR WHEN THERE IS INTERNET CONNECTIVITY OR DATA USE AVAILABLE-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js"></script>
+
+<!--HARD COPIES OF THE FILES USED WHEN NO CONNECTIVITY AVAILABLE-->
+<script src="js/angular.min.js"></script>
+<script src="js/angular-filter.js"></script>
+<script src="js/ui-bootstrap-tpls-0.14.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/app.js"></script> 
 <script src="js/dirPagination.js"></script>
 
@@ -142,7 +150,7 @@
 			  <h4> This park includes: </h4><h4 id="h">{{parkDetail.feature}}.</h4></p>
 			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
-			<label ng-show="navi.isSelected(1), navi.isSelected(6)" ng-hide="navi.isSelected(4)">				
+			<label ng-show="navi.isSelected(1) || navi.isSelected(6)">				
 				<span>Parks Displayed:
 					<select ng-model="display">
 						<option Value = "5"> 5</option><option Value = "10" selected> 10</option><option Value = "20"> 20</option><option Value = "30"> 30 </option><option Value = "40"> 40</option><option Value = "50"> 50</option>
@@ -169,7 +177,7 @@
 <!-- SET UP A FUNCTION WHERE IF isSelected != 1, the back button goes to isSelected(1) to return to basic search.-->
 
 	<!--About me section is just information about the application -->
-		<div id="aboutMe">
+		<div id="aboutMe" >
 		<h1>About Parkoo</h1>
 			<h4>!!!BETA VERSION!!!
 			Still in test mode with minimalized data. Social Media accounts are yet to be activated and the Settings tab is lacking 
