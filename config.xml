@@ -26,6 +26,8 @@
 		<icon src="images/Parkoo_Icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
 		<icon src="images/Parkoo_Icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />	
 	</platform>
+	<platform name="ios">
+	</platform>
 	
 	<description>
 		<h4>!!!BETA VERSION!!!</h4>
