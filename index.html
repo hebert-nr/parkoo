@@ -26,6 +26,8 @@
 </head>
 <body ng-app="parkoo" ng-controller="NavController as navi">
 
+<!--STEP 1: ASK WHAT STATE AND SORT BY STATE, STEP 2: ASK COUNTY AND SORT BY COUNTY THEN ENABLE FREEDOM TO SEARCH -->
+
 <div id="ham">
 	<a href ng-click="toggle = !toggle"><img src="images/hamenu.png" /></a>
 	<ul ng-show="toggle">
@@ -37,7 +39,7 @@
 	</ul>
 </div>
 
-<div class="wrapper">
+<div id="wrapper">
 <!--header and banner which disappear/change as screen shrinks-->
 	<div id="head">
 		<img id="hill" src="images/parkoo_Logo.png" alt="Park Finder" title="Parkoo!"></img>
@@ -102,7 +104,7 @@
 				</ul>
 			</div>
 			
-	<!--advance search function starts here (lots of code redundancy, but it's working, ET...  it's working.-->		
+	<!--advance search function starts here (lots of code redundancy, but it's working ET...  it's working.-->		
 			<div id="advanceSearch" ng-show="navi.isSelected(6)">
 				<h2>Advanced Search</h2>
 				<label>

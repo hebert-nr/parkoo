@@ -14,6 +14,15 @@
 			$scope.parkIndex = function(i){
 			$scope.parkDetail=i;
 			};
+			$scope.$on('$destroy', function() {
+   window.onbeforeunload = undefined;
+});
+$scope.$on('$locationChangeStart', function(event, next, current) {
+   if(!confirm("Are you sure you want to leave this page?")) {
+      event.preventDefault();
+   }
+});
+			
 		});
 	app.controller('OtherController',function($scope) {
 		$scope.pageChangeHandler = function(num) {
