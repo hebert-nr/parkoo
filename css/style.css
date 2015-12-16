@@ -28,53 +28,64 @@ dl, dt, dd, ol, ul, li{
   font-size: 100%;
   vertical-align: baseline; }
 
-.break{
+  .break{
 	display:none;
-	visibility:hidden;
-}
-#ham{
-	z-index:1;
-	margin-top:-50px;
-	position:fixed;
-	width:100%;
-	background-color: #19530c;  
-	border-bottom: 3px solid #b0b1b2;
-}
-
-#ham ul{
-	border-top: 2px solid #b0b1b2;
-	background: black;
-}
-#ham ul li, #ham ul li a{
+    visibility:hidden;
+  }
+  
+  #ham ul li, #ham ul li a{
 	display:block;
 	text-align:left;
 	padding:4px;
 	color:white;
 	text-decoration:none;
-}
-#ham ul li:hover, #ham ul li a:hover {
+  }
+
+  #ham{
+	position:fixed;
+	background-color: #19530c;  
+	margin: 0 0 8px 0;
+	padding-top: 8px 0 0 0;
+	border-bottom: 3px solid #b0b1b2;
+  }
+  
+  #ham ul{
+	  border-top: 2px solid #b0b1b2;
+	background: black;
+  }
+  
+  #ham ul li:hover, #ham ul li a:hover {
 	background-color: #354;
 	color: #fff;  
-}
-
-#ham img{
+  }
+  
+  #ham img{
 	padding: 12px;
-}
+  }
 
-#small{
+  #small{
 	visibility: hidden;
 	display:none;
-}
+  }
   
 /* Base Styles */
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
 
 ol, ul {
   list-style: none; }
 
 /* Search Styles */
-.wrapper{
+#wrapper{
 	margin: 0 auto;
-	margin-top: 50px;
 	max-width: 1120px;
 	width: 98%;
 	background: #d3e1cf;
@@ -149,7 +160,7 @@ ol, ul {
   color: #005406;
   width: 100%;
   opacity: .95;
-
+  z-index: 20;
 }
 
 .parksList ul {
@@ -298,6 +309,7 @@ footer h3, footer p{
 }
 
 ul {
+	list-style-type:none;
 	margin:0;
 	padding:0;
 }
