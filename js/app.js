@@ -1,7 +1,7 @@
 
 	var app = angular.module('parkoo', ['angularUtils.directives.dirPagination', 'ui.bootstrap','angular.filter']);
 	
-	app.controller('ListController',function($scope, $window, $http) {
+	app.controller('ListController',function($scope, $http) {
 		$http.get('js/data1.json').success(function(park){
 		  $scope.data = park;
 		  $scope.parkOrder='parkName';
@@ -9,14 +9,14 @@
 		});
 			$scope.pageChangeHandler = function(num) {
 			  console.log('parks page changed to ' + num);
-			};
+		  };
+
 			$scope.parkIndex = function(i){
 			$scope.parkDetail=i;
 			};
 			$scope.$on('$destroy', function() {
-				delete window.onbeforeunload;
-			});
-			
+				window.onbeforeunload = undefined;
+			});			
 		});
 	app.controller('OtherController',function($scope) {
 		$scope.pageChangeHandler = function(num) {
