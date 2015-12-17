@@ -9,19 +9,13 @@
 		});
 			$scope.pageChangeHandler = function(num) {
 			  console.log('parks page changed to ' + num);
-		  };
-
+			};
 			$scope.parkIndex = function(i){
 			$scope.parkDetail=i;
 			};
 			$scope.$on('$destroy', function() {
-   window.onbeforeunload = undefined;
-});
-$scope.$on('$locationChangeStart', function(event, next, current) {
-   if(!confirm("Are you sure you want to leave this page?")) {
-      event.preventDefault();
-   }
-});
+				delete window.onbeforeunload;
+			});
 			
 		});
 	app.controller('OtherController',function($scope) {
@@ -40,7 +34,6 @@ $scope.$on('$locationChangeStart', function(event, next, current) {
 		this.isSelected= function(checkTab){
 			return this.tab === checkTab;
 		};
-		
 	});
 		
 	app.config(function($compileProvider){
