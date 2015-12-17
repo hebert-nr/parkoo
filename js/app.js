@@ -1,7 +1,7 @@
 
 	var app = angular.module('parkoo', ['angularUtils.directives.dirPagination', 'ui.bootstrap','angular.filter']);
 	
-	app.controller('ListController',function($scope, $http) {
+	app.controller('ListController',function($scope, $window, $http) {
 		$http.get('js/data1.json').success(function(park){
 		  $scope.data = park;
 		  $scope.parkOrder='parkName';
