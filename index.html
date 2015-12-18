@@ -33,7 +33,7 @@
 	<ul ng-show="toggle">
 		<li><a id="Home" ng-click="navi.selectTab(1); toggle = false">Home</a></li>
 		<li><a id="About" ng-click="navi.selectTab(2); toggle = false">About</a></li>
-		<li><a id="Contact" ng-click="navi.selectTab(3);  toggle = false">Contact</a></li>
+		<li><a id="Contact" href="mailto:parkoo.staff@gmail.com" ng-click="toggle = false">Contact</a></li>
 		<li><a id="Settings" ng-click="navi.selectTab(5);  toggle = false">Settings</a></li>
 		<li><a id="Review" ng-href="#"  ng-click="toggle = false">Rate/Review</a></li>
 	</ul>
@@ -204,14 +204,11 @@
 		<div class="contactForm" action="/" method="post">
 			<h3>Comments or Questions? Please reach out to us or check out our social media links below.</h3>
 			
-			
-			
-			
-			<form action="MAILTO:parkoo.staff@gmail.com" method="post" name="contactForm" id="contactSet">
+			<form action="MAILTO: parkoo.staff@gmail.com" method="post" name="contactForm" id="contactSet">
 				<label for="name">Name</label><br/>
 				<input type="text" name="name" required="required"><br/>
 				<label for="email"><span>E-mail</span></label><br/>
-				<input type="text" name="email" required="required"><br/>
+				<input type="email" name="email" required="required"><br/>
 				<label for="message"><span>Comment or Question</span></label><br/>
 				<textarea type="text" rows="5" name="message" required="required"></textarea><br/>
 				<input type="submit" id="send" text="Submit"></input>
