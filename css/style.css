@@ -1,7 +1,7 @@
 body{
 	margin:0;
 	padding:0;
-	background:#d0d4d2;
+	background:#fdff;
 	font-family:Century Gothic, sans-serif;
 	font-size: 18px;
 
@@ -88,7 +88,7 @@ ol, ul {
 	max-width: 1120px;
 	width: 98%;
 	background: #d3e1cf;
-	border: .5px solid rgba(12, 3, 25, 0.8);
+	border: .5px solid #999;
 	border-radius: 3px;
 	box-shadow: 0 0 10px rgba(12, 3, 25, 0.8);
 }
