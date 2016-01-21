@@ -30,12 +30,19 @@
 	</platform>
 	
 	<description>
-		<h4>!!!BETA VERSION!!!</h4>
-		Still in test mode with minimalized data. Social Media accounts are yet to be activated and the Settings tab is lacking 
-		capabilities, as the main goal is to set and store in memory of the device which state and county the search will consider 
-		default for you!<br />
-	
-		A way to search for new parks to take your kids, your dog or your own inner child to.  Database expansion to come. 
+		<h3 style="color:#005406;">!!!BETA VERSION!!!</h3>
+			<h3><strong>Still in test mode </strong></h3>
+			<ul>
+				<li>Minimal data</li>
+				<li>Social Media accounts are yet to be activated</li>
+				<li>Big plans for the future including:</li>
+				</ul>
+				<ul> 
+					<li>profiles</li>
+					<li>ratings</li>
+					<li>functioning maps</li>
+					<li>stronger search capabilities</li>
+					<li>and maybe more depending on the feedback we receive.. </li></ul>
 	</description>
 
 	<author email="parkoo.staff@gmail.com">
