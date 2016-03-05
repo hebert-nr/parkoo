@@ -1,0 +1,138 @@
+
+
+
+Pagination needs to work.  Current page is set to 2 for some reason and I think it's because where it's being called in 
+index.html on Z Drive.  State list needs to keep populating and it's not right. for whatever reason (use files from x File as framework).
+
+<!doctype html>
+<html ng-app="ui.bootstrap.demo">
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.14.3.js"></script>
+    <script src="example.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div ng-controller="PaginationDemoCtrl">
+    <h4>Default</h4>
+    <uib-pagination total-items="totalItems" ng-model="currentPage" ng-change="pageChanged()"></uib-pagination>
+    <uib-pagination boundary-links="true" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
+    <uib-pagination direction-links="false" boundary-links="true" total-items="totalItems" ng-model="currentPage"></uib-pagination>
+    <uib-pagination direction-links="false" total-items="totalItems" ng-model="currentPage" num-pages="smallnumPages"></uib-pagination>
+    <pre>The selected page no: {{currentPage}}</pre>
+    <button type="button" class="btn btn-info" ng-click="setPage(3)">Set current page to: 3</button>
+
+    <hr />
+    <h4>Pager</h4>
+    <uib-pager total-items="totalItems" ng-model="currentPage"></uib-pager>
+
+    <hr />
+    <h4>Limit the maximum visible buttons</h4>
+    <uib-pagination total-items="bigTotalItems" ng-model="bigCurrentPage" max-size="maxSize" class="pagination-sm" boundary-links="true"></uib-pagination>
+    <uib-pagination total-items="bigTotalItems" ng-model="bigCurrentPage" max-size="maxSize" class="pagination-sm" boundary-links="true" rotate="false" num-pages="numPages"></uib-pagination>
+    <pre>Page: {{bigCurrentPage}} / {{numPages}}</pre>
+</div>
+  </body>
+</html>
+
+
+
+angular.module('ui.bootstrap.demo')
+    app.controller('PaginationDemoCtrl',function ($scope,  $window) {
+        // Pagination variables
+        $scope.totalItems = 100;
+        $scope.currentPage = 2;
+        $scope.maxSize = 20;
+        $scope.itemsPerPage = 3;
+        $scope.windowWidth = '';
+        
+         // Window resize event
+         var w = angular.element($window);
+         w.bind('resize', function () {
+             
+             // Get window width
+             $scope.windowWidth = "innerWidth" in window ? window.innerWidth : document.documentElement.offsetWidth;
+             
+             // Change maxSize based on window width
+             if($scope.windowWidth > 1000) {
+                 $scope.maxSize = 20;        
+             } else if($scope.windowWidth > 800) {
+                 $scope.maxSize = 15;
+             } else if($scope.windowWidth > 600) {
+                 $scope.maxSize = 8;
+             } else if($scope.windowWidth > 400) {
+                 $scope.maxSize = 5;
+             } else {
+                 $scope.maxSize = 2;
+             }
+             $scope.$apply();
+         });
+});
+
+
+<option Value="" selected>All States</option><option Value = "state">AL</option><option Value = "state">AK</option><option Value = "state">AZ</option><option Value = "state">AR</option><option Value = "state">CA</option><option Value = "state">CO</option><option Value = "state">CT</option><option Value = "state">DE</option><option Value = "state">FL</option><option Value = "state">GA</option><option Value = "state">HI</option><option Value = "state">ID</option><option Value = "state">IL</option><option Value = "state">IN</option><option Value = "state">IA</option><option Value = "state">KS</option><option Value = "state">KY</option><option Value = "state">LA</option><option Value = "state">ME</option><option Value = "state">MD</option><option Value = "state">MA</option><option Value = "state">MI</option><option Value = "state">MN</option><option Value = "state">MS</option><option Value = "state">MO</option><option Value = "state">MT</option><option Value = "state">NE</option><option Value = "state">NV</option><option Value = "state">NH</option><option Value = "state">NJ</option><option Value = "state">NM</option><option Value = "state">NY</option><option Value = "state">NC</option><option Value = "state">ND</option><option Value = "state">OH</option><option Value = "state">OK</option><option Value = "state">OR</option><option Value = "state">PA</option><option Value = "state">RI</option><option Value = "state">SD</option><option Value = "state">SC</option><option Value = "state">TN</option><option Value = "state">TX</option><option Value = "state">UT</option><option Value = "state">VT</option><option Value = "state">VA</option><option Value = "state">WA</option><option Value = "state">WV</option><option Value = "state">WI</option><option Value = "state">WY</option><option Value = "state">DC</option>
+
+app.filter('byState', []){
+		return function(state){
+			var place = {
+				state: state;
+				out:[]
+			};
+			angular.forEach(state, function(value, key){
+				if(this.state[value.state] === true){
+					this.out.push.(state);
+				}
+			}, place);
+			return place.out;
+		};
+	});			
+	
+	 byState:stateSelect |
+	 
+	 
+	 
+	 
+	 
+	 <div ng-controller="PaginationDemoCtrl">
+    <h4>Default</h4>
+    <uib-pagination total-items="totalItems" ng-model="currentPage" ng-change="pageChanged()"></uib-pagination>
+    <uib-pagination boundary-links="true" total-items="totalItems" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></uib-pagination>
+    <uib-pagination direction-links="false" boundary-links="true" total-items="totalItems" ng-model="currentPage"></uib-pagination>
+    <uib-pagination direction-links="false" total-items="totalItems" ng-model="currentPage" num-pages="smallnumPages"></uib-pagination>
+    <pre>The selected page no: {{currentPage}}</pre>
+    <button type="button" class="btn btn-info" ng-click="setPage(3)">Set current page to: 3</button>
+
+    <hr />
+    <h4>Limit the maximum visible buttons</h4>
+    <h6><code>rotate</code> defaulted to <code>true</code>:</h6>
+    <uib-pagination total-items="bigTotalItems" ng-model="bigCurrentPage" max-size="maxSize" class="pagination-sm" boundary-links="true" num-pages="numPages"></uib-pagination>
+    <h6><code>rotate</code> defaulted to <code>true</code> and <code>force-ellipses</code> set to <code>true</code>:</h6>
+    <uib-pagination total-items="bigTotalItems" ng-model="bigCurrentPage" max-size="maxSize" class="pagination-sm" boundary-links="true" force-ellipses="true"></uib-pagination>
+    <h6><code>rotate</code> set to <code>false</code>:</h6>
+    <uib-pagination total-items="bigTotalItems" ng-model="bigCurrentPage" max-size="maxSize" class="pagination-sm" boundary-links="true" rotate="false"></uib-pagination>
+    <h6><code>boundary-link-numbers</code> set to <code>true</code> and <code>rotate</code> defaulted to <code>true</code>:</h6>
+    <uib-pagination total-items="bigTotalItems" ng-model="bigCurrentPage" max-size="maxSize" class="pagination-sm" boundary-link-numbers="true"></uib-pagination>
+    <h6><code>boundary-link-numbers</code> set to <code>true</code> and <code>rotate</code> set to <code>false</code>:</h6>
+    <uib-pagination total-items="bigTotalItems" ng-model="bigCurrentPage" max-size="maxSize" class="pagination-sm" boundary-link-numbers="true" rotate="false"></uib-pagination>
+    <pre>Page: {{bigCurrentPage}} / {{numPages}}</pre>
+
+</div>
+
+angular.module('ui.bootstrap.demo').controller('PaginationDemoCtrl', function ($scope, $log) {
+  $scope.totalItems = 64;
+  $scope.currentPage = 4;
+
+  $scope.setPage = function (pageNo) {
+    $scope.currentPage = pageNo;
+  };
+
+  $scope.pageChanged = function() {
+    $log.log('Page changed to: ' + $scope.currentPage);
+  };
+
+  $scope.maxSize = 5;
+  $scope.bigTotalItems = 175;
+  $scope.bigCurrentPage = 1;
+});
