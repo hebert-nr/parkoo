@@ -149,7 +149,7 @@
 			<div ng-show="navi.isSelected(4)" class="parkinfo"> 
 			  <hr>
 			  <h2> {{parkDetail.parkName}}</h2> 
-			  <a id="r" ng-href="https://www.google.com/maps/@{{parkDetail.latitude}},{{parkDetail.longitude}},17z" target="_blank"> {{parkDetail.streetAddress}}, {{parkDetail.city}}</a><hr>
+			  <p><a id="r" ng-href="/https://www.google.com/maps/@{{parkDetail.latitude}},{{parkDetail.longitude}},17z/" target="_self"> {{parkDetail.streetAddress}}, {{parkDetail.city}}</a></p><hr>
 			  <h4> This park includes: </h4><h4 id="h">{{parkDetail.feature}}.</h4></p>
 			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
