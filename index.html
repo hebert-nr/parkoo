@@ -22,6 +22,7 @@
 <script src="js/app.js"></script> 
 <script src="js/dirPagination.js"></script>
 
+
 <title>Parkoo</title>
 </head>
 <body ng-app="parkoo" ng-controller="NavController as navi">
@@ -96,7 +97,7 @@
 						<a id="paLi" ng-click="parkIndex(item); navi.selectTab(4)">
 							<div>
 								<h2>{{item.parkName}}</h2>
-								<span> Located at {{item.streetAddress}} in {{item.city}}, {{item.state}}  {{item.zipCode}}.</span>
+								<span>{{item.streetAddress}} in {{item.city}}, {{item.state}}  {{item.zipCode}}</span>
 								<hr />
 							</div>
 							</a>
@@ -135,7 +136,7 @@
 						<a id="paLi" ng-click="parkIndex(item); navi.selectTab(4)">
 							<div>
 								<h2>{{item.parkName}}</h2>
-								<span> Located at {{item.streetAddress}} in {{item.city}}, {{item.state}}  {{item.zipCode}}.</span>
+								<span>{{item.streetAddress}} in {{item.city}}, {{item.state}}  {{item.zipCode}}</span>
 								<hr />
 							</div>
 						</a>
@@ -148,7 +149,7 @@
 			<div ng-show="navi.isSelected(4)" class="parkinfo"> 
 			  <hr>
 			  <h2> {{parkDetail.parkName}}</h2> 
-			  <p><a id="r"> {{parkDetail.streetAddress}}, {{parkDetail.city}}</a><hr>
+			  <p><a id="r" href="geo:{{parkDetail.latitude}}, {{parkDetail.longitude}}" target="_blank"> {{parkDetail.streetAddress}}, {{parkDetail.city}}</a><hr>
 			  <h4> This park includes: </h4><h4 id="h">{{parkDetail.feature}}.</h4></p>
 			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
@@ -213,29 +214,6 @@
 		</div>
 	</div>
 	
-	<!--Comments or questions is a form that submits an e-mail to the Parkoo staff... me.  -->
-	<div ng-show="navi.isSelected(3)" id="aboutMe">
-		<div class="contactForm" action="/" method="post">
-			<h3>Comments or Questions? Please reach out to us or check out our social media links below.</h3>
-			
-			<form action="MAILTO: parkoo.staff@gmail.com" method="post" name="contactForm" id="contactSet">
-				<label for="name">Name</label><br/>
-				<input type="text" name="name" required="required"><br/>
-				<label for="email"><span>E-mail</span></label><br/>
-				<input type="email" name="email" required="required"><br/>
-				<label for="message"><span>Comment or Question</span></label><br/>
-				<textarea type="text" rows="5" name="message" required="required"></textarea><br/>
-				<input type="submit" id="send" text="Submit"></input>
-			</form>
-			
-			
-			<p>*Your information will not be shared or sold and is solely for communcation purposes between yourself and the Parkoo staff.</p>
-		</div>
-		<br/>
-		<p>Special thanks to my two sons and my family, Angularjs.org, GitHub, PhoneGap, Lynda.com, CPTC, metroparkstacoma.org, Pixlr.com, my friends and anyone else who helped with research, development, and design.</p>
-		<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
-	</div>
-
 	<!--Footer includes links to social media accounts related to Parkoo. -->	
 	<footer>
 		<div class="section">
@@ -246,11 +224,10 @@
 		<h3>&#169; 2015 Parkoo</h3>
 		</div>
 		<div class="section">
-			<p>Connect with us</p>
+			<p>Find us</p>
 			<ul>
 				<li><a href="#"><img src="images/fbtap.png"</img></a></li>
 				<li><a href="http://instagram.com/parkoobeta"><img src="images/instatap.png"</img></a></li>
-				<li><a href="#"><img src="images/pintap.png"</img></a></li>
 			</ul>
 		</div>
 	</footer>

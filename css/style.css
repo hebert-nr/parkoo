@@ -4,7 +4,6 @@ body{
 	background:#fdff;
 	font-family:Century Gothic, sans-serif;
 	font-size: 18px;
-
 }
 
 h1, h2, h3{
@@ -358,12 +357,8 @@ ul li img {
 	color: #005406;
 }
 
-.contactForm input, .contactForm textarea{
-width: 50%;	
-}
-
-.contactForm label{
-	text-align:align;
+#aboutMe ul li {
+	padding:4px;
 }
 
 #sort{
