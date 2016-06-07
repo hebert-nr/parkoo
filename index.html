@@ -125,7 +125,7 @@
 				</label>
 				<label>
 					<span>Which City?
-						<select class="select" ng-model="citySelect" ng-options="item.city as item.city for item in park = (data|filter:countySelect) | unique:'city' | orderBy:'city'">
+						<select class="select" ng-model="citySelect"    ng-options="item.city as item.city for item in park = (data|filter:countySelect:true) | unique:'city' | orderBy:'city'">
 						<option value="">All</option>
 						</select>
 					</span>
