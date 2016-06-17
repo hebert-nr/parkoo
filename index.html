@@ -8,6 +8,21 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 
+
+<script src="https://www.gstatic.com/firebasejs/3.0.5/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    // TODO: Replace with your project's customized code snippet
+    var config = {
+      apiKey: "apiKey",
+      authDomain: "projectId.firebaseapp.com",
+      databaseURL: "https://databaseName.firebaseio.com",
+      storageBucket: "bucket.appspot.com",
+    };
+    firebase.initializeApp(config);
+  </script>
+  
+  
 <!--CDN CONTENT FOR WHEN THERE IS INTERNET CONNECTIVITY OR DATA USE AVAILABLE-->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.js"></script>
