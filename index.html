@@ -118,7 +118,7 @@
 				</label>
 				<label>
 					<span>Which County?
-						<select class="select" ng-model="countySelect" ng-options="item.county as item.county for item in park = (data|filter:stateSelect:true) | unique:'county' | orderBy:'county'">
+						<select class="select" ng-model="countySelect" ng-options="item.county as item.county for item in park = (data|filter:stateSelect) | unique:'county' | orderBy:'county'">
 						<option value="">All</option>
 						</select>
 					</span>
