@@ -6,10 +6,8 @@
 	version     = "0.11.2"
 	versionCode = "10" >
 
-	<preference name="phonegap-version" value="cli-5.2.0" />
-
-	<preference name="Orientation" value="portrait" />		
-	<plugin name="plugin.google.maps.menusito" spec="1.2.5" source="pgb" />
+	<preference name="phonegap-version" value="cli-6.3.0" />
+	<preference name="Orientation" value="portrait" />
    
 	<name>Parkoo</name>
 	<content src="index.html"/>
