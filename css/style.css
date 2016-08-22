@@ -1,7 +1,7 @@
 body{
 	margin:0;
 	padding:0;
-	background:#fdff;
+	background:#F6F1F5;
 	font-family:Century Gothic, sans-serif;
 	font-size: 18px;
 }
@@ -196,6 +196,7 @@ ol, ul {
 }
 
 .parksList a {
+  cursor:pointer;
   padding: 3px;
   text-decoration: none;
 }
@@ -228,6 +229,7 @@ ol, ul {
 }
 
 #e:hover{
+  cursor:pointer;
   color: #666;
 }
 

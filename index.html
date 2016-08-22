@@ -8,12 +8,6 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-<!-- <!--CDN CONTENT FOR WHEN THERE IS INTERNET CONNECTIVITY OR DATA USE AVAILABLE
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js"></script> -->
-
 <!--HARD COPIES OF THE FILES USED WHEN NO CONNECTIVITY AVAILABLE-->
 <script src="js/jquery.min.js"></script>
 <script src="js/angular.min.js"></script>
@@ -118,7 +112,7 @@
 				</label>
 				<label>
 					<span>Which County?
-						<select class="select" ng-model="countySelect" ng-options="item.county as item.county for item in park = (data|filter:stateSelect) | unique:'county' | orderBy:'county'">
+						<select class="select" ng-model="countySelect" ng-options="item.county as item.county for item in park = (data|filter:stateSelect:true) | unique:'county' | orderBy:'county'">
 						<option value="">All</option>
 						</select>
 					</span>
@@ -171,7 +165,6 @@
 		<div ng-controller="PaginationController" ng-show="navi.isSelected(6)">
 			<div class="text-center">
 				<dir-pagination-controls boundary-links="false" on-page-change="pageChangeHandler(newPageNumber)" template-url="dirPagination.tpl.html"> </dir-pagination-controls>
-
 			</div>
 		</div>
 	</div>
@@ -186,34 +179,34 @@
 			<h3 style="color:#005406;">!!!BETA VERSION!!!</h3>
 			<h3><strong>Still in test mode </strong></h3>
 			<ul>
-				<li>Contaions only minimal data</li>
-				<li>Big plans for the future including:</li>
-				</ul>
-				<ul> 
-					<li>mobile application</li>
-					<li>profiles</li>
-					<li>geo-location</li>
-					<li>ratings</li>
-					<li>functioning maps on mobile device</li>
-					<li>function contact/email on mobile device</li>
-					<li>stronger search capabilities</li>
-					<li>and maybe more depending on the feedback we receive.</li>
-				</ul> 
-				<h4>Afterall, I am just one man working on this application.</h4>
+				<li>Contains minimal data for test purposes</li>
+				<li>Big plans for the future including:
+				<div>
+					<ul> 
+						<li>better mobile functionality including mapping and e-mail capability</li>
+						<li>profiles</li>
+						<li>geo-location</li>
+						<li>ratings</li>
+						<li>stronger search capabilities</li>
+						<li>and maybe more depending on the feedback we receive.</li>
+					</ul></div>
+				</li> 
+			</ul>
 			
+					
 			<hr />
-			<h4> But where did Parkoo come from?? </h4>
+			<h4><strong>Where did Parkoo come from??</strong></h4>
 			<hr />
-			<h5>As my kids have grown older and our time together becomes more and more important, the realization that I don't have hours to search the 
+			<h5>As my kids have grown older, our time together becomes more and more important. The realization that I don't have hours to spend scouring the 
 			web coupled with my boys' desire to go to new places culminated to form our own park finder. A list of places we'd visited with 
-			the features offered at each location. </h5>
+			the features offered at each location.</h5>
 			
-			<h5>Thanks to technology, we now want to offer our "research" to everyone to get out and find something new and beautiful to share 
-			with their loved ones, their pets or even their own inner child. </h5>
+			<h5>Thanks to technology, we now want to offer our "research" to everybody else. It's important to get out and find something new and beautiful, to share 
+			with your loved ones, your pets or even your inner child. </h5>
 			
-			<h5>While this application is in no way perfect, I hope it at least helps you and those who matter most to you find somewhere new to play, fish, or 
-			just get outside.</h5>
-			<p><a ng-click="navi.selectTab(1)">Back to Search</a></p>
+			<h5>While this app is in no way perfect, I hope it at least helps you and those who matter most to you find somewhere new to play, to fish, or 
+			to just get outside.</h5>
+			<a ng-click="navi.selectTab(1)">Back to Search</a>
 		</div>
 	</div>
 	
