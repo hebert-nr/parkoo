@@ -104,15 +104,8 @@
 			<div id="advanceSearch" ng-show="navi.isSelected(6)">
 				<h2>Advanced Search</h2>
 				<label>
-					<span>Which state?
-							<select class="select" ng-model="stateSelect" ng-options="item.state as item.state for item in data | unique:'state' | orderBy:'state'" >
-							<option value="">All</option>
-							</select>
-					</span>
-				</label>
-				<label>
 					<span>Which County?
-						<select class="select" ng-model="countySelect" ng-options="item.county as item.county for item in park = (data|filter:stateSelect:true) | unique:'county' | orderBy:'county'">
+						<select class="select" ng-model="countySelect" ng-options="item.county as item.county for item in park = data | unique:'county' | orderBy:'county'">
 						<option value="">All</option>
 						</select>
 					</span>

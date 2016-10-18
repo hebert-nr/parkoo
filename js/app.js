@@ -16,7 +16,30 @@
 			};
 			$scope.$on('$destroy', function() {
 				window.onbeforeunload = undefined;
-			});			
+			});	
+
+		var match = function (item, val) {
+    var regex = new RegExp(val, 'i');
+    return item.parkName.search(regex) == 0 ||
+           item.city.search(regex) == 0 ||
+		   item.streetAddress.search(regex) == 0 ||
+		   item.feature.search(regex) == 0 ||
+		   item.county.search(regex) == 0;
+  };
+  
+  $scope.filterParks = function(p) {
+    // No filter, so return everything
+    if (!$scope.q) return true;
+    var matched = true;
+    
+    // Otherwise apply your matching logic
+    $scope.q.split(' ').forEach(function(token) {
+        matched = matched && match(p, token); 
+    });
+     
+    return matched;
+  };
+			
 	});
 	
 	
