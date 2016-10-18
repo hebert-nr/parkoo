@@ -7,6 +7,9 @@
 		  $scope.parkOrder='parkName';
 		  $scope.display = 10;
 		});
+		$http.get('js/features.json').success(function(feats){
+			$scope.feat = feats;
+		});
 			$scope.pageChangeHandler = function(num) {
 			  console.log('parks page changed to ' + num);
 		  };
@@ -16,30 +19,7 @@
 			};
 			$scope.$on('$destroy', function() {
 				window.onbeforeunload = undefined;
-			});	
-
-		var match = function (item, val) {
-    var regex = new RegExp(val, 'i');
-    return item.parkName.search(regex) == 0 ||
-           item.city.search(regex) == 0 ||
-		   item.streetAddress.search(regex) == 0 ||
-		   item.feature.search(regex) == 0 ||
-		   item.county.search(regex) == 0;
-  };
-  
-  $scope.filterParks = function(p) {
-    // No filter, so return everything
-    if (!$scope.q) return true;
-    var matched = true;
-    
-    // Otherwise apply your matching logic
-    $scope.q.split(' ').forEach(function(token) {
-        matched = matched && match(p, token); 
-    });
-     
-    return matched;
-  };
-			
+			});			
 	});
 	
 	
@@ -48,6 +28,9 @@
 			console.log('going to page ' + num);
 		};
 	});	
+	
+	//search whole string. space delimit it. jquery with space return array of strings to compare 
+	// 
 	
 	
 	app.controller('NavController', function(){

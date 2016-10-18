@@ -117,10 +117,17 @@
 						</select>
 					</span>
 				</label>
+				<label>
+					<span>What Features?
+						<select class="select" ng-model="featureSelect" ng-options="item.fName as item.fName for item in feat = (feat|filter:featureSelect:true) | unique:'fName' | orderBy:'fName'">
+						<option value=""></option>
+						</select>
+					</span>
+				</label>
 				<p><a class="advance" ng-click="navi.selectTab(1)">Back to Main Search</a></p>
 				<hr></hr>
 				<ul class="parksList">
-					<li ng-model="results" dir-paginate="item in data | filterMultiple:{state:stateSelect, city:citySelect, county:countySelect} | itemsPerPage: display | orderBy: parkOrder:direction">
+					<li ng-model="results" dir-paginate="item in data | filterMultiple:{fNAme:featureSelect, city:citySelect, county:countySelect} | itemsPerPage: display | orderBy: parkOrder:direction">
 						<a id="paLi" ng-click="parkIndex(item); navi.selectTab(4)">
 							<div>
 								<h2>{{item.parkName}}</h2>
