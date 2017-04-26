@@ -16,6 +16,7 @@
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/app.js"></script> 
 <script src="js/dirPagination.js"></script>
+<script src="js/angular-google-maps.js"></script>
 
 
 <title>Parkoo</title>
@@ -142,11 +143,18 @@
 
 	<!--details of the clicked results from BOTH advance and basic searches-->
 			<div ng-show="navi.isSelected(4)" class="parkinfo"> 
+			
 			  <hr>
 			  <h2> {{parkDetail.parkName}}</h2> 
 			  <!-- <a id="r" ng-href="geo:{{parkDetail.latitude}},{{parkDetail.longitude}}"><p>{{parkDetail.streetAddress}}, {{parkDetail.city}}</p></a><hr> -->
-			  <a id="r" ng-href="geo:{{parkDetail.latitude}},{{parkDetail.longitude}}"><p>{{parkDetail.streetAddress}}, {{parkDetail.city}}</p></a><hr>
-			  <h4> This park includes: </h4><h4 id="h">{{parkDetail.feature}}.</h4></p>
+			  <a id="r" ><p>{{parkDetail.streetAddress}}, {{parkDetail.city}}</p></a><hr>
+			  <h4> This park includes: </h4><h4 id="h">{{parkDetail.feature}}.</h4>
+			  <!-- <div ng-controller="MapController"> -->
+				<!-- <div id="map"></div> -->
+				<!-- <div id="class" ng-repeat="marker in markers | orderBy : 'parkName'"> -->
+					<!-- <a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a> -->
+				<!-- </div> -->
+			  <!-- </div> -->
 			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
 			<label ng-show="navi.isSelected(1) || navi.isSelected(6)">				
@@ -214,7 +222,7 @@
 	<!--Footer includes links to social media accounts related to Parkoo. -->	
 	<footer>
 		<div class="section">
-			<img class="swing" src="images/treeswing.png"></img> 
+			<img class="swing" src="images/treeswing1.png"></img> 
 		</div>
 		<div class="section">
 		<br />

@@ -1,3 +1,5 @@
+//api key for android  AIzaSyCDal7Kp5XfR87QBXViXtpn8deSN3newrI
+
 
 	var app = angular.module('parkoo', ['angularUtils.directives.dirPagination', 'ui.bootstrap','angular.filter']);
 	
@@ -22,6 +24,20 @@
 			});			
 	});
 	
+	// app.controller('MapController',function($scope){
+		// var ins = this;
+		// this.lat = ;
+		// this.long = ;
+		// var mapOptions = {
+        // zoom: 15,
+        // center: new google.maps.LatLng(this.lat, this.long),
+        // mapTypeId: google.maps.MapTypeId.TERRAIN
+    // };
+
+    // this.map = new google.maps.Map(document.getElementById('map'), mapOptions);
+	 
+	
+	// });
 	
 	app.controller('OtherController',function($scope) {
 		$scope.pageChangeHandler = function(num) {
