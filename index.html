@@ -149,12 +149,12 @@
 			  <!-- <a id="r" ng-href="geo:{{parkDetail.latitude}},{{parkDetail.longitude}}"><p>{{parkDetail.streetAddress}}, {{parkDetail.city}}</p></a><hr> -->
 			  <a id="r" ><p>{{parkDetail.streetAddress}}, {{parkDetail.city}}</p></a><hr>
 			  <h4> This park includes: </h4><h4 id="h">{{parkDetail.feature}}.</h4>
-			  <!-- <div ng-controller="MapController"> -->
-				<!-- <div id="map"></div> -->
-				<!-- <div id="class" ng-repeat="marker in markers | orderBy : 'parkName'"> -->
-					<!-- <a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a> -->
-				<!-- </div> -->
-			  <!-- </div> -->
+			  <div ng-controller="MapController">
+				<div id="map"></div>
+				<div id="class" ng-repeat="marker in markers | orderBy : 'parkName'">
+					<a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a>
+				</div>
+			  </div>
 			  <p><a id="e" ng-click="navi.selectTab(1)">Back to Search</a></p>
 			</div>
 			<label ng-show="navi.isSelected(1) || navi.isSelected(6)">				

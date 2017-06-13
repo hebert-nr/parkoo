@@ -24,20 +24,19 @@
 			});			
 	});
 	
-	// app.controller('MapController',function($scope){
-		// var ins = this;
-		// this.lat = ;
-		// this.long = ;
-		// var mapOptions = {
-        // zoom: 15,
-        // center: new google.maps.LatLng(this.lat, this.long),
-        // mapTypeId: google.maps.MapTypeId.TERRAIN
-    // };
+	app.controller('MapController',function($scope){
+		var ins = this;
+		this.lat = '';
+		this.long = '';
+		var mapOptions = {
+        zoom: 15,
+        center: new google.maps.LatLng(this.lat, this.long),
+        mapTypeId: google.maps.MapTypeId.TERRAIN
+    };
 
-    // this.map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    this.map = new google.maps.Map(document.getElementById('map'), mapOptions);
 	 
-	
-	// });
+	});
 	
 	app.controller('OtherController',function($scope) {
 		$scope.pageChangeHandler = function(num) {

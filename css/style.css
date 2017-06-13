@@ -12,12 +12,6 @@ body{
     width:95%;
 	margin:auto;
 }
-.infoWindowContent {
-    font-size:  14px !important;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
-}
-
 
 h1, h2, h3{
 	text-align:center;
